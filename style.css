@@ -1,11 +1,12 @@
 body {
-    height: 680px;
+    height: 691px;
     background-image: linear-gradient(#e66465, #9198e5);
 }
 
 .pokedex {
     background-color: red; 
-    border: 5px solid maroon;
+    border: 2px solid maroon;
+    border-style: outset;
     height: 630px;
     width: 430px;
     border-radius: 10px;
@@ -46,22 +47,31 @@ body {
 .light-panel {
     display: flex;
     gap: 25px;
+    position: relative; left: -20px; 
 }
 
-
-
 #red-led {
-    background-color: red;
+    background-image: linear-gradient(#ff0000, #c60101);
     border: 2px solid maroon;
     height: 20px;
     width: 20px;
     border-radius: 50px;
     position: relative; left: 160px; top: -58px;
     z-index: 2;
+}
+
+#shine-two {
+    background-color: white;
+    opacity: 0.3;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: relative; left: 2px; top: 2px;
+    z-index: 3;
 }
 
 #yellow-led {
-    background-color: yellow;
+    background-image: linear-gradient(yellow, rgb(182, 182, 0));
     border: 2px solid maroon;
     height: 20px;
     width: 20px;
@@ -70,14 +80,41 @@ body {
     z-index: 2;
 }
 
+#shine-three {
+    background-color: white;
+    opacity: 0.3;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: relative; left: 2px; top: 2px;
+    z-index: 3;
+}
+
 #green-led {
-    background-color: rgb(25, 113, 34);
+    background-image: linear-gradient(#197122, #125419);
     border: 2px solid maroon;
     height: 20px;
     width: 20px;
     border-radius: 50px;
     position: relative; left: 160px; top: -58px;
     z-index: 2;
+}
+
+#shine-four {
+    background-color: white;
+    opacity: 0.3;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: relative; left: 2px; top: 2px;
+    z-index: 3;
+}
+
+.pokedex-container {
+    background-color: rgb(229, 0, 0); 
+    height: 512px;
+    width: 430px;
+    position: relative; left: 0px; top: 19px;
 }
 
 
