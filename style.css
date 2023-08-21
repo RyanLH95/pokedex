@@ -110,6 +110,7 @@ body {
     z-index: 3;
 }
 
+/* design for inside of pokedex */
 .pokedex-container {
     max-height: 100px;
 }
@@ -145,14 +146,91 @@ body {
     position: relative; left: 245px; top: -577px;
 }
 
+/* design for pokedex screen */
 #pokedex-screen {
     background-color: white;
-    border: 3px solid grey;
+    border-left: 5px solid maroon;
+    border-bottom: 5px solid maroon;
     border-radius: 10%;
-    width: 300px;
-    height: 220px;
-    position: relative; left: 65px; bottom: 720px;
+    width: 340px;
+    height: 290px;
+    position: relative; left: 20px; bottom: 720px;
     z-index: 3;
 }
 
+#screen {
+    background-color: black;
+    border: 1px solid #000;
+    width: 280px;
+    height: 210px;
+    border-radius: 5%;
+    position: relative; left: 29px; bottom: -28px;
+}
 
+#small-button-one {
+    background-color: red;
+    border: 1px solid maroon;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative; left: 110px; bottom: 24px;
+}
+
+#small-button-two {
+    background-color: red;
+    border: 1px solid maroon;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative; left: 150px; bottom: 41px;
+}
+
+#big-button {
+    background-color: red;
+    border-color: maroon;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative; left: 20px; bottom: -185px;
+}
+
+.box-container {
+    display: flex;
+    position: relative; left: 120px; bottom: 38px;
+}
+
+#box-one {
+    background-color: #626262;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative; left: 80px; bottom: -193px;
+    z-index: 3;
+}
+
+#box-two {
+    background-color: #626262;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative; left: 10px; bottom: -200px;
+    z-index: 3;
+}
+
+#box-three {
+    background-color: #626262;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative; left: -60px; bottom: -207px;
+    z-index: 3;
+}
+
+#box-four {
+    background-color: #626262;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative; left: -130px; bottom: -214px;
+    z-index: 3;
+}
