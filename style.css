@@ -1,5 +1,5 @@
 body {
-    height: 691px;
+    max-height: 691px;
     background-image: linear-gradient(#e66465, #9198e5);
 }
 
@@ -149,12 +149,12 @@ body {
 /* design for pokedex screen */
 #pokedex-screen {
     background-color: white;
-    border-left: 5px solid maroon;
+    border-right: 5px solid maroon;
     border-bottom: 5px solid maroon;
     border-radius: 10%;
     width: 340px;
     height: 290px;
-    position: relative; left: 20px; bottom: 720px;
+    position: relative; left: 40px; bottom: 720px;
     z-index: 3;
 }
 
@@ -233,4 +233,62 @@ body {
     border-radius: 10px;
     position: relative; left: -130px; bottom: -214px;
     z-index: 3;
+}
+
+/* design for lower buttons */
+.lower-buttons {
+    position: absolute; left: -130px; bottom: -44px;
+}
+
+#blue-button {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-color: blue;
+    border-right: 3px solid #0000b7;
+    border-bottom: 3px solid #0000b7;
+    border-radius: 50%;
+    position: absolute; left: 175px; top: -195px;
+    z-index: 3;
+}
+
+#orange-button {
+    background-color: orange;
+    height: 15px;
+    width: 60px;
+    border-color: orange;
+    border-right: 2px solid #bb7900;
+    border-bottom: 2px solid #bb7900;
+    border-radius: 10px;
+    position: absolute; left: 280px; top: -195px;
+    z-index: 3;
+}
+
+#green-button {
+    background-color: #52ff2f;
+    height: 15px;
+    width: 60px;
+    border-color: #52ff2f;
+    border-right: 2px solid #3cbe22;
+    border-bottom: 2px solid #3cbe22;
+    border-radius: 10px;
+    position: absolute; left: 350px; top: -195px;
+    z-index: 3;
+}
+
+/* design for directional button */
+.direct-button {
+    background-color: #262626;
+    height: 20px;
+    width: 20px;
+    position: relative; left: 470px; top: -155px;
+    z-index: 3;
+}
+
+#up-button {
+    background-color: #262626;
+    height: 40px;
+    width: 22px;
+    border-bottom: none;
+    position: relative; left: -2px; top: -40px;
 }
