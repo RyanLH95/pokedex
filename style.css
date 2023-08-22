@@ -281,14 +281,42 @@ body {
     background-color: #262626;
     height: 20px;
     width: 20px;
-    position: relative; left: 470px; top: -155px;
+    position: relative; left: 470px; top: -145px;
     z-index: 3;
 }
 
 #up-button {
     background-color: #262626;
-    height: 40px;
+    height: 35px;
     width: 22px;
     border-bottom: none;
-    position: relative; left: -2px; top: -40px;
+    border-radius: 5px;
+    position: relative; left: -2px; top: -32px;
+}
+
+#left-button {
+    background-color: #262626;
+    height: 22px;
+    width: 35px;
+    border-right: none;
+    border-radius: 5px;
+    position: relative; left: -32px; top: -40px;
+}
+
+#right-button {
+    background-color: #262626;
+    height: 22px;
+    width: 35px;
+    border-left: none;
+    border-radius: 5px;
+    position: relative; left: 17px; top: -63px;
+}
+
+#down-button {
+    background-color: #262626;
+    height: 35px;
+    width: 22px;
+    border-top: none;
+    border-radius: 5px;
+    position: relative; left: -2px; top: -67px;
 }
