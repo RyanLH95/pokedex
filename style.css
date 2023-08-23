@@ -11,7 +11,7 @@ body {
     width: 450px;
     border-radius: 10px;
     box-shadow: 4px 5px 5px #000;
-    position: relative; left: 470px; top: -40px;
+    position: relative; left: 330px; top: -40px;
 }
 
 #main-light {
@@ -111,7 +111,7 @@ body {
 }
 
 /* design for inside of pokedex */
-.pokedex-container {
+.container-one {
     max-height: 100px;
 }
 
@@ -373,4 +373,55 @@ body {
     box-shadow: -4px .5px 2px #5a0000;
     position: absolute; left: 405px; top: 359px;
     z-index: 6;
+}
+
+/* all designs below are for second container ONLY */
+.container-two {
+    max-height: 100%;
+}
+
+.pokedex-con4 {
+    transform: scaleX(-1);
+    background-color: #e50000; 
+    height: 503px;
+    width: 400px;
+    border-top: 6px solid #ba0101;
+    border-left: 6px solid #ba0101;
+    border-bottom: 6px solid #ba0101;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: inset .5em -.5em 1em maroon;
+    z-index: 1;
+    position: absolute; left: 451px; top: 115px;
+}
+
+.pokedex-con5 {
+    background-color: #e50000;
+    width: 235px;
+    height: 39px;
+    border-top: 6px solid #ba0101;
+    border-right: 8px solid #ba0101;
+    border-radius: 5px;
+    transform: skew(40deg);
+    z-index: 3;
+    position: relative; left: 468.5px; top: -124px;
+}
+
+.pokedex-con6 {
+    background-color: #e50000;
+    width: 180px;
+    height: 200px;
+    border-top: 6px solid #ba0101;
+    border-radius: 1px;
+    z-index: 3;
+    position: relative; left: 451px; top: -169px;
+}
+
+.pokedex-con7 {
+    background-color: #e50000;
+    width: 235px;
+    height: 39px;
+    transform: skew(40deg);
+    z-index: 2;
+    position: relative; left: 483px; top: -354px;
 }
