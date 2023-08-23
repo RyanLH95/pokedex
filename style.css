@@ -8,7 +8,7 @@ body {
     border: 2px solid maroon;
     border-style: outset;
     height: 630px;
-    width: 430px;
+    width: 450px;
     border-radius: 10px;
     box-shadow: 4px 5px 5px #000;
     position: relative; left: 470px; top: -40px;
@@ -119,31 +119,31 @@ body {
     background-color: #e50000; 
     border-top: 3px solid maroon;
     height: 512px;
-    width: 430px;
+    width: 405px;
     z-index: 1;
-    position: relative; left: 0px; top: 19px;
+    position: relative; left: 0px; top: 15px;
 }
 
 .pokedex-con2 {
     background-color: #e50000;
-    width: 245px;
+    width: 240px;
     height: 39px;
     border-top: 3px solid maroon;
     border-left: 4px solid maroon;
     border-radius: 2px;
     transform: skew(-40deg);
     z-index: 2;
-    position: relative; left: 160px; top: -535px;
+    position: relative; left: 140px; top: -539px;
 }
 
 .pokedex-con3 {
     background-color: #e50000;
-    width: 185px;
+    width: 180px;
     height: 200px;
     border-top: 3px solid maroon;
     border-radius: 1px;
     z-index: 3;
-    position: relative; left: 245px; top: -577px;
+    position: relative; left: 225px; top: -581px;
 }
 
 /* design for pokedex screen */
@@ -153,7 +153,7 @@ body {
     border-radius: 10%;
     width: 340px;
     height: 290px;
-    position: relative; left: 40px; bottom: 720px;
+    position: relative; left: 30px; bottom: 720px;
     z-index: 3;
 }
 
@@ -236,7 +236,7 @@ body {
 
 /* design for lower buttons */
 .lower-buttons {
-    position: absolute; left: -130px; bottom: -44px;
+    position: absolute; left: -145px; bottom: -44px;
 }
 
 #blue-button {
@@ -280,7 +280,7 @@ body {
     background-color: #262626;
     height: 20px;
     width: 20px;
-    position: relative; left: 470px; top: -145px;
+    position: relative; left: 465px; top: -145px;
     z-index: 3;
 }
 
@@ -334,5 +334,43 @@ body {
 #number {
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
-    position: relative; left: 23px; top: -16px;
+    position: relative; left: 35px; top: -16px;
+}
+
+/* design for seperation between pokedex content(s) */
+.rotators{
+    position: relative; left: 0px; top: 30px;
+}
+
+.top-rotator {
+    background-image: linear-gradient(90deg, #db0101, #ba0101, #db0101);
+    border-left: 2px solid maroon;
+    height: 40px;
+    width: 43px;
+    box-shadow: -4px 2px 2px #5a0000;
+    position: absolute; left: 405px; top: -154px;
+    z-index: 4;
+}
+
+.main-rotator {
+    background-image: linear-gradient(90deg, #db0101, #d53e3e, #db0101);
+    border-top: 1px solid maroon;
+    border-left: 2px solid maroon;
+    border-bottom: 1px solid maroon;
+    height: 475px;
+    width: 43px;
+    box-shadow: -4px 2px 2px #5a0000;
+    position: absolute; left: 405px; top: -116px;
+    z-index: 5;
+}
+
+.bottom-rotator {
+    background-image: linear-gradient(90deg, #db0101, #ba0101, #db0101);
+    border-top: 1px solid maroon;
+    border-left: 2px solid maroon;
+    height: 40px;
+    width: 43px;
+    box-shadow: -4px .5px 2px #5a0000;
+    position: absolute; left: 405px; top: 359px;
+    z-index: 6;
 }
