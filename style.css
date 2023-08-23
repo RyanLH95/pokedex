@@ -149,8 +149,7 @@ body {
 /* design for pokedex screen */
 #pokedex-screen {
     background-color: white;
-    border-right: 5px solid maroon;
-    border-bottom: 5px solid maroon;
+    border: 1px solid maroon;
     border-radius: 10%;
     width: 340px;
     height: 290px;
@@ -248,7 +247,7 @@ body {
     border-right: 3px solid #0000b7;
     border-bottom: 3px solid #0000b7;
     border-radius: 50%;
-    position: absolute; left: 175px; top: -195px;
+    position: absolute; left: 175px; top: -180px;
     z-index: 3;
 }
 
@@ -260,7 +259,7 @@ body {
     border-right: 2px solid #bb7900;
     border-bottom: 2px solid #bb7900;
     border-radius: 10px;
-    position: absolute; left: 280px; top: -195px;
+    position: absolute; left: 273px; top: -195px;
     z-index: 3;
 }
 
@@ -272,7 +271,7 @@ body {
     border-right: 2px solid #3cbe22;
     border-bottom: 2px solid #3cbe22;
     border-radius: 10px;
-    position: absolute; left: 350px; top: -195px;
+    position: absolute; left: 343px; top: -195px;
     z-index: 3;
 }
 
@@ -319,4 +318,21 @@ body {
     border-top: none;
     border-radius: 5px;
     position: relative; left: -2px; top: -67px;
+}
+
+/* design for bottom(number) screen */
+.number-screen {
+    background-color: #00bb57;
+    height: 60px;
+    width: 120px;
+    border: 1px solid green;
+    border-radius: 5px;
+    position: absolute; left: 277px; top: -120px;
+    z-index: 3;
+}
+
+#number {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative; left: 23px; top: -16px;
 }
