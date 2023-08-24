@@ -417,6 +417,7 @@ body {
     position: relative; left: 451px; top: -169px;
 }
 
+/* this selector is ONLY here to cover the box shadow at the top of '.pokedex-con4' selector */
 .pokedex-con7 {
     background-color: #e50000;
     width: 235px;
@@ -425,3 +426,16 @@ body {
     z-index: 2;
     position: relative; left: 483px; top: -354px;
 }
+
+.name-screen {
+    background-image: linear-gradient(#00bb57, #05d809, #00bb57);
+    width: 280px;
+    height: 150px;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: inset 0em 0em 1em 0em green;
+    position: absolute; left: 510px; top: 160px;
+    z-index: 3;
+}
+
+
