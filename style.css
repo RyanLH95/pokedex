@@ -4,7 +4,7 @@ body {
 }
 
 .pokedex {
-    background-color: red; 
+    background-color: red;
     border: 2px solid maroon;
     border-style: outset;
     height: 630px;
@@ -240,7 +240,7 @@ body {
 }
 
 #blue-button {
-    background-color: blue;
+    background-image: linear-gradient(140deg, #1b63ff, #0000ff);
     height: 50px;
     width: 50px;
     border-color: blue;
@@ -252,26 +252,26 @@ body {
 }
 
 #orange-button {
-    background-color: orange;
+    background-image: linear-gradient(170deg, #ffb325, #df9100);
     height: 15px;
     width: 60px;
-    border-color: orange;
+    border-color: #ffb325;
     border-right: 2px solid #bb7900;
     border-bottom: 2px solid #bb7900;
     border-radius: 10px;
-    position: absolute; left: 273px; top: -195px;
+    position: absolute; left: 343px; top: -195px;
     z-index: 3;
 }
 
 #green-button {
-    background-color: #52ff2f;
+    background-image: linear-gradient(170deg, #00eb10, #00b40c);
     height: 15px;
     width: 60px;
-    border-color: #52ff2f;
-    border-right: 2px solid #3cbe22;
-    border-bottom: 2px solid #3cbe22;
+    border-color: #00eb10;
+    border-right: 2px solid #00b40c;
+    border-bottom: 2px solid #00b40c;
     border-radius: 10px;
-    position: absolute; left: 343px; top: -195px;
+    position: absolute; left: 273px; top: -195px;
     z-index: 3;
 }
 
@@ -285,7 +285,7 @@ body {
 }
 
 #up-button {
-    background-color: #262626;
+    background-image: linear-gradient(160deg, #515151, #262626);
     height: 35px;
     width: 22px;
     border-bottom: none;
@@ -294,7 +294,7 @@ body {
 }
 
 #left-button {
-    background-color: #262626;
+    background-image: linear-gradient(160deg, #3c3c3c, #262626);
     height: 22px;
     width: 35px;
     border-right: none;
@@ -322,11 +322,12 @@ body {
 
 /* design for bottom(number) screen */
 .number-screen {
-    background-color: #00bb57;
+    background-image: linear-gradient(#00bb57, #05d809, #00bb57);
     height: 60px;
     width: 120px;
     border: 1px solid green;
     border-radius: 5px;
+    box-shadow: inset 0em 0em 1em 0em green;
     position: absolute; left: 277px; top: -120px;
     z-index: 3;
 }
@@ -452,9 +453,9 @@ body {
     color: transparent;
     height: 40px;
     width: 50px;
-    border-color: #0000c0;
-    border-right: 3px solid #0000c0;
-    border-bottom: 3px solid #0000c0;
+    border-color: #1b63ff;
+    border-right: 5px solid #0000c0;
+    border-bottom: 5px solid #0000c0;
     border-radius: 5px;
 }
 
