@@ -438,4 +438,23 @@ body {
     z-index: 3;
 }
 
+.button-grid {
+    display: grid;
+    grid: 10px;
+    gap: 1px;
+    grid-template-columns: repeat(5, auto);
+    position: absolute; left: 524px; top: 335px;
+    z-index: 3;
+}
+
+.button-grid button {
+    background-image: linear-gradient(140deg, #1b63ff, #0000ff);
+    color: transparent;
+    height: 40px;
+    width: 50px;
+    border-color: #0000c0;
+    border-right: 3px solid #0000c0;
+    border-bottom: 3px solid #0000c0;
+    border-radius: 5px;
+}
 
