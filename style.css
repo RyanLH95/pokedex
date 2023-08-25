@@ -360,6 +360,7 @@ body {
     position: relative; left: 35px; top: -16px;
 }
 
+
 /* design for seperation between pokedex content(s) */
 .rotators{
     position: relative; left: 0px; top: 30px;
@@ -397,6 +398,7 @@ body {
     position: absolute; left: 405px; top: 359px;
     z-index: 6;
 }
+
 
 /* all designs below are for second container ONLY */
 .container-two {
@@ -451,12 +453,12 @@ body {
 }
 
 .name-screen {
-    background-image: linear-gradient(#00bb57, #05d809, #00bb57);
+    background-color: black;
     width: 280px;
     height: 150px;
-    border: 1px solid green;
+    border: 1px solid #1a1a1a;
     border-radius: 10px;
-    box-shadow: inset 0em 0em 1em 0em green;
+    box-shadow: inset 0em 0em 1em -.1em grey;
     position: absolute; left: 510px; top: 160px;
     z-index: 3;
 }
@@ -554,7 +556,7 @@ body {
     height: 40px;
     width: 50px;
     border-radius: 5px;
-    position: relative; left: 50px; top: -70px;
+    position: relative; left: 50px; top: -65px;
     z-index: 3;
 }
 
@@ -566,7 +568,7 @@ body {
     height: 40px;
     width: 50px;
     border-radius: 5px;
-    position: relative; left: 46px; top: -70px;
+    position: relative; left: 46px; top: -65px;
     z-index: 3;
 }
 
@@ -580,33 +582,33 @@ body {
     border-right: 2px solid #bb7900;
     border-bottom: 2px solid #bb7900;
     border-radius: 50%;
-    position: relative; left: 150px; top: -55px;
+    position: relative; left: 150px; top: -61px;
     z-index: 3;
 }
 
 /* designs for type screen (displays what type(s) the pokemon is */
 .type-screen {
-    position: absolute; left: 100px; top: 10px;
+    position: relative; left: 203px; top: -30px;
 }
 
 #screen-one {
     background-color: black;
-    height: 60px;
-    width: 120px;
-    border: 1px solid green;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #1a1a1a;
     border-radius: 5px;
-    box-shadow: inset 0em 0em 1em 0em green;
-    position: absolute; left: 277px; top: -120px;
+    box-shadow: inset 0em 0em 1em -.1em grey;
+    position: relative; left: 335px; top: 0px;
     z-index: 3;
 }
 
 #screen-two {
     background-color: black;
-    height: 60px;
-    width: 120px;
-    border: 1px solid green;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #1a1a1a;
     border-radius: 5px;
-    box-shadow: inset 0em 0em 1em 0em green;
-    position: absolute; left: 277px; top: -120px;
+    box-shadow: inset 0em 0em 1em -.1em grey;
+    position: relative; left: 455px; top: -52px;
     z-index: 3;
 }
