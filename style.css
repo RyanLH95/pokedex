@@ -473,12 +473,13 @@ body {
 
 .button-grid button {
     background-image: linear-gradient(140deg, #1b63ff, #0000ff);
-    color: transparent;
+    font-family:'Courier New', Courier, monospace;
+    color: #1b63ff;
     height: 40px;
     width: 50px;
     border-color: #1b63ff;
-    border-right: 7px solid #0000c0;
-    border-bottom: 5px solid #0000c0;
+    border-right: 5px solid #0000c0;
+    border-bottom: 7px solid #0000c0;
     border-radius: 5px;
 }
 
@@ -541,19 +542,71 @@ body {
 }
 
 /* design for grey buttons */
-.grey-buttons {
-    gap: 0px;
+.nav-buttons {
+    position: relative; left: 475px; top: 10px;
+}
+
+#grey-one {
+    background-image: linear-gradient(140deg, #d7d7d7, #979797);
+    border-color: #d7d7d7;
+    border-right: 3px solid #979797;
+    border-bottom: 7px solid #979797;
+    height: 40px;
+    width: 50px;
     border-radius: 5px;
-    position: absolute; left: 10px; top: 30px;
+    position: relative; left: 50px; top: -70px;
     z-index: 3;
 }
 
-.grey-buttons button {
-    background-image: linear-gradient(140deg, #858585, #555555);
+#grey-two {
+    background-image: linear-gradient(140deg, #d7d7d7, #979797);
+    border-color: #d7d7d7;
+    border-right: 3px solid #979797;
+    border-bottom: 7px solid #979797;
     height: 40px;
     width: 50px;
-    border-color: #1b63ff;
-    border-right: 7px solid #0000c0;
-    border-bottom: 5px solid #0000c0;
     border-radius: 5px;
+    position: relative; left: 46px; top: -70px;
+    z-index: 3;
+}
+
+#enter-button {
+    background-image: linear-gradient(170deg, #ffb325, #df9100);
+    height: 42px;
+    width: 42px;
+    color: maroon;
+    font-size: 20px;
+    border-color: #ffb325;
+    border-right: 2px solid #bb7900;
+    border-bottom: 2px solid #bb7900;
+    border-radius: 50%;
+    position: relative; left: 150px; top: -55px;
+    z-index: 3;
+}
+
+/* designs for type screen (displays what type(s) the pokemon is */
+.type-screen {
+    position: absolute; left: 100px; top: 10px;
+}
+
+#screen-one {
+    background-color: black;
+    height: 60px;
+    width: 120px;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-shadow: inset 0em 0em 1em 0em green;
+    position: absolute; left: 277px; top: -120px;
+    z-index: 3;
+}
+
+#screen-two {
+    background-color: black;
+    height: 60px;
+    width: 120px;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-shadow: inset 0em 0em 1em 0em green;
+    position: absolute; left: 277px; top: -120px;
+    z-index: 3;
 }
