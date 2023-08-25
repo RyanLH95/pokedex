@@ -442,9 +442,10 @@ body {
 .button-grid {
     display: grid;
     grid: 10px;
-    gap: 1px;
+    gap: 0px;
+    border-radius: 5px;
     grid-template-columns: repeat(5, auto);
-    position: absolute; left: 524px; top: 335px;
+    position: absolute; left: 525px; top: 335px;
     z-index: 3;
 }
 
@@ -454,8 +455,35 @@ body {
     height: 40px;
     width: 50px;
     border-color: #1b63ff;
-    border-right: 5px solid #0000c0;
+    border-right: 7px solid #0000c0;
     border-bottom: 5px solid #0000c0;
     border-radius: 5px;
 }
 
+.color-buttons {
+    position: relative; left: 370px; top: 140px;
+}
+
+#green-button2 {
+    background-image: linear-gradient(170deg, #00eb10, #00b40c);
+    height: 15px;
+    width: 60px;
+    border-color: #00eb10;
+    border-right: 2px solid #00b40c;
+    border-bottom: 2px solid #00b40c;
+    border-radius: 10px;
+    position: relative; left: 209px; top: -195px;
+    z-index: 3;
+}
+
+#orange-button2 {
+    background-image: linear-gradient(170deg, #ffb325, #df9100);
+    height: 15px;
+    width: 60px;
+    border-color: #ffb325;
+    border-right: 2px solid #bb7900;
+    border-bottom: 2px solid #bb7900;
+    border-radius: 10px;
+    position: relative; left: 343px; top: -195px;
+    z-index: 3;
+}
