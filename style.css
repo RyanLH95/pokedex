@@ -486,6 +486,7 @@ body {
     position: relative; left: 370px; top: 140px;
 }
 
+/* sencond set of orange and green buttons */
 #green-button2 {
     background-image: linear-gradient(170deg, #00eb10, #00b40c);
     height: 15px;
@@ -508,4 +509,51 @@ body {
     border-radius: 10px;
     position: relative; left: 343px; top: -195px;
     z-index: 3;
+}
+
+/* led's for second container */
+.small-color-buttons {
+    position: relative; left: 0px; top: -3px;
+}
+
+#small-yellow-button {
+    background-image: linear-gradient(yellow, #b6b600);
+    border-color: #ffff00;
+    border-right: 2px solid #b6b600;
+    border-bottom: 2px solid #b6b600;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative; left: 560px; top: -70px;
+    z-index: 3;
+}
+
+#small-green-button {
+    background-image: linear-gradient(#197122, #125419);
+    border-color: #197122;
+    border-right: 2px solid #125419;
+    border-bottom: 2px solid #125419;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative; left: 510px; top: -70px;
+    z-index: 3;
+}
+
+/* design for grey buttons */
+.grey-buttons {
+    gap: 0px;
+    border-radius: 5px;
+    position: absolute; left: 10px; top: 30px;
+    z-index: 3;
+}
+
+.grey-buttons button {
+    background-image: linear-gradient(140deg, #858585, #555555);
+    height: 40px;
+    width: 50px;
+    border-color: #1b63ff;
+    border-right: 7px solid #0000c0;
+    border-bottom: 5px solid #0000c0;
+    border-radius: 5px;
 }
