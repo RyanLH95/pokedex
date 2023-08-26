@@ -167,11 +167,14 @@ body {
 }
 
 #small-led-one {
-    background-image: linear-gradient(140deg, #ff4141 50%, #c60101);
-    border: 1px solid maroon;
+    background-image: linear-gradient(140deg, #ff5e5e 30%, #a90000);
+    border: 2px solid #a90000;
+    border-left: none;
+    border-top: none;
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    z-index: 3;
     position: relative; left: 110px; bottom: 24px;
 }
 
@@ -186,11 +189,14 @@ body {
 }
 
 #small-led-two {
-    background-image: linear-gradient(140deg, #ff4141 50%, #c60101);
-    border: 1px solid maroon;
+    background-image: linear-gradient(140deg, #ff5e5e 30%, #a90000);
+    border: 2px solid #a90000;
+    border-left: none;
+    border-top: none;
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    z-index: 3;
     position: relative; left: 150px; bottom: 41px;
 }
 
@@ -273,25 +279,25 @@ body {
     z-index: 3;
 }
 
-#orange-button {
-    background-image: linear-gradient(170deg, #ffb325, #df9100);
+#cyan-button {
+    background-image: linear-gradient(140deg, #1bb7ff, #1795d0);
     height: 15px;
     width: 60px;
-    border-color: #ffb325;
-    border-right: 2px solid #bb7900;
-    border-bottom: 2px solid #bb7900;
+    border-color: #1bb7ff;
+    border-right: 2px solid #1795d0;
+    border-bottom: 2px solid #1795d0;
     border-radius: 10px;
     position: absolute; left: 343px; top: -195px;
     z-index: 3;
 }
 
-#green-button {
-    background-image: linear-gradient(170deg, #00eb10, #00b40c);
+#red-button {
+    background-image: linear-gradient(140deg, #fe6161, red);
     height: 15px;
     width: 60px;
-    border-color: #00eb10;
-    border-right: 2px solid #00b40c;
-    border-bottom: 2px solid #00b40c;
+    border-color: #fe6161;
+    border-right: 2px solid #c03232;
+    border-bottom: 2px solid #c03232;
     border-radius: 10px;
     position: absolute; left: 273px; top: -195px;
     z-index: 3;
@@ -356,6 +362,7 @@ body {
 
 #number {
     font-family:'Courier New', Courier, monospace;
+    opacity: 0.5;
     font-size: 30px;
     position: relative; left: 35px; top: -16px;
 }
@@ -485,61 +492,82 @@ body {
     border-radius: 5px;
 }
 
-.color-buttons {
+.function-buttons {
     position: relative; left: 370px; top: 140px;
 }
 
 /* sencond set of orange and green buttons */
-#green-button2 {
-    background-image: linear-gradient(170deg, #00eb10, #00b40c);
+#grey-button-two {
+    background-image: linear-gradient(140deg, #515151, #262626);
     height: 15px;
     width: 60px;
-    border-color: #00eb10;
-    border-right: 2px solid #00b40c;
-    border-bottom: 2px solid #00b40c;
+    border-color: #515151;
+    border-right: 2px solid #262626;
+    border-bottom: 2px solid #262626;
     border-radius: 10px;
     position: relative; left: 209px; top: -195px;
     z-index: 3;
 }
 
-#orange-button2 {
-    background-image: linear-gradient(170deg, #ffb325, #df9100);
+#grey-button-one {
+    background-image: linear-gradient(140deg, #515151, #262626);
     height: 15px;
     width: 60px;
-    border-color: #ffb325;
-    border-right: 2px solid #bb7900;
-    border-bottom: 2px solid #bb7900;
+    border-color: #515151;
+    border-right: 2px solid #262626;
+    border-bottom: 2px solid #262626;
     border-radius: 10px;
     position: relative; left: 343px; top: -195px;
     z-index: 3;
 }
 
 /* led's for second container */
-.small-color-buttons {
-    position: relative; left: 0px; top: -3px;
+.small-leds {
+    display: flex;
+    position: relative; left: 380px; top: -32px;
 }
 
-#small-yellow-button {
-    background-image: linear-gradient(yellow, #b6b600);
-    border-color: #ffff00;
-    border-right: 2px solid #b6b600;
-    border-bottom: 2px solid #b6b600;
-    height: 15px;
-    width: 15px;
+#small-led-three {
+    background-image: linear-gradient(140deg, #ff5e5e 30%, #a90000);
+    border: 2px solid #a90000;
+    border-left: none;
+    border-top: none;
     border-radius: 50%;
-    position: relative; left: 560px; top: -70px;
+    width: 15px;
+    height: 15px;
+    z-index: 3;
+    position: relative; left: 150px; bottom: 41px;
+}
+
+#shine-seven {
+    background-image: linear-gradient(140deg, white 30%, transparent);
+    opacity: 0.3;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: relative; left: 1px; top: 1px;
     z-index: 3;
 }
 
-#small-green-button {
-    background-image: linear-gradient(#197122, #125419);
-    border-color: #197122;
-    border-right: 2px solid #125419;
-    border-bottom: 2px solid #125419;
-    height: 15px;
-    width: 15px;
+#small-led-four {
+    background-image: linear-gradient(140deg, #ff5e5e 30%, #a90000);
+    border: 2px solid #a90000;
+    border-left: none;
+    border-top: none;
     border-radius: 50%;
-    position: relative; left: 510px; top: -70px;
+    width: 15px;
+    height: 15px;
+    z-index: 3;
+    position: relative; left: 160px; bottom: 41px;
+}
+
+#shine-eight {
+    background-image: linear-gradient(140deg, white 30%, transparent);
+    opacity: 0.3;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: relative; left: 1px; top: 1px;
     z-index: 3;
 }
 
@@ -573,14 +601,14 @@ body {
 }
 
 #enter-button {
-    background-image: linear-gradient(170deg, #ffb325, #df9100);
+    background-image: linear-gradient(170deg, #ffde25, #c8af1f);
     height: 42px;
     width: 42px;
     color: maroon;
     font-size: 20px;
-    border-color: #ffb325;
-    border-right: 2px solid #bb7900;
-    border-bottom: 2px solid #bb7900;
+    border-color: #ffde25;
+    border-right: 2px solid #c8af1f;
+    border-bottom: 2px solid #c8af1f;
     border-radius: 50%;
     position: relative; left: 150px; top: -61px;
     z-index: 3;
@@ -588,7 +616,7 @@ body {
 
 /* designs for type screen (displays what type(s) the pokemon is */
 .type-screen {
-    position: relative; left: 203px; top: -30px;
+    position: relative; left: 202px; top: -30px;
 }
 
 #screen-one {
