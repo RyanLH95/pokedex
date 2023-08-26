@@ -149,7 +149,10 @@ body {
 /* design for pokedex screen */
 #pokedex-screen {
     background-color: white;
-    border: 1px solid maroon;
+    border: 3px solid #b3b2b2;
+    border-right: 2px solid #b3b2b2;
+    border-left: none;
+    border-top: none;
     border-radius: 10%;
     width: 340px;
     height: 290px;
@@ -408,6 +411,22 @@ body {
 
 
 /* all designs below are for second container ONLY */
+
+/* this selector is ONLY here to act as the second 'box-shadow' for the outside of 'container-two' */
+.container-shadow {
+    transform: scaleX(-1);
+    background-color: #e50000; 
+    height: 503px;
+    width: 400px;
+    border-top: 6px solid #ba0101;
+    border-left: 6px solid #ba0101;
+    border-bottom: 6px solid #ba0101;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 4px 5px 5px #000;
+    position: absolute; left: 451px; top: 115px;
+}
+
 .container-two {
     max-height: 100%;
 }
