@@ -37,11 +37,12 @@ body {
 
 #shine-one {
     background-color: white;
-    opacity: 0.3;
-    height: 25px;
-    width: 25px;
+    opacity: 0.5;
+    height: 15px;
+    width: 15px;
     border-radius: 50px;
-    position: relative; left: 15px; top: -55px;
+    box-shadow: 0px 0px 15px 10px white;
+    position: relative; left: 23px; top: -50px;
     z-index: 3;
 }
 
@@ -63,11 +64,12 @@ body {
 
 #shine-two {
     background-color: white;
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    opacity: 0.5;
+    height: 4px;
+    width: 4px;
     border-radius: 50px;
-    position: relative; left: 2px; top: 2px;
+    box-shadow: 1px 1px 8px 5px white;
+    position: relative; left: 5px; top: 4px;
     z-index: 3;
 }
 
@@ -83,11 +85,12 @@ body {
 
 #shine-three {
     background-color: white;
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    opacity: 0.5;
+    height: 4px;
+    width: 4px;
     border-radius: 50px;
-    position: relative; left: 2px; top: 2px;
+    box-shadow: 1px 1px 8px 5px white;
+    position: relative; left: 5px; top: 4px;
     z-index: 3;
 }
 
@@ -103,11 +106,12 @@ body {
 
 #shine-four {
     background-color: white;
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    opacity: 0.5;
+    height: 4px;
+    width: 4px;
     border-radius: 50px;
-    position: relative; left: 2px; top: 2px;
+    box-shadow: 1px 1px 8px 5px white;
+    position: relative; left: 5px; top: 4px;
     z-index: 3;
 }
 
@@ -184,12 +188,13 @@ body {
 }
 
 #shine-five {
-    background-image: linear-gradient(140deg, white 30%, transparent);
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    background-color: white;
+    opacity: 0.5;
+    height: 1px;
+    width: 1px;
     border-radius: 50px;
-    position: relative; left: 2px; top: 1px;
+    box-shadow: 0px 0px 4px 3px white;
+    position: relative; left: 5px; top: 4px;
     z-index: 3;
 }
 
@@ -206,12 +211,13 @@ body {
 }
 
 #shine-six {
-    background-image: linear-gradient(140deg, white 30%, transparent);
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    background-color: white;
+    opacity: 0.5;
+    height: 1px;
+    width: 1px;
     border-radius: 50px;
-    position: relative; left: 2px; top: 1px;
+    box-shadow: 0px 0px 4px 3px white;
+    position: relative; left: 5px; top: 4px;
     z-index: 3;
 }
 
@@ -561,12 +567,13 @@ body {
 }
 
 #shine-seven {
-    background-image: linear-gradient(140deg, white 30%, transparent);
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    background-color: white;
+    opacity: 0.5;
+    height: 1px;
+    width: 1px;
     border-radius: 50px;
-    position: relative; left: 1px; top: 1px;
+    box-shadow: 0px 0px 4px 3px white;
+    position: relative; left: 5px; top: 5px;
     z-index: 3;
 }
 
@@ -583,12 +590,13 @@ body {
 }
 
 #shine-eight {
-    background-image: linear-gradient(140deg, white 30%, transparent);
-    opacity: 0.3;
-    height: 10px;
-    width: 10px;
+    background-color: white;
+    opacity: 0.5;
+    height: 1px;
+    width: 1px;
     border-radius: 50px;
-    position: relative; left: 1px; top: 1px;
+    box-shadow: 0px 0px 4px 3px white;
+    position: relative; left: 5px; top: 5px;
     z-index: 3;
 }
 
