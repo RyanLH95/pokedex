@@ -647,7 +647,7 @@ body {
     border: 1px solid #1a1a1a;
     border-radius: 5px;
     box-shadow: inset 0em 0em 1em -.1em grey;
-    position: relative; left: 335px; top: 0px;
+    position: absolute; left: 335px; top: 0px;
     z-index: 3;
 }
 
@@ -658,6 +658,6 @@ body {
     border: 1px solid #1a1a1a;
     border-radius: 5px;
     box-shadow: inset 0em 0em 1em -.1em grey;
-    position: relative; left: 455px; top: -52px;
+    position: absolute; left: 455px; top: 0px;
     z-index: 3;
 }
