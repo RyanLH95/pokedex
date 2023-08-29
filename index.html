@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/poke_ball.png">
+    <script defer src="app.js"></script>
     <title>My Pokedex</title>
   </head>
 
@@ -89,8 +90,20 @@
           <div class="pokedex-con6"></div>
           <div class="pokedex-con7"></div>
           <!--for name of pokemon to be displayed-->
-          <div class="name-screen">
-            <div id="name"></div>
+          <div class="bio-screen">
+            <div class="name-screen">
+              <div id="name">Arcanine</div>
+            </div>
+            <div class="att-screen">
+              <div id="height">6'03</div>
+              <div id="weight">341.7lbs(155.0kg)</div>
+              <div id="egg-group">Field</div>
+            </div>
+            <div class="bio-desc">
+              <div id="species">Legendary Pokemon</div>
+              <div id="description">A Pokémon that has been admired since the past for its beauty. 
+                It runs agilely as if on wings.</div>
+            </div>
           </div>
           <!--button grid in second pokedex container-->
           <div class="button-grid">
@@ -105,28 +118,34 @@
             <button id="nine">8</button>
             <button id="zero">9</button>
           </div>
-          <div class="function-buttons">
-            <button id="grey-button-one"></button>
-            <button id="grey-button-two"></button>
-          </div>
-          <div class="small-leds">
-            <div id="small-led-three">
-              <div id="shine-seven"></div>
+          <div class="lower-section">
+            <div class="function-buttons">
+              <button id="grey-button-one"></button>
+              <button id="grey-button-two"></button>
             </div>
-            <div id="small-led-four">
-              <div id="shine-eight"></div>
+            <div class="small-leds">
+              <div id="small-led-three">
+                <div id="shine-seven"></div>
+              </div>
+              <div id="small-led-four">
+                <div id="shine-eight"></div>
+              </div>
             </div>
-          </div>
-          <div class="nav-buttons">
-            <button id="grey-one">◀</button>
-            <button id="grey-two">▶</button>
-            <div id="final-led">
-              <div id="shine-nine"></div>
+            <div class="nav-buttons">
+              <button id="nav-left">◀</button>
+              <button id="nav-right">▶</button>
+              <div id="final-led">
+                <div id="shine-nine"></div>
+              </div>
             </div>
-          </div>
-          <div class="type-screen">
-            <div id="screen-one"></div>
-            <div id="screen-two"></div>
+            <div class="type-screen">
+              <div id="primary-type">
+                <strong>Fire</strong>
+              </div>
+              <div id="second-type">
+                <strong>Flying</strong>
+              </div>
+            </div>
           </div>
         </div>
       </div>
