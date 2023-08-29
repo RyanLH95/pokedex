@@ -613,7 +613,7 @@ body {
     height: 40px;
     width: 50px;
     border-radius: 5px;
-    position: relative; left: 50px; top: -75px;
+    position: relative; left: 50px; top: -60px;
     z-index: 3;
 }
 
@@ -625,27 +625,37 @@ body {
     height: 40px;
     width: 50px;
     border-radius: 5px;
-    position: relative; left: 46px; top: -75px;
+    position: relative; left: 46px; top: -60px;
     z-index: 3;
 }
 
-#enter-button {
-    background-image: linear-gradient(170deg, #ffde25, #c8af1f);
+#final-led {
+    background-image: linear-gradient(140deg, #ffe659 50%, #c8af1f);
     height: 42px;
     width: 42px;
-    color: maroon;
     font-size: 20px;
-    border-color: #ffde25;
-    border-right: 2px solid #c8af1f;
-    border-bottom: 2px solid #c8af1f;
+    border-color: #a90000;
+    border-right: 2px solid #a90000;
+    border-bottom: 2px solid #a90000;
     border-radius: 50%;
-    position: relative; left: 150px; top: -61px;
+    position: relative; left: 255px; top: -102px;
+    z-index: 3;
+}
+
+#shine-nine {
+    background-color: white;
+    opacity: 0.5;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 10px white;
+    position: relative; left: 10px; top: 12px;
     z-index: 3;
 }
 
 /* designs for type screen (displays what type(s) the pokemon is */
 .type-screen {
-    position: relative; left: 202px; top: -30px;
+    position: relative; left: 202px; top: -60px;
 }
 
 #screen-one {
