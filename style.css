@@ -534,11 +534,52 @@ body {
 }
 
 /* selectors for name-screen content only */
+
+/* Name of pokemon */
 #name {
+    display: none;
     color: white;
     font-size: 30px;
     font-family: monospace;
-    position: relative; left: 65px; top: 52px;
+    position: absolute; left: 65px; top: 52px;
+}
+
+/* Attribute/Species */
+.att-screen {
+    display: none;
+    color: white;
+    white-space: nowrap;
+    font-size: 15px;
+    font-family: monospace;
+    position: absolute; left: 530px; top: 190px;
+    z-index: 3;
+}
+
+#species {
+    position: absolute; top: -10px;
+}
+
+#height {
+    position: absolute; top: 35px;
+}
+
+#weight {
+    position: absolute; top: 80px;
+}
+
+/* pokemon bio */
+.bio-desc {
+    display: none;
+    color: white;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: monospace;
+    position: absolute; left: 521px; top: 194px;
+    z-index: 3;
+}
+
+#description {
+    position: absolute; left: 0; top: 0;
 }
 
 .button-grid {
