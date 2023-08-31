@@ -43,7 +43,7 @@
             <div class="screen">
               <div class="outer-border"></div>
               <div class="screen-border"></div>
-                <img id="pokemon" src="images/pokemon/arcanine.png" width="240" height="240"></img>
+                <img class="pokemon hide" src="images/pokemon/arcanine.png" width="240" height="240"></img>
             </div>
             <div class="screen-content">
               <div id="small-led-one">
@@ -73,7 +73,9 @@
               <button id="down-button"></button>
             </div>
             <div class="number-screen">
-              <p id="number"><strong>059</strong></p>
+              <div id="dex-number" class="hide">
+                <p id="number"><strong>059</strong></p>
+              </div>
             </div>
           </div>
         </div>
@@ -95,16 +97,16 @@
           <div class="pokedex-con6"></div>
           <div class="pokedex-con7"></div>
           <!--for name of pokemon to be displayed-->
-          <div class="bio-screen">
-            <div class="name-screen">
+          <div class="bio-screen" id="dex-info">
+            <div id="name-screen" class="hide">
               <div id="name">Arcanine</div>
             </div>
-            <div class="att-screen">
+            <div id="att-screen" class="hide">
               <div id="species">Species: Legendary Pokemon</div>
               <div id="height">Height: 6'03</div>
               <div id="weight">Weight: 341.7lbs(155.0kg)</div>
             </div>
-            <div class="bio-desc">
+            <div id="bio-desc" class="hide">
               <div id="description">A Pokémon that has been admired<br><br> since the past for its beauty.<br><br> 
                 It runs agilely as if on wings.</div>
             </div>
@@ -122,6 +124,7 @@
             <button id="nine">8</button>
             <button id="zero">9</button>
           </div>
+
           <div class="lower-section">
             <div class="function-buttons">
               <button id="grey-button-one"></button>
@@ -142,12 +145,45 @@
                 <div id="shine-nine"></div>
               </div>
             </div>
-            <div class="type-screen">
-              <div id="primary-type">
-                <strong>Fire</strong>
+
+            <div class="type-screens">
+              <div class="primary-box">
+                <div id="primary-type" class="hide">
+                  <div id="normal-one">Normal</div>
+                  <div id="fire-one">Fire</div>
+                  <div id="water-one">Water</div>
+                  <div id="electric-one">Electric</div>
+                  <div id="grass-one">Grass</div>
+                  <div id="ice-one">Ice</div>
+                  <div id="fighting-one">Fighting</div>
+                  <div id="poison-one">Poison</div>
+                  <div id="ground-one">Ground</div>
+                  <div id="flying-one">Flying</div>
+                  <div id="psychic-one">Psychic</div>
+                  <div id="bug-one">Bug</div>
+                  <div id="rock-one">Rock</div>
+                  <div id="ghost-one">Ghost</div>
+                  <div id="dragon-one">Dragon</div>
+                </div>
               </div>
-              <div id="second-type">
-                <strong>Flying</strong>
+              <div class="secondary-box" id="type-two">
+                <div id="secondary-type" class="hide">
+                  <div id="normal-two">Normal</div>
+                  <div id="fire-two">Fire</div>
+                  <div id="water-two">Water</div>
+                  <div id="electric-two">Electric</div>
+                  <div id="grass-two">Grass</div>
+                  <div id="ice-two">Ice</div>
+                  <div id="fighting-two">Fighting</div>
+                  <div id="poison-two">Poison</div>
+                  <div id="ground-two">Ground</div>
+                  <div id="flying-two">Flying</div>
+                  <div id="psychic-two">Psychic</div>
+                  <div id="bug-two">Bug</div>
+                  <div id="rock-two">Rock</div>
+                  <div id="ghost-two">Ghost</div>
+                  <div id="dragon-two">Dragon</div>
+                </div>
               </div>
             </div>
           </div>
