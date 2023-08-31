@@ -547,6 +547,10 @@ body {
     position: absolute; left: 66px; top: 56px;
 }
 
+#name {
+    position: absolute; left: 0px; top: 0px;
+}
+
 /* Attribute/Species */
 #att-screen {
     color: white;
