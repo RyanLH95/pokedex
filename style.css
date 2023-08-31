@@ -749,7 +749,7 @@ body {
 
 /* designs for type screen (displays what type(s) the pokemon is */
 .type-screens {
-    position: relative; left: 322px; top: -60px;
+    position: relative; left: 318px; top: -60px;
 }
 
 .primary-box {
@@ -945,5 +945,5 @@ body {
 }
 
 .hide {
-    display: none;
+    
 }
