@@ -1,3 +1,9 @@
+const pokemonCount = 151;
+var pokedex = {};
+
+
+
+
 // For first container 
 // buttons
 const onButton = document.getElementById('big-button');
@@ -19,12 +25,15 @@ var description = document.getElementById('description')
 var primaryType = document.getElementById('primary-type')
 var secondaryType = document.getElementById('secondary-type')
 
+// functions for button elements
+
+// To turn on pokedex
 onButton.addEventListener('click', turnOn)
 
-enterButton.addEventListener('click', () => {
-    showPokemon()
-}) 
+// To act as enter button when pressing number pad
+enterButton.addEventListener('click', () => showPokemon )
 
+// Directional buttons for navigating up and down pokedex
 upButton.addEventListener('click', () => {
     goUpOne++
     showPokemon()
@@ -45,8 +54,14 @@ rightButton.addEventListener('click', () => {
     showPokemon()
 })
 
-const pokemon = [
-    {
-        
-    }
-]
+window.onload = function() {
+    showPokemon(1);
+}
+
+function getPokemon(num) {
+    let url = "images/pokemon/bulbasaur" + num.toString()
+
+    let res = fetch(url);
+    let pokemon = res.json();
+    console.log(pokemon)
+}
