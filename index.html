@@ -43,7 +43,7 @@
             <div class="screen">
               <div class="outer-border"></div>
               <div class="screen-border"></div>
-                <div class="pokemon hide">
+                <div class="pokemon-image hide" id="pokemon">
                   <img id="bulbasaur" src="images/pokemon/bulbasaur.png" width="250" height="220">
                   <img id="ivysaur" src="images/pokemon/ivysaur.png" width="250" height="220">
                   <img id="venusaur" src="images/pokemon/venusaur.png" width="250" height="220">
@@ -187,8 +187,7 @@
                   <img id="kabutops" src="images/pokemon/kabutops.png" width="250" height="220">
                   <img id="aerodactyl" src="images/pokemon/aerodactyl.png" width="250" height="220">
                   <img id="snorlax" src="images/pokemon/snorlax.png" width="250" height="220">
-                  <img id="eevee" src="images/pokemon/eevee.png" width="250" height="220">
-                  <img id="articuno" src="images/pokemon/articuno.png" width="250" height="220">
+                  <img id="articuno" src="images/pokemon/articuno.png" width="245" height="215">
                   <img id="zapdos" src="images/pokemon/zapdos.png" width="250" height="220">
                   <img id="moltres" src="images/pokemon/moltres.png" width="250" height="220">
                   <img id="dratini" src="images/pokemon/dratini.png" width="250" height="220">
@@ -401,7 +400,7 @@
           <div class="pokedex-con7"></div>
           <!--for name of pokemon to be displayed-->
           <div class="bio-screen" id="dex-info">
-            <div id="name-screen" class="hide">
+            <div id="name" class="hide">
               <!--List of pokemon-->
               <div id="bulbasaur-name">Bulbasaur</div> 
               <div id="ivysaur-name">Ivysaur</div>
@@ -556,765 +555,765 @@
               <div id="mew-name">Mew</div>
             </div>
             <!--pokemon attributes-->
-            <div id="att-screen" class="hide">
-              <div id="bulbasaur-att">
+            <div id="specs" class="hide">
+              <div id="bulbasaur-specs">
                 Species: Seed Pokemon<br><br>
                 Height: 2'04<br><br>
                 Weight: 15.2lbs(6.9kg)
               </div>
-              <div id="ivysaur-att">
+              <div id="ivysaur-specs">
                 Species: Seed Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 28.7lbs(13.0kg)
               </div>
-              <div id="venusaur-att">
+              <div id="venusaur-specs">
                 Species: Seed Pokemon<br><br>
                 Height: 6'07<br><br>
                 Weight: 220.5lbs(100.0kg)
               </div>
-              <div id="charmander-att">
+              <div id="charmander-specs">
                 Species: Lizard Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 18.7lbs(8.5kg)
               </div>
-              <div id="charmeleon-att">
+              <div id="charmeleon-specs">
                 Species: Flame Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 41.9lbs(19.0kg)
               </div>
-              <div id="charizard-att">
+              <div id="charizard-specs">
                 Species: Flame Pokemon<br><br>
                 Height: 5'07<br><br>
                 Weight: 199.5lbs(90.5kg)
               </div>
-              <div id="squirtle-att">
+              <div id="squirtle-specs">
                 Species: Tiny Turtle Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 19.8lbs(9.0kg)
               </div>
-              <div id="wartortle-att">
+              <div id="wartortle-specs">
                 Species: Turtle Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 49.6lbs(22.5kg)
               </div>
-              <div id="blastoise-att">
+              <div id="blastoise-specs">
                 Species: Shellfish Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 188.5lbs(85.5kg)
               </div>
-              <div id="caterpie-att">
+              <div id="caterpie-specs">
                 Species: Tiny Turtle Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 6.4lbs(2.9kg)
               </div>
-              <div id="metapod-att">
+              <div id="metapod-specs">
                 Species: Cocoon Pokemon<br><br>
                 Height: 2'04<br><br>
                 Weight: 21.8lbs(9.9kg)
               </div>
-              <div id="butterfree-att">
+              <div id="butterfree-specs">
                 Species: Tiny Turtle Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 19.8lbs(9.0kg)
               </div>
-              <div id="weedle-att">
+              <div id="weedle-specs">
                 Species: Hairy Bug Pokemon<br><br>
                 Height: 1'01<br><br>
                 Weight: 7.1lbs(3.2kg)
               </div>
-              <div id="kakuna-att">
+              <div id="kakuna-specs">
                 Species: Cocoon Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 22.0lbs(10.0kg)
               </div>
-              <div id="beedrill-att">
+              <div id="beedrill-specs">
                 Species: Poison Bee Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 65.0lbs(29.5kg)
               </div>
-              <div id="pidgey-att">
+              <div id="pidgey-specs">
                 Species: Tiny Bird Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 19.8lbs(9.0kg)
               </div>
-              <div id="pidgeotto-att">
+              <div id="pidgeotto-specs">
                 Species: Bird Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 66.1lbs(30.0kg)
               </div>
-              <div id="pidgeot-att">
+              <div id="pidgeot-specs">
                 Species: Bird Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 87.1lbs(39.5kg)
               </div>
-              <div id="rattata-att">
+              <div id="rattata-specs">
                 Species: Mouse Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 7.7lbs(3.5kg)
               </div>
-              <div id="raticate-att">
+              <div id="raticate-specs">
                 Species: Mouse Pokemon<br><br>
                 Height: 2'04<br><br>
                 Weight: 40.8lbs(18.5kg)
               </div>
-              <div id="spearow-att">
+              <div id="spearow-specs">
                 Species: Tiny Bird Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 4.4lbs(2.0kg)
               </div>
-              <div id="fearow-att">
+              <div id="fearow-specs">
                 Species: Beak Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 83.8lbs(38.0kg)
               </div>
-              <div id="ekans-att">
+              <div id="ekans-specs">
                 Species: Snake Pokemon<br><br>
                 Height: 6'07<br><br>
                 Weight: 15.2lbs(6.2kg)
               </div>
-              <div id="arbok-att">
+              <div id="arbok-specs">
                 Species: Cobra Pokemon<br><br>
                 Height: 11'06<br><br>
                 Weight: 143.3lbs(65.0kg)
               </div>
-              <div id="pikachu-att">
+              <div id="pikachu-specs">
                 Species: Mouse Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 13.2lbs(6.0kg)
               </div>
-              <div id="raichu-att">
+              <div id="raichu-specs">
                 Species: Mouse Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 66.1lbs(30.0kg)
               </div>
-              <div id="sandshrew-att">
+              <div id="sandshrew-specs">
                 Species: Mouse Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 26.5lbs(12.0kg)
               </div>
-              <div id="sandslash-att">
+              <div id="sandslash-specs">
                 Species: Mouse Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 65.0lbs(29.5kg)
               </div>
-              <div id="nidoran-f-att">
+              <div id="nidoran-f-specs">
                 Species: Poison Pin Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 15.4lbs(7.0kg)
               </div>
-              <div id="nidorina-att">
+              <div id="nidorina-specs">
                 Species: Poison Pin Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 44.1lbs(20.0kg)
               </div>
-              <div id="nidoqueen-att">
+              <div id="nidoqueen-specs">
                 Species: Drill Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 132.3lbs(60.0kg)
               </div>
-              <div id="nidoran-m-att">
+              <div id="nidoran-m-specs">
                 Species: Poison Pin Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 19.8lbs(9.0kg)
               </div>
-              <div id="nidorino-att">
+              <div id="nidorino-specs">
                 Species: Poison Pin Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 43.0lbs(19.5kg)
               </div>
-              <div id="nidoking-att">
+              <div id="nidoking-specs">
                 Species: Drill Pokemon<br><br>
                 Height: 4'07<br><br>
                 Weight: 136.7lbs(62.0kg)
               </div>
-              <div id="clefairy-att">
+              <div id="clefairy-specs">
                 Species: Fairy Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 16.5lbs(7.5kg)
               </div>
-              <div id="clefable-att">
+              <div id="clefable-specs">
                 Species: Fairy Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 16.5lbs(7.5kg)
               </div>
-              <div id="vulpix-att">
+              <div id="vulpix-specs">
                 Species: Fox Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 21.8lbs(9.9kg)
               </div>
-              <div id="ninetales-att">
+              <div id="ninetales-specs">
                 Species: Fox Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 43.9lbs(19.9kg)
               </div>
-              <div id="jigglypuff-att">
+              <div id="jigglypuff-specs">
                 Species: Balloon Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 12.1lbs(5.5kg)
               </div>
-              <div id="wigglytuff-att">
+              <div id="wigglytuff-specs">
                 Species: Balloon Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 26.5lbs(12.5kg)
               </div>
-              <div id="zubat-att">
+              <div id="zubat-specs">
                 Species: Bat Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 16.5lbs(7.5kg)
               </div>
-              <div id="golbat-att">
+              <div id="golbat-specs">
                 Species: Bat Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 121.3lbs(55.0kg)
               </div>
-              <div id="oddish-att">
+              <div id="oddish-specs">
                 Species: Weed Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 11.9lbs(5.4kg)
               </div>
-              <div id="gloom-att">
+              <div id="gloom-specs">
                 Species: Weed Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 19.0lbs(8.6kg)
               </div>
-              <div id="vileplume-att">
+              <div id="vileplume-specs">
                 Species: Flower Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 41.0lbs(18.6kg)
               </div>
-              <div id="paras-att">
+              <div id="paras-specs">
                 Species: Mushroom Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 11.9lbs(5.4kg)
               </div>
-              <div id="parasect-att">
+              <div id="parasect-specs">
                 Species: Mushroom Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 65.0lbs(29.5kg)
               </div>
-              <div id="venonat-att">
+              <div id="venonat-specs">
                 Species: Insect Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 66.1lbs(30.0kg)
               </div>
-              <div id="venomoth-att">
+              <div id="venomoth-specs">
                 Species: Poison Moth Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 27.6lbs(12.5kg)
               </div>
-              <div id="diglett-att">
+              <div id="diglett-specs">
                 Species: Mole Pokemon<br><br>
                 Height: 0'08<br><br>
                 Weight: 1.8lbs(0.8kg)
               </div>
-              <div id="dugtrio-att">
+              <div id="dugtrio-specs">
                 Species: Mole Pokemon<br><br>
                 Height: 2'04<br><br>
                 Weight: 73.4lbs(33.3kg)
               </div>
-              <div id="meowth-att">
+              <div id="meowth-specs">
                 Species: Scratch Cat Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 9.3lbs(4.2kg)
               </div>
-              <div id="persian-att">
+              <div id="persian-specs">
                 Species: Classy Cat Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 70.5lbs(32.0kg)
               </div>
-              <div id="psyduck-att">
+              <div id="psyduck-specs">
                 Species: Duck Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 43.2lbs(19.6kg)
               </div>
-              <div id="golduck-att">
+              <div id="golduck-specs">
                 Species: Duck Pokemon<br><br>
                 Height: 5'07<br><br>
                 Weight: 168.9lbs(76.6kg)
               </div>
-              <div id="mankey-att">
+              <div id="mankey-specs">
                 Species: Pig Monkey Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 61.7lbs(28.0kg)
               </div>
-              <div id="primeape-att">
+              <div id="primeape-specs">
                 Species: Pig Monkey Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 70.5lbs(32.0kg)
               </div>
-              <div id="growlithe-att">
+              <div id="growlithe-specs">
                 Species: Puppy Pokemon<br><br>
                 Height: 2'04<br><br>
                 Weight: 41.9lbs(19.0kg)
               </div>
-              <div id="arcanine-att">  
+              <div id="arcanine-specs">  
                 Species: Legendary Pokemon<br><br>
                 Height: 6'03<br><br>
                 Weight: 341.7lbs(155.0kg)
               </div>
-              <div id="poliwag-att">
+              <div id="poliwag-specs">
                 Species: Tadpole Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 27.3lbs(12.4kg)
               </div>
-              <div id="poliwhirl-att">
+              <div id="poliwhirl-specs">
                 Species: Tadpole Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 44.1lbs(20.0kg)
               </div>
-              <div id="poliwrath-att">
+              <div id="poliwrath-specs">
                 Species: Tadpole Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 119.0lbs(54.0kg)
               </div>
-              <div id="abra-att">
+              <div id="abra-specs">
                 Species: Psi Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 43.0lbs(19.5kg)
               </div>
-              <div id="kadabra-att">
+              <div id="kadabra-specs">
                 Species: Psi Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 124.6lbs(56.5kg)
               </div>
-              <div id="alakazam-att">
+              <div id="alakazam-specs">
                 Species: Psi Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 105.8lbs(48.0kg)
               </div>
-              <div id="machop-att">
+              <div id="machop-specs">
                 Species: Superpower Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 43.0lbs(19.5kg)
               </div>
-              <div id="machoke-att">
+              <div id="machoke-specs">
                 Species: Superpower Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 155.4lbs(70.5kg)
               </div>
-              <div id="machamp-att">
+              <div id="machamp-specs">
                 Species: Superpower Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 286.6lbs(130.0kg)
               </div>
-              <div id="bellsprout-att">
+              <div id="bellsprout-specs">
                 Species: Flower Pokemon<br><br>
                 Height: 2'04<br><br>
                 Weight: 8.8lbs(4.0kg)
               </div>
-              <div id="weepinbell-att">
+              <div id="weepinbell-specs">
                 Species: Flycatcher Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 14.1lbs(6.4kg)
               </div>
-              <div id="victreebel-att">
+              <div id="victreebel-specs">
                 Species: Flycatcher Pokemon<br><br>
                 Height: 5'07<br><br>
                 Weight: 34.2lbs(15.5kg)
               </div>
-              <div id="tentacool-att">
+              <div id="tentacool-specs">
                 Species: Jellyfish Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 100.3lbs(45.5kg)
               </div>
-              <div id="tentacruel-att">
+              <div id="tentacruel-specs">
                 Species: Jellyfish Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 121.3lbs(55.0kg)
               </div>
-              <div id="geodude-att">
+              <div id="geodude-specs">
                 Species: Rock Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 44.1lbs(20.0kg)
               </div>
-              <div id="graveler-att">
+              <div id="graveler-specs">
                 Species: Rock Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 231.5lbs(105.0kg)
               </div>
-              <div id="golem-att">
+              <div id="golem-specs">
                 Species: Megaton Pokemon<br><br>
                 Height: 4'07<br><br>
                 Weight: 661.4lbs(300.0kg)
               </div>
-              <div id="ponyta-att">
+              <div id="ponyta-specs">
                 Species: Fire Horse Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 100.3lbs(45.5kg)
               </div>
-              <div id="rapidash-att">
+              <div id="rapidash-specs">
                 Species: Fire Horse Pokemon<br><br>
                 Height: 5'07<br><br>
                 Weight: 209.4lbs(95.0kg)
               </div>
-              <div id="slowpoke-att">
+              <div id="slowpoke-specs">
                 Species: Dopey Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 79.4lbs(36.0kg)
               </div>
-              <div id="slowbro-att">
+              <div id="slowbro-specs">
                 Species: Hermitt Crab Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 173.1lbs(78.5kg)
               </div>
-              <div id="magnemite-att">
+              <div id="magnemite-specs">
                 Species: Magnet Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 13.2lbs(6.0kg)
               </div>
-              <div id="magneton-att">
+              <div id="magneton-specs">
                 Species: Fire Horse Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 132.3lbs(60.0kg)
               </div>
-              <div id="farfetch-d-att">
+              <div id="farfetch-d-specs">
                 Species: Wild Duck Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 33.1lbs(15.0kg)
               </div>
-              <div id="doduo-att">
+              <div id="doduo-specs">
                 Species: Twin Bird Pokemon<br><br>
                 Height: 4'07<br><br>
                 Weight: 86.4lbs(39.2kg)
               </div>
-              <div id="dodrio-att">
+              <div id="dodrio-specs">
                 Species: Triple Bird Pokemon<br><br>
                 Height: 5'11<br><br>
                 Weight: 187.8lbs(45.5kg)
               </div>
-              <div id="seel-att">
+              <div id="seel-specs">
                 Species: Sea Lion Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 198.4lbs(90.0kg)
               </div>
-              <div id="dewgong-att">
+              <div id="dewgong-specs">
                 Species: Sea Lion Pokemon<br><br>
                 Height: 5'07<br><br>
                 Weight: 264.6lbs(120.0kg)
               </div>
-              <div id="grimer-att">
+              <div id="grimer-specs">
                 Species: Sludge Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 66.1lbs(30.0kg)
               </div>
-              <div id="muk-att">
+              <div id="muk-specs">
                 Species: Sludge Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 66.1lbs(30.0kg)
               </div>
-              <div id="shellder-att">
+              <div id="shellder-specs">
                 Species: Bivalve Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 8.8lbs(4.0kg)
               </div>
-              <div id="cloyster-att">
+              <div id="cloyster-specs">
                 Species: Bivalve Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 292.1lbs(132.5kg)
               </div>
-              <div id="gastly-att">
+              <div id="gastly-specs">
                 Species: Gas Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 0.2lbs(0.1kg)
               </div>
-              <div id="haunter-att">
+              <div id="haunter-specs">
                 Species: Gas Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 0.2lbs(0.1kg)
               </div>
-              <div id="gengar-att">
+              <div id="gengar-specs">
                 Species: Sea Lion Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 89.3lbs(40.5kg)
               </div>
-              <div id="onix-att">
+              <div id="onix-specs">
                 Species: Rock Snake Pokemon<br><br>
                 Height: 28'10<br><br>
                 Weight: 463.0lbs(210.0kg)
               </div>
-              <div id="drowzee-att">
+              <div id="drowzee-specs">
                 Species: Hypnosis Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 71.4lbs(32.4kg)
               </div>
-              <div id="hypno-att">
+              <div id="hypno-specs">
                 Species: Hypnosis Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 166.7lbs(75.6kg)
               </div>
-              <div id="krabby-att">
+              <div id="krabby-specs">
                 Species: River Crab Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 14.3lbs(6.5kg)
               </div>
-              <div id="kingler-att">
+              <div id="kingler-specs">
                 Species: Pincer Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 132.3lbs(60.0kg)
               </div>
-              <div id="voltorb-att">
+              <div id="voltorb-specs">
                 Species: Ball Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 22.9lbs(10.4kg)
               </div>
-              <div id="electrode-att">
+              <div id="electrode-specs">
                 Species: Ball Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 146.8lbs(66.6kg)
               </div>
-              <div id="exeggcute-att">
+              <div id="exeggcute-specs">
                 Species: Egg Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 5.5lbs(2.5kg)
               </div>
-              <div id="exeggutor-att">
+              <div id="exeggutor-specs">
                 Species: Coconut Pokemon<br><br>
                 Height: 6'07<br><br>
                 Weight: 264.6lbs(120.0kg)
               </div>
-              <div id="cubone-att">
+              <div id="cubone-specs">
                 Species: Lonely Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 14.3lbs(6.5kg)
               </div>
-              <div id="marowak-att">
+              <div id="marowak-specs">
                 Species: Bone Keeper Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 99.2lbs(45.0kg)
               </div>
-              <div id="hitmonlee-att">
+              <div id="hitmonlee-specs">
                 Species: Kicking Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 109.8lbs(49.8kg)
               </div>
-              <div id="hitmonchan-att">
+              <div id="hitmonchan-specs">
                 Species: Punching Pokemon<br><br>
                 Height: 4'07<br><br>
                 Weight: 110.7lbs(50.2kg)
               </div>
-              <div id="lickitung-att">
+              <div id="lickitung-specs">
                 Species: Licking Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 144.4lbs(65.5kg)
               </div>
-              <div id="koffing-att">
+              <div id="koffing-specs">
                 Species: Poison Gas Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 2.2lbs(1.0kg)
               </div>
-              <div id="weezing-att">
+              <div id="weezing-specs">
                 Species: Poison Gas Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 20.9lbs(9.5kg)
               </div>
-              <div id="rhyhorn-att">
+              <div id="rhyhorn-specs">
                 Species: Spikes Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 253.5lbs(115.0kg)
               </div>
-              <div id="rhydon-att">
+              <div id="rhydon-specs">
                 Species: Drill Pokemon<br><br>
                 Height: 6'03<br><br>
                 Weight: 264.6lbs(120.0kg)
               </div>
-              <div id="chansey-att">
+              <div id="chansey-specs">
                 Species: Egg Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 76.3lbs(34.6kg)
               </div>
-              <div id="tangela-att">
+              <div id="tangela-specs">
                 Species: Vine Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 77.2lbs(35.0kg)
               </div>
-              <div id="kangaskhan-att">
+              <div id="kangaskhan-specs">
                 Species: Parent Pokemon<br><br>
                 Height: 7'03<br><br>
                 Weight: 176.4lbs(80.0kg)
               </div>
-              <div id="horsea-att">
+              <div id="horsea-specs">
                 Species: Dragon Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 17.6lbs(8.0kg)
               </div>
-              <div id="seadra-att">
+              <div id="seadra-specs">
                 Species: Dragon Pokemon<br><br>
                 Height: 3'11<br><br>
                 Weight: 55.1lbs(25.0kg)
               </div>
-              <div id="goldeen-att">
+              <div id="goldeen-specs">
                 Species: Goldish Pokemon<br><br>
                 Height: 2'00<br><br>
                 Weight: 33.1lbs(15.0kg)
               </div>
-              <div id="seaking-att">
+              <div id="seaking-specs">
                 Species: Goldfish Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 86.0lbs(39.0kg)
               </div>
-              <div id="staryu-att">
+              <div id="staryu-specs">
                 Species: Star Shape Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 76.1lbs(34.5kg)
               </div>
-              <div id="starmie-att">
+              <div id="starmie-specs">
                 Species: Mysterious Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 176.4lbs(80.0kg)
               </div>
-              <div id="mr-mime-att">
+              <div id="mr-mime-specs">
                 Species: Barrier Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 120.2lbs(54.5kg)
               </div>
-              <div id="scyther-att">
+              <div id="scyther-specs">
                 Species: Mantis Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 123.5lbs(56.0kg)
               </div>
-              <div id="jynx-att">
+              <div id="jynx-specs">
                 Species: Sea Lion Pokemon<br><br>
                 Height: 4'07<br><br>
                 Weight: 89.5lbs(40.6kg)
               </div>
-              <div id="electabuzz-att">
+              <div id="electabuzz-specs">
                 Species: Electric Pokemon<br><br>
                 Height: 3'07<br><br>
                 Weight: 66.1lbs(30.0kg)
               </div>
-              <div id="magmar-att">
+              <div id="magmar-specs">
                 Species: Spitfire Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 98.1lbs(44.5kg)
               </div>
-              <div id="pinsir-att">
+              <div id="pinsir-specs">
                 Species: Stag Beetle Pokemon<br><br>
                 Height: 4'11<br><br>
                 Weight: 121.3lbs(55.0kg)
               </div>
-              <div id="tauros-att">
+              <div id="tauros-specs">
                 Species: Wild Bull Pokemon<br><br>
                 Height: 4'07<br><br>
                 Weight: 194.9lbs(88.4kg)
               </div>
-              <div id="magikarp-att">
+              <div id="magikarp-specs">
                 Species: Fish Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 22.0lbs(10.0kg)
               </div>
-              <div id="gyarados-att">
+              <div id="gyarados-specs">
                 Species: Atrocious Pokemon<br><br>
                 Height: 21'04<br><br>
                 Weight: 518.1lbs(235.0kg)
               </div>
-              <div id="lapras-att">
+              <div id="lapras-specs">
                 Species: Transport Pokemon<br><br>
                 Height: 8'02<br><br>
                 Weight: 485.0lbs(220.0kg)
               </div>
-              <div id="ditto-att">
+              <div id="ditto-specs">
                 Species: Sea Lion Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 8.8lbs(4.0kg)
               </div>
-              <div id="eevee-att">
+              <div id="eevee-specs">
                 Species: Evolution Pokemon<br><br>
                 Height: 1'00<br><br>
                 Weight: 14.3lbs(6.5kg)
               </div>
-              <div id="vaporeon-att">
+              <div id="vaporeon-specs">
                 Species: Bubble Jet Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 63.9lbs(29.0kg)
               </div>
-              <div id="jolteon-att">
+              <div id="jolteon-specs">
                 Species: Lightning Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 54.0lbs(24.5kg)
               </div>
-              <div id="flareon-att">
+              <div id="flareon-specs">
                 Species: Flame Pokemon<br><br>
                 Height: 2'11<br><br>
                 Weight: 55.1lbs(25.0kg)
               </div>
-              <div id="porygon-att">
+              <div id="porygon-specs">
                 Species: Virtual Pokemon<br><br>
                 Height: 2'07<br><br>
                 Weight: 80.5lbs(36.5kg)
               </div>
-              <div id="omanyte-att">
+              <div id="omanyte-specs">
                 Species: Spiral Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 16.5lbs(7.5kg)
               </div>
-              <div id="omastar-att">
+              <div id="omastar-specs">
                 Species: Spiral Pokemon<br><br>
                 Height: 3'03<br><br>
                 Weight: 77.2lbs(35.0kg)
               </div>
-              <div id="kabuto-att">
+              <div id="kabuto-specs">
                 Species: Shellfish Pokemon<br><br>
                 Height: 1'08<br><br>
                 Weight: 25.4lbs(11.5kg)
               </div>
-              <div id="kabutops-att">
+              <div id="kabutops-specs">
                 Species: Shellfish Pokemon<br><br>
                 Height: 4'03<br><br>
                 Weight: 89.3lbs(40.5kg)
               </div>
-              <div id="aerodactyl-att">
+              <div id="aerodactyl-specs">
                 Species: Fossil Pokemon<br><br>
                 Height: 5'11<br><br>
                 Weight: 130.1lbs(59.0kg)
               </div>
-              <div id="snorlax-att">
+              <div id="snorlax-specs">
                 Species: Sleeping Pokemon<br><br>
                 Height: 6'11<br><br>
                 Weight: 1014.1lbs(460.5kg)
               </div>
-              <div id="articuno-att">
+              <div id="articuno-specs">
                 Species: Freeze Pokemon<br><br>
                 Height: 5'07<br><br>
                 Weight: 121.1lbs(55.4kg)
               </div>
-              <div id="zapdos-att">
+              <div id="zapdos-specs">
                 Species: Electric Pokemon<br><br>
                 Height: 5'03<br><br>
                 Weight: 116.0lbs(52.6kg)
               </div>
-              <div id="moltres-att">
+              <div id="moltres-specs">
                 Species: Flame Pokemon<br><br>
                 Height: 6'07<br><br>
                 Weight: 132.3lbs(60.0kg)
               </div>
-              <div id="dratini-att">
+              <div id="dratini-specs">
                 Species: Dragon Pokemon<br><br>
                 Height: 5'11<br><br>
                 Weight: 7.3lbs(3.3kg)
               </div>
-              <div id="dragonair-att">
+              <div id="dragonair-specs">
                 Species: Dragon Pokemon<br><br>
                 Height: 13'01<br><br>
                 Weight: 36.4lbs(16.5kg)
               </div>
-              <div id="dragonite-att">
+              <div id="dragonite-specs">
                 Species: Dragon Pokemon<br><br>
                 Height: 7'03<br><br>
                 Weight: 463.0lbs(210.0kg)
               </div>
-              <div id="mewtwo-att">
+              <div id="mewtwo-specs">
                 Species: Genetic Pokemon<br><br>
                 Height: 6'07<br><br>
                 Weight: 269.0lbs(122.0kg)
               </div>
-              <div id="mew-att">
+              <div id="mew-specs">
                 Species: New Species Pokemon<br><br>
                 Height: 1'04<br><br>
                 Weight: 8.8lbs(4.0kg)
               </div>
             </div>
             <!--pokemon description-->
-            <div id="bio-desc" class="hide">
+            <div id="desc" class="hide">
               <div id="bulbasaur-desc">A strange seed was planted on<br><br> its back at birth. The plant<br><br> sprouts
                  and grows with this<br><br> Pokémon.
                 </div>
