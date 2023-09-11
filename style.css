@@ -191,7 +191,7 @@ body {
     z-index: 2;
 }
 
-.pokemon img {
+.pokemon-image img {
     position: absolute; left: 14px; bottom: -5px;
 }
 
@@ -240,21 +240,18 @@ body {
 }
 
 #butterfree {
-    position: absolute; left: 14px; bottom: -5px;;
+    position: absolute; left: 14px; bottom: -5px;
 }
 
 #weedle {
-    display: none;
-    position: absolute; left: 14px; bottom: -1px;
+    position: absolute; left: 14px; bottom: -2px;
 }
 
 #kakuna {
-    display: none;
     position: absolute; left: 14px; bottom: -2px;
 }
 
 #beedrill {
-    display: none;
     position: absolute; left: 14px; bottom: -3px;
 }
 
@@ -303,7 +300,6 @@ body {
 }
 
 #sandshrew {
-    display: none;
     position: absolute; left: 14px; bottom: 1px;
 }
 
@@ -316,17 +312,14 @@ body {
 }
 
 #nidorina {
-    display: none;
     position: absolute; left: 14px; bottom: 1px;
 }
 
 #nidoqueen {
-    display: none;
     position: absolute; left: 14px; bottom: -1px;
 }
 
 #nidoran-m {
-    display: none;
     position: absolute; left: 14px; bottom: -2px;
 }
 
@@ -372,7 +365,7 @@ body {
 }
 
 #oddish {
-    position: absolute; left: 14px; bottom: -5px;
+    position: absolute; left: 14px; bottom: -4px;
 }
 
 #gloom {
@@ -408,7 +401,6 @@ body {
 }
 
 #meowth {
-    display: none;
     position: absolute; left: 14px; bottom: -2px;
 }
 
@@ -604,16 +596,16 @@ body {
     position: absolute; left: 14px; bottom: -5px;
 }
 
+#electrode {
+    position: absolute; left: -23px; bottom: -43px;
+}
+
 #exeggcute {
     position: absolute; left: 14px; bottom: -5px;
 }
 
 #exeggutor {
-    position: absolute; left: 14px; bottom: -5px;
-}
-
-#electrode {
-    position: absolute; left: -23px; bottom: -43px;
+    position: absolute; left: 14px; bottom: -7px;
 }
 
 #cubone {
@@ -709,7 +701,7 @@ body {
 }
 
 #pinsir {
-    position: absolute; left: 14px; bottom: -5px;
+    position: absolute; left: 14px; bottom: -6px;
 }
 
 #tauros {
@@ -777,7 +769,7 @@ body {
 }
 
 #articuno {
-    position: absolute; left: 14px; bottom: -5px;
+    position: absolute; left: 16px; bottom: -4px;
 }
 
 #zapdos {
@@ -793,7 +785,7 @@ body {
 }
 
 #dragonair {
-    position: absolute; left: 14px; bottom: -5px;
+    position: absolute; left: 14px; bottom: -6px;
 }
 
 #dragonite {
@@ -1138,8 +1130,7 @@ body {
 /* selectors for name-screen content only */
 
 /* Name of pokemon */
-#name-screen {
-    display: none;
+#name {
     color: white;
     font-size: 30px;
     font-family: monospace;
@@ -1147,8 +1138,7 @@ body {
 }
 
 /* Attribute/Species */
-#att-screen {
-    display: none;
+#specs {
     color: white;
     white-space: nowrap;
     font-size: 15px;
@@ -1158,8 +1148,7 @@ body {
 }
 
 /* pokemon pokedex entries/bio */
-#bio-desc {
-    display: none;
+#desc {
     color: white;
     white-space: nowrap;
     font-size: 14px;
@@ -1976,611 +1965,611 @@ body {
 }
 
 /* list of pokemon attributes */
-#arcanine-att {
+#arcanine-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#bulbasaur-att {
+#bulbasaur-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#ivysaur-att {
+#ivysaur-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#venusaur-att {
+#venusaur-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#charmander-att {
+#charmander-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#charmeleon-att {
+#charmeleon-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#charizard-att {
+#charizard-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#squirtle-att {
+#squirtle-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#wartortle-att {
+#wartortle-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#blastoise-att {
+#blastoise-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#caterpie-att {
+#caterpie-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#metapod-att {
+#metapod-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#butterfree-att {
+#butterfree-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#weedle-att {
+#weedle-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#kakuna-att {
+#kakuna-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#beedrill-att {
+#beedrill-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#pidgey-att {
+#pidgey-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#pidgeotto-att {
+#pidgeotto-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#pidgeot-att {
+#pidgeot-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#rattata-att {
+#rattata-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#raticate-att {
+#raticate-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#spearow-att {
+#spearow-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#fearow-att {
+#fearow-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#ekans-att {
+#ekans-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#arbok-att {
+#arbok-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#pikachu-att {
+#pikachu-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#raichu-att {
+#raichu-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#sandshrew-att {
+#sandshrew-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#sandslash-att {
+#sandslash-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#nidoran-f-att {
+#nidoran-f-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#nidorina-att {
+#nidorina-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#nidoqueen-att {
+#nidoqueen-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#nidoran-m-att {
+#nidoran-m-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#nidorino-att {
+#nidorino-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#nidoking-att {
+#nidoking-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#clefairy-att {
+#clefairy-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#clefable-att {
+#clefable-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#vulpix-att {
+#vulpix-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#ninetales-att {
+#ninetales-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#jigglypuff-att {
+#jigglypuff-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#wigglytuff-att {
+#wigglytuff-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#zubat-att {
+#zubat-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#golbat-att {
+#golbat-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#oddish-att {
+#oddish-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#gloom-att {
+#gloom-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#vileplume-att {
+#vileplume-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#paras-att {
+#paras-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#parasect-att {
+#parasect-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#venonat-att {
+#venonat-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#venomoth-att {
+#venomoth-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#diglett-att {
+#diglett-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#dugtrio-att {
+#dugtrio-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#meowth-att {
+#meowth-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#persian-att {
+#persian-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#psyduck-att {
+#psyduck-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#golduck-att {
+#golduck-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#mankey-att {
+#mankey-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#primeape-att {
+#primeape-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#growlithe-att {
+#growlithe-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#arcanine-att {
+#arcanine-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#poliwag-att {
+#poliwag-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#poliwhirl-att {
+#poliwhirl-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#poliwrath-att {
+#poliwrath-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#abra-att {
+#abra-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#kadabra-att {
+#kadabra-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#alakazam-att {
+#alakazam-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#machop-att {
+#machop-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#machoke-att {
+#machoke-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#machamp-att {
+#machamp-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#bellsprout-att {
+#bellsprout-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#weepinbell-att {
+#weepinbell-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#victreebel-att {
+#victreebel-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#tentacool-att {
+#tentacool-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#tentacruel-att {
+#tentacruel-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#geodude-att {
+#geodude-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#graveler-att {
+#graveler-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#golem-att {
+#golem-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#ponyta-att {
+#ponyta-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#rapidash-att {
+#rapidash-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#slowpoke-att {
+#slowpoke-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#slowbro-att {
+#slowbro-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#magnemite-att {
+#magnemite-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#magneton-att {
+#magneton-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#farfetch-d-att {
+#farfetch-d-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#doduo-att {
+#doduo-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#dodrio-att {
+#dodrio-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#seel-att {
+#seel-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#dewgong-att {
+#dewgong-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#grimer-att {
+#grimer-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#muk-att {
+#muk-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#shellder-att {
+#shellder-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#cloyster-att {
+#cloyster-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#gastly-att {
+#gastly-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#haunter-att {
+#haunter-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#gengar-att {
+#gengar-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#onix-att {
+#onix-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#drowzee-att {
+#drowzee-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#hypno-att {
+#hypno-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#krabby-att {
+#krabby-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#kingler-att {
+#kingler-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#voltorb-att {
+#voltorb-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#electrode-att {
+#electrode-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#exeggcute-att {
+#exeggcute-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#exeggutor-att {
+#exeggutor-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#cubone-att {
+#cubone-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#marowak-att {
+#marowak-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#hitmonlee-att {
+#hitmonlee-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#hitmonchan-att {
+#hitmonchan-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#lickitung-att {
+#lickitung-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#koffing-att {
+#koffing-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#weezing-att {
+#weezing-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#rhyhorn-att {
+#rhyhorn-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#rhydon-att {
+#rhydon-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#chansey-att {
+#chansey-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#tangela-att {
+#tangela-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#kangaskhan-att {
+#kangaskhan-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#horsea-att {
+#horsea-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#seadra-att {
+#seadra-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#goldeen-att {
+#goldeen-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#seaking-att {
+#seaking-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#staryu-att {
+#staryu-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#starmie-att {
+#starmie-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#mr-mime-att {
+#mr-mime-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#scyther-att {
+#scyther-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#jynx-att {
+#jynx-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#electabuzz-att {
+#electabuzz-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#magmar-att {
+#magmar-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#pinsir-att {
+#pinsir-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#tauros-att {
+#tauros-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#magikarp-att {
+#magikarp-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#gyarados-att {
+#gyarados-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#lapras-att {
+#lapras-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#ditto-att {
+#ditto-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#eevee-att {
+#eevee-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#vaporeon-att {
+#vaporeon-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#jolteon-att {
+#jolteon-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#flareon-att {
+#flareon-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#porygon-att {
+#porygon-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#omanyte-att {
+#omanyte-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#omastar-att {
+#omastar-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#kabuto-att {
+#kabuto-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#kabutops-att {
+#kabutops-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#aerodactyl-att {
+#aerodactyl-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#snorlax-att {
+#snorlax-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#articuno-att {
+#articuno-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#zapdos-att {
+#zapdos-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#moltres-att {
+#moltres-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#dratini-att {
+#dratini-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#dragonair-att {
+#dragonair-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#dragonite-att {
+#dragonite-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#mewtwo-att {
+#mewtwo-specs {
     position: absolute; left: 0; top: 0px;
 }
 
-#mew-att {
+#mew-specs {
     position: absolute; left: 0; top: 0px;
 }
 
