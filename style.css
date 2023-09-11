@@ -1333,7 +1333,7 @@ body {
     z-index: 3;
 }
 
-#primary-type {
+.primary-type {
     color: black;
     font-family: monospace;
     font-size: 20px;
@@ -1351,7 +1351,7 @@ body {
     z-index: 3;
 }
 
-#secondary-type {
+.secondary-type {
     color: black;
     font-family: monospace;
     font-size: 20px;
@@ -3179,156 +3179,156 @@ body {
 }
 
 /* list of pokemon types to be added to 'primary-box' and 'secondary-box' */
-#normal-one {
+.normal-one {
     color: white;
     position: absolute; left: 15px; top: 12px;
 }
 
-#normal-two {
+.normal-two {
     color: white;
     position: absolute; left: 15px; top: 12px;
 }
 
-#fire-one {
+.fire-one {
     color: white;
     position: absolute; left: 25px; top: 12px;
 }
 
-#fire-two {
+.fire-two {
     color: white;
     position: absolute; left: 25px; top: 12px;
 }
 
-#water-one {
+.water-one {
     color: white;
     position: absolute; left: 20px; top: 12px;
 }
 
-#water-two {
+.water-two {
     color: white;
     position: absolute; left: 20px; top: 12px;
 }
 
-#electric-one {
+.electric-one {
     color: white;
     font-size: 18px;
     position: absolute; left: 6px; top: 14px;
 }
 
-#electric-two {
+.electric-two {
     color: white;
     font-size: 18px;
     position: absolute; left: 6px; top: 14px;
 }
 
-#grass-one {
+.grass-one {
     color: white;
     position: absolute; left: 19px; top: 12px;
 }
 
-#grass-two {
+.grass-two {
     color: white;
     position: absolute; left: 19px; top: 12px;
 }
 
-#ice-one {
+.ice-one {
     color: white;
     position: absolute; left: 30px; top: 12px;
 }
 
-#ice-two {
+.ice-two {
     color: white;
     position: absolute; left: 30px; top: 12px;
 }
 
-#fighting-one {
+.fighting-one {
     color: white;
     font-size: 18px;
     position: absolute; left: 6.5px; top: 14px;
 }
 
-#fighting-two {
+.fighting-two {
     color: white;
     font-size: 18px;
     position: absolute; left: 6.5px; top: 14px;
 }
 
-#poison-one {
+.poison-one {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#poison-two {
+.poison-two {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#ground-one {
+.ground-one {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#ground-two {
+.ground-two {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#flying-one {
+.flying-one {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#flying-two {
+.flying-two {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#psychic-one {
+.psychic-one {
     color: white;
     position: absolute; left: 8px; top: 12px;
 }
 
-#psychic-two {
+.psychic-two {
     color: white;
     position: absolute; left: 8px; top: 12px;
 }
 
-#bug-one {
+.bug-one {
     color: white;
     position: absolute; left: 30px; top: 12px;
 }
 
-#bug-two {
+.bug-two {
     color: white;
     position: absolute; left: 30px; top: 12px;
 }
 
-#rock-one {
+.rock-one {
     color: white;
     position: absolute; left: 26px; top: 12px;
 }
 
-#rock-two {
+.rock-two {
     color: white;
     position: absolute; left: 26px; top: 12px;
 }
 
-#ghost-one {
+.ghost-one {
     color: white;
     position: absolute; left: 20px; top: 12px;
 }
 
-#ghost-two {
+.ghost-two {
     color: white;
     position: absolute; left: 20px; top: 12px;
 }
 
-#dragon-one {
+.dragon-one {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
 
-#dragon-two {
+.dragon-two {
     color: white;
     position: absolute; left: 14px; top: 12px;
 }
