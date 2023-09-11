@@ -18,12 +18,13 @@ const numberButton = documnet.getElementById('dex-buttons');
 const navigateLeft = document.getElementById('nav-left');
 const navigateRight = document.getElementById('nav-right');
 
-var name = document.getElementById('name')
-var height = document.getElementById('height')
-var weight = document.getElementById('weight')
-var description = document.getElementById('description')
-var primaryType = document.getElementById('primary-type')
-var secondaryType = document.getElementById('secondary-type')
+var pokemonImage = getElementById('pokemon')
+var pokemonName = getElementById('name')
+var pokemonSpecs = getElementById('specs')
+var pokemonDescription = getElementById('desc')
+var PokemonTypeOne = getElementById('primary-type')
+var pokemonTypeTwo = getElementById('secondary-type')
+var dexNumber = getElementById('dex-number')
 
 // functions for button elements
 
