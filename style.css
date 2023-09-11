@@ -171,7 +171,7 @@ body {
 }
 
 .screen {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: 1px solid #000;
     width: 280px;
     height: 211px;
@@ -180,33 +180,653 @@ body {
     z-index: 1;
 }
 
-.outer-border {
-    border: 7px solid #dbdbdb;
-    border-radius: 5%;
-    height: 210px;
-    width: 277px;
-    position: absolute; left: -5.5px; bottom: -10px;
-    z-index: 1;
-}
+
 
 .screen-border {
     border: 3px solid #000;
     border-radius: 5%;
     height: 208px;
-    width: 275.5px;
-    position: relative; left: -1px; bottom: -1px;
+    width: 276px;
+    position: relative; left: -1px; bottom: 1px;
     z-index: 2;
 }
 
-.pokemon {
-    height: 242px;
-    width: 241px;
-    border-radius: 10px;
-    clip-path: inset(17px -10px 14px 0px);
-    border-right: 18px solid white;
-    border-left: 18px solid white;
-    position: relative; left: 1px; bottom: 228.5px;
-    z-index: -1;
+.pokemon img {
+    position: absolute; left: 14px; bottom: -5px;
+}
+
+#bulbasaur {
+    display: none;
+}
+
+#ivysaur {
+    display: none;
+}
+
+#venusaur {
+    display: none;
+}
+
+#charmander {
+    display: none;
+}
+
+#charmeleon {
+    display: none;
+}
+
+#charizard {
+    display: none;
+}
+
+#squirtle {
+    display: none;
+}
+
+#wartortle {
+    display: none;
+}
+
+#blastoise {
+    display: none;
+}
+
+#caterpie {
+    display: none;
+}
+
+#metapod {
+    display: none;
+}
+
+#butterfree {
+    display: none;
+}
+
+#weedle {
+    display: none;
+    position: absolute; left: 14px; bottom: -1px;
+}
+
+#kakuna {
+    display: none;
+    position: absolute; left: 14px; bottom: -2px;
+}
+
+#beedrill {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#pidgey {
+    display: none;
+}
+
+#pidgeotto {
+    display: none;
+}
+
+#pidgeot {
+    display: none;
+}
+
+#rattata {
+    display: none;
+}
+
+#raticate {
+    display: none;
+}
+
+#spearow {
+    display: none;
+}
+
+#fearow {
+    display: none;
+}
+
+#ekans {
+    display: none;
+}
+
+#arbok {
+    display: none;
+}
+
+#pikachu {
+    display: none;
+}
+
+#raichu {
+    display: none;
+}
+
+#sandshrew {
+    display: none;
+    position: absolute; left: 14px; bottom: 1px;
+}
+
+#sandslash {
+    display: none;
+}
+
+#nidoran-f {
+    display: none;
+}
+
+#nidorina {
+    display: none;
+    position: absolute; left: 14px; bottom: 1px;
+}
+
+#nidoqueen {
+    display: none;
+    position: absolute; left: 14px; bottom: -1px;
+}
+
+#nidoran-m {
+    display: none;
+    position: absolute; left: 14px; bottom: -2px;
+}
+
+#nidorino {
+    display: none;
+    
+}
+
+#nidoking {
+    display: none;
+}
+
+#clefairy {
+    display: none;
+}
+
+#clefable {
+    display: none;
+}
+
+#vulpix {
+    display: none;
+}
+
+#ninetales {
+    display: none;
+}
+
+#jigglypuff {
+    display: none;
+}
+
+#wigglytuff {
+    display: none;
+}
+
+#zubat {
+    display: none;
+}
+
+#golbat {
+    display: none;
+}
+
+#oddish {
+    display: none;
+}
+
+#gloom {
+    display: none;
+}
+
+#vileplume {
+    display: none;
+}
+
+#paras {
+    display: none;
+}
+
+#parasect {
+    display: none;
+}
+
+#venonat {
+    display: none;
+    position: absolute; left: 14px; bottom: -4px;
+}
+
+#venomoth {
+    display: none;
+}
+
+#diglett {
+    display: none;
+}
+
+#dugtrio {
+    display: none;
+}
+
+#meowth {
+    display: none;
+    position: absolute; left: 14px; bottom: -2px;
+}
+
+#persian {
+    display: none;
+}
+
+#psyduck {
+    display: none;
+}
+
+#golduck {
+    display: none;
+}
+
+#mankey {
+    display: none;
+}
+
+#primeape {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#growlithe {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#arcanine {
+    display: none;
+    position: absolute; left: 20px; bottom: -3px;
+}
+
+#poliwag {
+    display: none;
+}
+
+#poliwhirl {
+    display: none;
+}
+
+#poliwrath {
+    display: none;
+}
+
+#abra {
+    display: none;
+}
+
+#kadabra {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#alakazam {
+    display: none;
+}
+
+#machop {
+    display: none;
+}
+
+#machoke {
+    display: none;
+}
+
+#machamp {
+    display: none;
+    position: absolute; left: 14px; bottom: -9px;
+}
+
+#bellsprout {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#weepinbell {
+    display: none;
+}
+
+#victreebel {
+    display: none;
+}
+
+#tentacool {
+    display: none;
+}
+
+#tentacruel {
+    display: none;
+}
+
+#geodude {
+    display: none;
+}
+
+#graveler {
+    display: none;
+}
+
+#golem {
+    display: none;
+}
+
+#ponyta {
+    display: none;
+}
+
+#rapidash {
+    display: none;
+    position: absolute; left: 14px; bottom: 0px;
+}
+
+#slowpoke {
+    display: none;
+}
+
+#slowbro {
+    display: none;
+    position: absolute; left: 14px; bottom: -6px;
+}
+
+#magnemite {
+    display: none;
+}
+
+#magneton {
+    display: none;
+}
+
+#farfetch-d {
+    display: none;
+}
+
+#doduo {
+    display: none;
+    position: absolute; left: 0px; bottom: -3px;
+}
+
+#dodrio {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#seel {
+    display: none;
+}
+
+#dewgong {
+    display: none;
+}
+
+#grimer {
+    display: none;
+}
+
+#muk {
+    display: none;
+}
+
+#shellder {
+    display: none;
+}
+
+#cloyster {
+    display: none;
+}
+
+#gastly {
+    display: none;
+}
+
+#haunter {
+    display: none;
+}
+
+#gengar {
+    display: none;
+}
+
+#onix {
+    display: none;
+}
+
+#drowzee {
+    display: none;
+    position: absolute; left: 14px; bottom: -6px;
+}
+
+#hypno {
+    display: none;
+}
+
+#krabby {
+    display: none;
+}
+
+#kingler {
+    display: none;
+}
+
+#voltorb {
+    display: none;
+}
+
+#exeggcute {
+    display: none;
+}
+
+#exeggutor {
+    display: none;
+}
+
+#electrode {
+    display: none;
+    position: absolute; left: -23px; bottom: -43px;
+}
+
+#cubone {
+    display: none;
+}
+
+#marowak {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#hitmonlee {
+    display: none;
+}
+
+#hitmonchan {
+    display: none;
+    position: absolute; left: 14px; bottom: -2px;
+}
+
+#lickitung {
+    display: none;
+}
+
+#koffing {
+    display: none;
+}
+
+#weezing {
+    display: none;
+}
+
+#rhyhorn {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#rhydon {
+    display: none;
+}
+
+#chansey {
+    display: none;
+}
+
+#tangela {
+    display: none;
+}
+
+#kangaskhan {
+    display: none;
+    position: absolute; left: 14px; bottom: -3px;
+}
+
+#horsea {
+    display: none;
+}
+
+#seadra {
+    display: none;
+}
+
+#goldeen {
+    display: none;
+}
+
+#seaking {
+    display: none;
+}
+
+#staryu {
+    display: none;
+}
+
+#starmie {
+    display: none;
+}
+
+#mr-mime {
+    display: none;
+}
+
+#scyther {
+    display: none;
+}
+
+#jynx {
+    display: none;
+}
+
+#electabuzz {
+    display: none;
+}
+
+#magmar {
+    display: none;
+}
+
+#pinsir {
+    display: none;
+}
+
+#tauros {
+    display: none;
+}
+
+#magikarp {
+    display: none;
+}
+
+#gyarados {
+    display: none;
+    position: absolute; left: 14px; bottom: -7px;
+}
+
+#lapras {
+    display: none;
+}
+
+#ditto {
+    display: none;
+}
+
+#eevee {
+    display: none;
+    position: absolute; left: 14px; bottom: -4px;
+}
+
+#vaporeon {
+    display: none;
+}
+
+#jolteon {
+    display: none;
+}
+
+#flareon {
+    display: none;
+}
+
+#porygon {
+    display: none;
+}
+
+#omanyte {
+    display: none;
+}
+
+#omastar {
+    display: none;
+}
+
+#kabuto {
+    display: none;
+}
+
+#kabutops {
+    display: none;
+}
+
+#aerodactyl {
+    display: none;
+}
+
+#snorlax {
+    display: none;
+}
+
+#articuno {
+    display: none;
+}
+
+#zapdos {
+    display: none;
+}
+
+#moltres {
+    display: none;
+}
+
+#dratini {
+    display: none;
+    position: absolute; left: 4px; bottom: -4px;
+}
+
+#dragonair {
+    display: none;
+}
+
+#dragonite {
+    display: none;
+    position: absolute; left: 14px; bottom: -1px;
+}
+
+#mewtwo {
+    display: none;
+}
+
+#mew {
+    display: none;
 }
 
 #small-led-one {
@@ -412,6 +1032,10 @@ body {
     opacity: 0.5;
     font-size: 30px;
     position: absolute; left: 35px; top: 13px;
+}
+
+#dex-number strong {
+    position: absolute; left: 0px; top: 0px;
 }
 
 /* design for seperation between pokedex content(s) */
@@ -767,608 +1391,608 @@ body {
 }
 
 /* list of pokemon(names) */
-#bulbasaur {
+#bulbasaur-name {
     position: absolute; left: 0px; top: 0px;
 }
 
-#ivysaur {
+#ivysaur-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#venusaur {
+#venusaur-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#charmander {
+#charmander-name {
     position: absolute; left: -11px; top: 0px;
 }
 
-#charmeleon {
+#charmeleon-name {
     position: absolute; left: -11px; top: 0px;
 }
 
-#charizard {
+#charizard-name {
     position: absolute; left: -5px; top: 0px;
 }
 
-#squirtle {
+#squirtle-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#wartortle {
+#wartortle-name {
     position: absolute; left: -4px; top: 0px;
 }
 
-#blastoise {
+#blastoise-name {
     position: absolute; left: -4px; top: 0px;
 }
 
-#caterpie {
+#caterpie-name {
     position: absolute; left: 4px; top: 0px;
 }
 
-#metapod {
+#metapod-name {
     position: absolute; left: 12px; top: 0px;
 }
 
-#butterfree {
+#butterfree-name {
     position: absolute; left: -12px; top: 0px;
 }
 
-#weedle {
+#weedle-name {
     position: absolute; left: 21px; top: 0px;
 }
 
-#kakuna {
+#kakuna-name {
     position: absolute; left: 21px; top: 0px;
 }
 
-#beedrill {
+#beedrill-name {
     position: absolute; left: 6px; top: 0px;
 }
 
-#pidgey {
+#pidgey-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#pidgeotto {
+#pidgeotto-name {
     position: absolute; left: -1px; top: 0px;
 }
 
-#pidgeot {
+#pidgeot-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#rattata {
+#rattata-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#raticate {
+#raticate-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#spearow {
+#spearow-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#fearow {
+#fearow-name {
     position: absolute; left: 22px; top: 0px;
 }
 
-#ekans {
+#ekans-name {
     position: absolute; left: 33px; top: 0px;
 }
 
-#arbok {
+#arbok-name {
     position: absolute; left: 32px; top: 0px;
 }
 
-#pikachu {
+#pikachu-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#raichu {
+#raichu-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#sandshrew {
+#sandshrew-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#sandslash {
+#sandslash-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#nidoran-f {
+#nidoran-f-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#nidorina {
+#nidorina-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#nidoqueen {
+#nidoqueen-name {
     position: absolute; left: -3px; top: 0px;
 }
 
-#nidoran-m {
+#nidoran-m-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#nidorino {
+#nidorino-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#nidoking {
+#nidoking-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#clefairy {
+#clefairy-name {
     position: absolute; left: 4px; top: 0px;
 }
 
-#clefable {
+#clefable-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#vulpix {
+#vulpix-name {
     position: absolute; left: 22px; top: 0px;
 }
 
-#ninetales {
+#ninetales-name {
     position: absolute; left: 0px; top: 0px;
 }
 
-#jigglypuff {
+#jigglypuff-name {
     position: absolute; left: -12px; top: 0px;
 }
 
-#wigglytuff {
+#wigglytuff-name {
     position: absolute; left: -11px; top: 0px;
 }
 
-#zubat {
+#zubat-name {
     position: absolute; left: 33px; top: 0px;
 }
 
-#golbat {
+#golbat-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#oddish {
+#oddish-name {
     position: absolute; left: 22px; top: 0px;
 }
 
-#gloom {
+#gloom-name {
     position: absolute; left: 33px; top: 0px;
 }
 
-#vileplume {
+#vileplume-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#paras {
+#paras-name {
     position: absolute; left: 33px; top: 0px;
 }
 
-#parasect {
+#parasect-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#venonat {
+#venonat-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#venomoth {
+#venomoth-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#diglett {
+#diglett-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#dugtrio {
+#dugtrio-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#meowth {
+#meowth-name {
     position: absolute; left: 24px; top: 0px;
 }
 
-#persian {
+#persian-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#psyduck {
+#psyduck-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#golduck {
+#golduck-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#mankey {
+#mankey-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#primeape {
+#primeape-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#growlithe {
+#growlithe-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#arcanine {
+#arcanine-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#poliwag {
+#poliwag-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#poliwhirl {
+#poliwhirl-name {
     position: absolute; left: -1px; top: 0px;
 }
 
-#poliwrath {
+#poliwrath-name {
     position: absolute; left: 0px; top: 0px;
 }
 
-#abra {
+#abra-name {
     position: absolute; left: 41px; top: 0px;
 }
 
-#kadabra {
+#kadabra-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#alakazam {
+#alakazam-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#machop {
+#machop-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#machoke {
+#machoke-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#machamp {
+#machamp-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#bellsprout {
+#bellsprout-name {
     position: absolute; left: -11px; top: 0px;
 }
 
-#weepinbell {
+#weepinbell-name {
     position: absolute; left: -10px; top: 0px;
 }
 
-#victreebell {
+#victreebel-name {
     position: absolute; left: -20px; top: 0px;
 }
 
-#tentacool {
+#tentacool-name {
     position: absolute; left: -1px; top: 0px;
 }
 
-#tentacruel {
+#tentacruel-name {
     position: absolute; left: -10px; top: 0px;
 }
 
-#geodude {
+#geodude-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#graveler {
+#graveler-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#golem {
+#golem-name {
     position: absolute; left: 32px; top: 0px;
 }
 
-#ponyta {
+#ponyta-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#rapidash {
+#rapidash-name {
     position: absolute; left: 6px; top: 0px;
 }
 
-#slowpoke {
+#slowpoke-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#slowbro {
+#slowbro-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#magnemite {
+#magnemite-name {
     position: absolute; left: -3px; top: 0px;
 }
 
-#magneton {
+#magneton-name {
     position: absolute; left: 7px; top: 0px;
 }
 
-#farfetch-d {
+#farfetch-d-name {
     position: absolute; left: -12px; top: 0px;
 }
 
-#doduo {
+#doduo-name {
     position: absolute; left: 32px; top: 0px;
 }
 
-#dodrio {
+#dodrio-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#seel {
+#seel-name {
     position: absolute; left: 41px; top: 0px;
 }
 
-#dewgong {
+#dewgong-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#grimer {
+#grimer-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#muk {
+#muk-name {
     position: absolute; left: 51px; top: 0px;
 }
 
-#shellder {
+#shellder-name {
     position: absolute; left: 6px; top: 0px;
 }
 
-#cloyster {
+#cloyster-name {
     position: absolute; left: 6px; top: 0px;
 }
 
-#gastly {
+#gastly-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#haunter {
+#haunter-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#gengar {
+#gengar-name {
     position: absolute; left: 24px; top: 0px;
 }
 
-#onix {
+#onix-name {
     position: absolute; left: 41px; top: 0px;
 }
 
-#drowzee {
+#drowzee-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#hypno {
+#hypno-name {
     position: absolute; left: 34px; top: 0px;
 }
 
-#krabby {
+#krabby-name {
     position: absolute; left: 25px; top: 0px;
 }
 
-#kingler {
+#kingler-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#voltorb {
+#voltorb-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#electrode {
+#electrode-name {
     position: absolute; left: 0px; top: 0px;
 }
 
-#exeggcute {
+#exeggcute-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#exeggutor {
+#exeggutor-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#cubone {
+#cubone-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#marowak {
+#marowak-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#hitmonlee {
+#hitmonlee-name {
     position: absolute; left: -2px; top: 0px;
 }
 
-#hitmonchan {
+#hitmonchan-name {
     position: absolute; left: -11px; top: 0px;
 }
 
-#lickitung {
+#lickitung-name {
     position: absolute; left: -4px; top: 0px;
 }
 
-#koffing {
+#koffing-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#weezing {
+#weezing-name {
     position: absolute; left: 13px; top: 0px;
 }
 
-#rhyhorn {
+#rhyhorn-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#rhydon {
+#rhydon-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#chansey {
+#chansey-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#tangela {
+#tangela-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#kanghaskhan {
+#kangaskhan-name {
     position: absolute; left: -20px; top: 0px;
 }
 
-#horsea {
+#horsea-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#seadra {
+#seadra-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#goldeen {
+#goldeen-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#seaking {
+#seaking-name {
     position: absolute; left: 14px; top: 0px;
 }
 
-#staryu {
+#staryu-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#starmie {
+#starmie-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#mr-mime {
+#mr-mime-name {
     white-space: nowrap;
     position: absolute; left: 5px; top: 0px;
 }
 
-#scyther {
+#scyther-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#jynx {
+#jynx-name {
     position: absolute; left: 41px; top: 0px;
 }
 
-#electabuzz {
+#electabuzz-name {
     position: absolute; left: -12px; top: 0px;
 }
 
-#magmar {
+#magmar-name {
     position: absolute; left: 24px; top: 0px;
 }
 
-#pinsir {
+#pinsir-name {
     position: absolute; left: 24px; top: 0px;
 }
 
-#tauros {
+#tauros-name {
     position: absolute; left: 24px; top: 0px;
 }
 
-#magikarp {
+#magikarp-name {
     position: absolute; left: -3px; top: 0px;
 }
 
-#gyarados {
+#gyarados-name {
     position: absolute; left: 6px; top: 0px;
 }
 
-#lapras {
+#lapras-name {
     position: absolute; left: 24px; top: 0px;
 }
 
-#ditto {
+#ditto-name {
     position: absolute; left: 30px; top: 0px;
 }
 
-#eevee {
+#eevee-name {
     position: absolute; left: 30px; top: 0px;
 }
 
-#vaporeon {
+#vaporeon-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#jolteon {
+#jolteon-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#flareon {
+#flareon-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#porygon {
+#porygon-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#omanyte {
+#omanyte-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#omastar {
+#omastar-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#kabuto {
+#kabuto-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#kabutops {
+#kabutops-name {
     position: absolute; left: 6px; top: 0px;
 }
 
-#aerodactyl {
+#aerodactyl-name {
     position: absolute; left: -11px; top: 0px;
 }
 
-#snorlax {
+#snorlax-name {
     position: absolute; left: 13px; top: 0px;
 }
 
-#articuno {
+#articuno-name {
     position: absolute; left: 5px; top: 0px;
 }
 
-#zapdos {
+#zapdos-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#moltres {
+#moltres-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#dratini {
+#dratini-name {
     position: absolute; left: 15px; top: 0px;
 }
 
-#dragonair {
+#dragonair-name {
     position: absolute; left: -4px; top: 0px;
 }
 
-#dragonite {
+#dragonite-name {
     position: absolute; left: -4px; top: 0px;
 }
 
-#mewtwo {
+#mewtwo-name {
     position: absolute; left: 23px; top: 0px;
 }
 
-#mew {
+#mew-name {
     position: absolute; left: 50px; top: 0px;
 }
 
@@ -1657,7 +2281,7 @@ body {
     position: absolute; left: 0; top: 0px;
 }
 
-#victreebell-att {
+#victreebel-att {
     position: absolute; left: 0; top: 0px;
 }
 
@@ -1833,7 +2457,7 @@ body {
     position: absolute; left: 0; top: 0px;
 }
 
-#kanghaskhan-att {
+#kangaskhan-att {
     position: absolute; left: 0; top: 0px;
 }
 
@@ -2158,7 +2782,7 @@ body {
     position: absolute; left: 0; top: -16px;
 }
 
-#vileploom-desc {
+#vileplume-desc {
     position: absolute; left: 0px; top: -16px;
 }
 
@@ -2262,7 +2886,7 @@ body {
     position: absolute; left: 0px; top: -16px;
 }
 
-#victreebell-desc {
+#victreebel-desc {
     position: absolute; left: 0px; top: -16px;
 }
 
@@ -2438,7 +3062,7 @@ body {
     position: absolute; left: 0px; top: -16px;
 }
 
-#kanghaskhan-desc {
+#kangaskhan-desc {
     position: absolute; left: 0px; top: 0px;
 }
 
