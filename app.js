@@ -28,22 +28,22 @@ enterButton.addEventListener('click', () => showPokemon )
 
 // Directional buttons for navigating up and down pokedex
 upButton.addEventListener('click', () => {
-    goUpOne++
-    showPokemon()
-})
-
-leftButton.addEventListener('click', () => {
     goUpTen++
     showPokemon()
 })
 
+leftButton.addEventListener('click', () => {
+    goUpOne++
+    showPokemon()
+})
+
 downButton.addEventListener('click', () => {
-    goDownOne++
+    goDownTen++
     showPokemon()
 })
 
 rightButton.addEventListener('click', () => {
-    goDownTen++
+    goDownOne++
     showPokemon()
 })
 
@@ -51,10 +51,16 @@ let currentPokemonIndex
 
 function turnOnPokedex() {
     currentPokemonIndex = 0
+    
 }
 
-function showPokemon() {
-    
+function showPokemon(pokemon) {
+    goDownOne.forEach(goDownOne => {
+        for (let i = 0; i > pokemonCount.length; i++) {
+            goDownOne++
+        }
+        goDownOne.addEventListener('click', nextPokemon)
+    })
 }
 
 const pokemonCount = 151;
