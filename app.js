@@ -7,16 +7,16 @@ const rightButton = document.getElementById('right-button');
 const downButton = document.getElementById('down-button');
 
 // For second container
-const numberButton = documnet.getElementById('dex-buttons');
+const numberButton = document.getElementById('dex-buttons');
 const navigateLeft = document.getElementById('nav-left');
 const navigateRight = document.getElementById('nav-right');
 
 // pokemon information
 let pokemonImage = document.getElementById('pokemon')
-let PokemonInfo = document.getElementsByClassName('dex-info')
-let PokemonTypeOne = document.getElementsByClassName('primary-type')
-let pokemonTypeTwo = document.getElementsByClassName('secondary-type')
-let dexNumber = document.getElementById('dex-number')
+let pokemonInfo = document.getElementById('dex-info')
+let pokemonTypeOne = document.getElementById('type-one')
+let pokemonTypeTwo = document.getElementById('type-two')
+let dexNo = document.getElementById('dex-number')
 
 // functions for button elements
 
@@ -24,16 +24,16 @@ let dexNumber = document.getElementById('dex-number')
 onButton.addEventListener('click', turnOnPokedex)
 
 // To act as enter button when pressing number pad
-enterButton.addEventListener('click', () => showPokemon )
+enterButton.addEventListener('click', () => showChosenPokemon )
 
 // Directional buttons for navigating up and down pokedex
 upButton.addEventListener('click', () => {
-    goUpTen++
+    goUpTen--
     showPokemon()
 })
 
 leftButton.addEventListener('click', () => {
-    goUpOne++
+    goUpOne--
     showPokemon()
 })
 
@@ -47,24 +47,21 @@ rightButton.addEventListener('click', () => {
     showPokemon()
 })
 
-let currentPokemonIndex
+let goDownOne, goDownTen, goUpOne, goUpTen
 
-function turnOnPokedex() {
-    currentPokemonIndex = 0
-    
+function turnOnPokedex(pokemon, dexInfo, dexNumber,
+    primaryType, secondaryType) {
+    console.log('turn-on')
+    pokemonImage.classList.remove('hide')
+    pokemonInfo.classList.remove('hide')
+    pokemonTypeOne.classList.remove('hide')
+    pokemonTypeTwo.classList.remove('hide')
+    dexNo.classList.remove('hide')
+    nextPokemon()
 }
 
-function showPokemon(pokemon) {
-    goDownOne.forEach(goDownOne => {
-        for (let i = 0; i > pokemonCount.length; i++) {
-            goDownOne++
-        }
-        goDownOne.addEventListener('click', nextPokemon)
-    })
-}
 
-const pokemonCount = 151;
-var pokedex = pokemonCount([
+const pokedex = [
     {
         pokemon: 'bulbasaur',
         dexInfo: [
@@ -1726,4 +1723,4 @@ var pokedex = pokemonCount([
         primaryType: 'psychic-one',
         secondaryType: null
     }
-])
+]
