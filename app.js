@@ -11,7 +11,7 @@ const numberButton = document.getElementById('dex-buttons');
 const navigateLeft = document.getElementById('nav-left');
 const navigateRight = document.getElementById('nav-right');
 
-// pokemon information
+// pokemon display information
 let pokemonImage = document.getElementById('pokemon')
 let pokemonInfo = document.getElementById('dex-info')
 let pokemonTypeOne = document.getElementById('type-one')
@@ -47,31 +47,35 @@ rightButton.addEventListener('click', () => {
     showPokemon()
 })
 
-let goDownOne, goDownTen, goUpOne, goUpTen
-
-function turnOnPokedex(pokemon, dexInfo, dexNumber,
-    primaryType, secondaryType) {
+function turnOnPokedex() {
     console.log('turn-on')
     pokemonImage.classList.remove('hide')
     pokemonInfo.classList.remove('hide')
     pokemonTypeOne.classList.remove('hide')
     pokemonTypeTwo.classList.remove('hide')
     dexNo.classList.remove('hide')
+    for (let i = 0; i < pokedex.length; i++) {
+        pokedex[i]
+    }
     nextPokemon()
 }
 
+function nextPokemon(pokemon, dexInfo, dexNumber,
+    primaryType, secondaryType) {
+    pokemon = pokemon.forEach([currentPokedexIndex])
+}
 
 const pokedex = [
     {
-        pokemon: 'bulbasaur',
+        pokemon: ('bulbasaur'),
         dexInfo: [
-        { dexName: 'bulbasaur-name' },
-        { specs: 'bulbasaur-specs' },
-        { desc: 'bulbasaur-desc' }
+        { dexName: ('bulbasaur-name') },
+        { specs: ('bulbasaur-specs') },
+        { desc: ('bulbasaur-desc') }
         ],
-        dexNumber: 'bulbasaur-no',
-        primaryType: 'grass-one',
-        secondaryType: 'poison-two'
+        dexNumber: ('bulbasaur-no'),
+        primaryType: ('grass-one'),
+        secondaryType: ('poison-two')
     },
     {
         pokemon: 'ivysaur',
