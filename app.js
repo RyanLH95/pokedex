@@ -18,6 +18,7 @@ let pokemonTypeOne = document.getElementById('type-one')
 let pokemonTypeTwo = document.getElementById('type-two')
 let dexNo = document.getElementById('dex-number')
 
+
 // functions for button elements
 
 // To turn on pokedex
@@ -50,35 +51,42 @@ rightButton.addEventListener('click', () => {
 function turnOnPokedex() {
     console.log('turn-on')
     pokemonImage.classList.remove('hide')
-    pokemonInfo.classList.remove('hide')
-    pokemonTypeOne.classList.remove('hide')
-    pokemonTypeTwo.classList.remove('hide')
-    dexNo.classList.remove('hide')
-    for (let i = 0; i < pokedex.length; i++) {
-        pokedex[i]
-    }
-    nextPokemon()
+    render()
 }
 
-function nextPokemon(pokemon, dexInfo, dexNumber,
-    primaryType, secondaryType) {
-    pokemon = pokemon.forEach([currentPokedexIndex])
+
+function nextPokemon(button) {
+    const offset = button.dataset.direction === 'prev' ? -1 : 1;
+    currentIndex = (currentIndex + offset + pokedex.length) % pokedex.length;
+    render()
 }
+
+function render() {
+    const p = pokedex[currentIndex];
+
+    const pkmnArray = JSON.parse(p)
+    document.querySelector('.pkmn').innerHTML = document.getElementById(`${p.name}` + pkmnArray[0])
+    document.querySelector('.pkmn.no').textContent = p.id.toString().padStart(3, '0')
+}
+
+let currentIndex = 0
 
 const pokedex = [
     {
-        pokemon: ('bulbasaur'),
+        id: 1,
+        name: 'bulbasaur',
+        dexNumber: 'bulbasaur-no',
         dexInfo: [
-        { dexName: ('bulbasaur-name') },
-        { specs: ('bulbasaur-specs') },
-        { desc: ('bulbasaur-desc') }
+        { dexName: 'bulbasaur-name' },
+        { specs: 'bulbasaur-specs' },
+        { desc: 'bulbasaur-desc' }
         ],
-        dexNumber: ('bulbasaur-no'),
-        primaryType: ('grass-one'),
-        secondaryType: ('poison-two')
+        primaryType: 'grass-one',
+        secondaryType: 'poison-two'
     },
     {
-        pokemon: 'ivysaur',
+        id: 2,
+        name: 'ivysaur',
         dexInfo: [
         { dexName: 'ivysaur-name' },
         { specs: 'ivysaur-specs' },
@@ -89,7 +97,8 @@ const pokedex = [
         secondaryType: 'poison-two' 
     },
     {
-        pokemon: 'venusaur',
+        id: 3,
+        name: 'venusaur',
         dexInfo: [
         { name: 'venusaur-name' },
         { specs: 'venusaur-specs' },
@@ -97,7 +106,7 @@ const pokedex = [
         ],
         dexNumber: 'ivysaur-no',
         primaryType: 'grass-one',
-        secondaryType: 'poison-two' 
+        secondaryType: 'poison-two'
     },
     {
         pokemon: 'charmander',

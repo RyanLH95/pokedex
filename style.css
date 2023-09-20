@@ -193,608 +193,607 @@ body {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.bulbasaur {
+#bulbasaur {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.ivysaur {
+#ivysaur {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.venusaur {
+#venusaur {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.charmander {
+#charmander {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.charmeleon {
+#charmeleon {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.charizard {
+#charizard {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.squirtle {
+#squirtle {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.wartortle {
+#wartortle {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.blastoise {
+#blastoise {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.caterpie {
+#caterpie {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.metapod {
+#metapod {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.butterfree {
+#butterfree {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.weedle {
+#weedle {
     position: absolute; left: 14px; bottom: -2px;
 }
 
-.kakuna {
+#kakuna {
     position: absolute; left: 14px; bottom: -2px;
 }
 
-.beedrill {
+#beedrill {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.pidgey {
+#pidgey {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.pidgeotto {
+#pidgeotto {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.pidgeot {
+#pidgeot {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.rattata {
+#rattata {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.raticate {
+#raticate {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.spearow {
+#spearow {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.fearow {
+#fearow {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.ekans {
+#ekans {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.arbok {
+#arbok {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.pikachu {
+#pikachu {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.raichu {
+#raichu {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.sandshrew {
+#sandshrew {
     position: absolute; left: 14px; bottom: 1px;
 }
 
-.sandslash {
+#sandslash {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.nidoran-f {
+#nidoran-f {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.nidorina {
+#nidorina {
     position: absolute; left: 14px; bottom: 1px;
 }
 
-.nidoqueen {
+#nidoqueen {
     position: absolute; left: 14px; bottom: -1px;
 }
 
-.nidoran-m {
+#nidoran-m {
     position: absolute; left: 14px; bottom: -2px;
 }
 
-.nidorino {
-    position: absolute; left: 14px; bottom: -5px;
-    
-}
-
-.nidoking {
+#nidorino {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.clefairy {
+#nidoking {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.clefable {
+#clefairy {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.vulpix {
+#clefable {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.ninetales {
+#vulpix {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.jigglypuff {
+#ninetales {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.wigglytuff {
+#jigglypuff {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.zubat {
+#wigglytuff {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.golbat {
+#zubat {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.oddish {
+#golbat {
+    position: absolute; left: 14px; bottom: -5px;
+}
+
+#oddish {
     position: absolute; left: 14px; bottom: -4px;
 }
 
-.gloom {
+#gloom {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.vileplume {
+#vileplume {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.paras {
+#paras {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.parasect {
+#parasect {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.venonat {
+#venonat {
     position: absolute; left: 14px; bottom: -4px;
 }
 
-.venomoth {
+#venomoth {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.diglett {
+#diglett {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.dugtrio {
+#dugtrio {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.meowth {
+#meowth {
     position: absolute; left: 14px; bottom: -2px;
 }
 
-.persian {
+#persian {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.psyduck {
+#psyduck {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.golduck {
+#golduck {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.mankey {
+#mankey {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.primeape {
+#primeape {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.growlithe {
+#growlithe {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.arcanine {
+#arcanine {
     position: absolute; left: 20px; bottom: -3px;
 }
 
-.poliwag {
+#poliwag {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.poliwhirl {
+#poliwhirl {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.poliwrath {
+#poliwrath {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.abra {
+#abra {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.kadabra {
+#kadabra {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.alakazam {
+#alakazam {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.machop {
+#machop {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.machoke {
+#machoke {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.machamp {
+#machamp {
     position: absolute; left: 14px; bottom: -9px;
 }
 
-.bellsprout {
+#bellsprout {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.weepinbell {
+#weepinbell {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.victreebel {
+#victreebel {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.tentacool {
+#tentacool {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.tentacruel {
+#tentacruel {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.geodude {
+#geodude {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.graveler {
+#graveler {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.golem {
+#golem {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.ponyta {
+#ponyta {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.rapidash {
+#rapidash {
     position: absolute; left: 14px; bottom: 0px;
 }
 
-.slowpoke {
+#slowpoke {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.slowbro {
+#slowbro {
     position: absolute; left: 14px; bottom: -6px;
 }
 
-.magnemite {
+#magnemite {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.magneton {
+#magneton {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.farfetch-d {
+#farfetch-d {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.doduo {
+#doduo {
     position: absolute; left: 0px; bottom: -3px;
 }
 
-.dodrio {
+#dodrio {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.seel {
+#seel {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.dewgong {
+#dewgong {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.grimer {
+#grimer {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.muk {
+#muk {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.shellder {
+#shellder {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.cloyster {
+#cloyster {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.gastly {
+#gastly {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.haunter {
+#haunter {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.gengar {
+#gengar {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.onix {
+#onix {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.drowzee {
+#drowzee {
     position: absolute; left: 14px; bottom: -6px;
 }
 
-.hypno {
+#hypno {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.krabby {
+#krabby {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.kingler {
+#kingler {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.voltorb {
+#voltorb {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.electrode {
-    position: absolute; left: -23px; bottom: -43px;
+#electrode {
+    position: absolute; left: -22px; bottom: -43px;
 }
 
-.exeggcute {
+#exeggcute {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.exeggutor {
+#exeggutor {
     position: absolute; left: 14px; bottom: -7px;
 }
 
-.cubone {
+#cubone {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.marowak {
+#marowak {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.hitmonlee {
+#hitmonlee {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.hitmonchan {
+#hitmonchan {
     position: absolute; left: 14px; bottom: -2px;
 }
 
-.lickitung {
+#lickitung {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.koffing {
+#koffing {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.weezing {
+#weezing {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.rhyhorn {
+#rhyhorn {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.rhydon {
+#rhydon {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.chansey {
+#chansey {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.tangela {
+#tangela {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.kangaskhan {
+#kangaskhan {
     position: absolute; left: 14px; bottom: -3px;
 }
 
-.horsea {
+#horsea {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.seadra {
+#seadra {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.goldeen {
+#goldeen {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.seaking {
+#seaking {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.staryu {
+#staryu {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.starmie {
+#starmie {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.mr-mime {
+#mr-mime {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.scyther {
+#scyther {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.jynx {
+#jynx {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.electabuzz {
+#electabuzz {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.magmar {
+#magmar {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.pinsir {
+#pinsir {
     position: absolute; left: 14px; bottom: -6px;
 }
 
-.tauros {
+#tauros {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.magikarp {
+#magikarp {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.gyarados {
+#gyarados {
     position: absolute; left: 14px; bottom: -7px;
 }
 
-.lapras {
+#lapras {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.ditto {
+#ditto {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.eevee {
+#eevee {
     position: absolute; left: 14px; bottom: -4px;
 }
 
-.vaporeon {
+#vaporeon {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.jolteon {
+#jolteon {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.flareon {
+#flareon {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.porygon {
+#porygon {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.omanyte {
+#omanyte {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.omastar {
+#omastar {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.kabuto {
+#kabuto {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.kabutops {
+#kabutops {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.aerodactyl {
+#aerodactyl {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.snorlax {
+#snorlax {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.articuno {
+#articuno {
     position: absolute; left: 16px; bottom: -4px;
 }
 
-.zapdos {
+#zapdos {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.moltres {
+#moltres {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.dratini {
+#dratini {
     position: absolute; left: 4px; bottom: -4px;
 }
 
-.dragonair {
+#dragonair {
     position: absolute; left: 14px; bottom: -6px;
 }
 
-.dragonite {
+#dragonite {
     position: absolute; left: 14px; bottom: -1px;
 }
 
-.mewtwo {
+#mewtwo {
     position: absolute; left: 14px; bottom: -5px;
 }
 
-.mew {
+#mew {
     position: absolute; left: 14px; bottom: -5px;
 }
 
