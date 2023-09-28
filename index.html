@@ -12,7 +12,9 @@
 
   <body>
     <header>
-        <h1>Generation 1 Pokedex</h1>
+        <img class="pkmn-logo" src="images/pokemon-logo.png" height="100" width="250">
+        <h1 class="title">Generation 1<br> Pokedex</h1>
+        <h5>Press the RED Button on the screen to start</h5>
     </header>
     <main>
         <!--pokedex container-->
@@ -43,7 +45,7 @@
             <div class="screen">
               <div class="outer-border"></div>
               <div class="screen-border"></div>
-                <div class="pokemon-entry pokemon-image hide" id="pokemon">
+                <div class="pokemon-image hide" id="pokemon">
                   <img class="pkmn" id="bulbasaur" src="images/pokemon/bulbasaur.png" width="250" height="220">
                   <img class="pkmn" id="ivysaur" src="images/pokemon/ivysaur.png" width="250" height="220">
                   <img class="pkmn" id="venusaur" src="images/pokemon/venusaur.png" width="250" height="220">
@@ -225,40 +227,40 @@
               <button type="button" data-direction="right" id="down-button"></button>
             </div>
             <div class="number-screen">
-              <div class="pokemon-entry dex-number hide">
-                <div class="pkmn-no bulbasaur-no"><strong>001</strong></div>
-                <div class="pkmn-no ivysaur-no"><strong>002</strong></div>
-                <div class="pkmn-no venusaur-no"><strong>003</strong></div>
-                <div class="pkmn-no charmander-no"><strong>004</strong></div>
-                <div class="pkmn-no charmeleon-no"><strong>005</strong></div>
-                <div class="pkmn-no charizard-no"><strong>006</strong></div>
-                <div class="pkmn-no squirtle-no"><strong>007</strong></div>
-                <div class="pkmn-no wartortle-no"><strong>008</strong></div>
-                <div class="pkmn-no blastoise-no"><strong>009</strong></div>
-                <div class="pkmn-no caterpie-no"><strong>010</strong></div>
-                <div class="pkmn-no metapod-no"><strong>011</strong></div>
-                <div class="pkmn-no butterfree-no"><strong>012</strong></div>
-                <div class="pkmn-no weedle-no"><strong>013</strong></div>
-                <div class="pkmn-no kakuna-no"><strong>014</strong></div>
-                <div class="pkmn-no beedrill-no"><strong>015</strong></div>
-                <div class="pkmn-no pidgey-no"><strong>016</strong></div>
-                <div class="pkmn-no pidgeotto-no"><strong>017</strong></div>
-                <div class="pkmn-no pidgeot-no"><strong>018</strong></div>
-                <div class="pkmn-no rattata-no"><strong>019</strong></div>
-                <div class="pkmn-no raticate-no"><strong>020</strong></div>
-                <div class="pkmn-no spearow-no"><strong>021</strong></div>
-                <div class="pkmn-no fearow-no"><strong>022</strong></div>
-                <div class="pkmn-no ekans-no"><strong>023</strong></div>
-                <div class="pkmn-no arbok-no"><strong>024</strong></div>
-                <div class="pkmn-no pikachu-no"><strong>025</strong></div>
-                <div class="pkmn-no raichu-no"><strong>026</strong></div>
-                <div class="pkmn-no sandshrew-no"><strong>027</strong></div>
-                <div class="pkmn-no sandslash-no"><strong>028</strong></div>
-                <div class="pkmn-no nidoran-f-no"><strong>029</strong></div>
-                <div class="pkmn-no nidorina-no"><strong>030</strong></div>
-                <div class="pkmn-no nidoqueen-no"><strong>031</strong></div>
-                <div class="pkmn-no nidoran-m-no"><strong>032</strong></div>
-                <div class="pkmn-no nidorino-no"><strong>033</strong></div>
+              <div class="dex-number hide" id="dex-no">
+                <div class="pkmn-no" id="bulbasaur-no"><strong>001</strong></div>
+                <div class="pkmn-no" id="ivysaur-no"><strong>002</strong></div>
+                <div class="pkmn-no" id="venusaur-no"><strong>003</strong></div>
+                <div class="pkmn-no" id="charmander-no"><strong>004</strong></div>
+                <div class="pkmn-no" id="charmeleon-no"><strong>005</strong></div>
+                <div class="pkmn-no" id="charizard-no"><strong>006</strong></div>
+                <div class="pkmn-no" id="squirtle-no"><strong>007</strong></div>
+                <div class="pkmn-no" id="wartortle-no"><strong>008</strong></div>
+                <div class="pkmn-no" id="blastoise-no"><strong>009</strong></div>
+                <div class="pkmn-no" id="caterpie-no"><strong>010</strong></div>
+                <div class="pkmn-no" id="metapod-no"><strong>011</strong></div>
+                <div class="pkmn-no" id="butterfree-no"><strong>012</strong></div>
+                <div class="pkmn-no" id="weedle-no"><strong>013</strong></div>
+                <div class="pkmn-no" id="kakuna-no"><strong>014</strong></div>
+                <div class="pkmn-no" id="beedrill-no"><strong>015</strong></div>
+                <div class="pkmn-no" id="pidgey-no"><strong>016</strong></div>
+                <div class="pkmn-no" id="pidgeotto-no"><strong>017</strong></div>
+                <div class="pkmn-no" id="pidgeot-no"><strong>018</strong></div>
+                <div class="pkmn-no" id="rattata-no"><strong>019</strong></div>
+                <div class="pkmn-no" id="raticate-no"><strong>020</strong></div>
+                <div class="pkmn-no" id="spearow-no"><strong>021</strong></div>
+                <div class="pkmn-no" id="fearow-no"><strong>022</strong></div>
+                <div class="pkmn-no" id="ekans-no"><strong>023</strong></div>
+                <div class="pkmn-no" id="arbok-no"><strong>024</strong></div>
+                <div class="pkmn-no" id="pikachu-no"><strong>025</strong></div>
+                <div class="pkmn-no" id="raichu-no"><strong>026</strong></div>
+                <div class="pkmn-no" id="sandshrew-no"><strong>027</strong></div>
+                <div class="pkmn-no" id="sandslash-no"><strong>028</strong></div>
+                <div class="pkmn-no" id="nidoran-f-no"><strong>029</strong></div>
+                <div class="pkmn-no" id="nidorina-no"><strong>030</strong></div>
+                <div class="pkmn-no" id="nidoqueen-no"><strong>031</strong></div>
+                <div class="pkmn-no" id="nidoran-m-no"><strong>032</strong></div>
+                <div class="pkmn-no" id="nidorino-no"><strong>033</strong></div>
                 <div class="pkmn-no nidoking-no"><strong>034</strong></div>
                 <div class="pkmn-no clefairy-no"><strong>035</strong></div>
                 <div class="pkmn-no clefable-no"><strong>036</strong></div>
@@ -400,1224 +402,1224 @@
           <div class="pokedex-con7"></div>
           <!--for name of pokemon to be displayed-->
           <div class="bio-screen">
-            <div id="dex-info" class="pokemon-entry hide">
-              <div class="name hide">
+            <div class="hide" id="dex-info">
+              <div class="name">
                 <!--List of pokemon-->
-                <div class="pkmn-name bulbasaur-name">Bulbasaur</div> 
-                <div class="pkmn-name ivysaur-name">Ivysaur</div>
-                <div class="pkmn-name venusaur-name">Venusaur</div>
-                <div class="pkmn-name charmande-name">Charmander</div>
-                <div class="pkmn-name charmeleon-name">Charmeleon</div>
-                <div class="pkmn-name charizard-name">Charizard</div>
-                <div class="pkmn-name squirtle-name">Squirtle</div>
-                <div class="pkmn-name wartortle-name">Wartortle</div>
-                <div class="pkmn-name blastoise-name">Blastoise</div>
-                <div class="pkmn-name caterpie-name">Caterpie</div>
-                <div class="pkmn-name metapod-name">Metapod</div>
-                <div class="pkmn-name butterfree-name">Butterfree</div>
-                <div class="pkmn-name weedle-name">Weedle</div>
-                <div class="pkmn-name kakuna-name">Kakuna</div>
-                <div class="pkmn-name beedrill-name">Beedrill</div>
-                <div class="pkmn-name pidgey-name">Pidgey</div>
-                <div class="pkmn-name pidgeotto-name">Pidgeotto</div>
-                <div class="pkmn-name pidgeot-name">Pidgeot</div>
-                <div class="pkmn-name rattata-name">Rattata</div>
-                <div class="pkmn-name raticate-name">Raticate</div>
-                <div class="pkmn-name spearow-name">Spearow</div>
-                <div class="pkmn-name fearow-name">Fearow</div>
-                <div class="pkmn-name ekans-name">Ekans</div>
-                <div class="pkmn-name arbok-name">Arbok</div>
-                <div class="pkmn-name pikachu-name">Pikachu</div>
-                <div class="pkmn-name raichu-name">Raichu</div>
-                <div class="pkmn-name sandshrew-name">Sandshrew</div>
-                <div class="pkmn-name sandslash-name">Sandslash</div>
-                <div class="pkmn-name nidoran-f-name">Nidoran♀</div>
-                <div class="pkmn-name nidorina-name">Nidorina</div>
-                <div class="pkmn-name nidoqueen-name">Nidoqueen</div>
-                <div class="pkmn-name nidoran-m-name">nidoran♂</div>
-                <div class="pkmn-name nidorino-name">Nidorino</div>
-                <div class="pkmn-name nidoking-name">Nidoking</div>
-                <div class="pkmn-name clefairy-name">Clefairy</div>
-                <div class="pkmn-name clefable-name">Clefable</div>
-                <div class="pkmn-name vulpix-name">Vulpix</div>
-                <div class="pkmn-name ninetales-name">Ninetales</div>
-                <div class="pkmn-name jigglypuff-name">Jigglypuff</div>
-                <div class="pkmn-name wigglytuff-name">Wigglytuff</div>
-                <div class="pkmn-name zubat-name">Zubat</div>
-                <div class="pkmn-name golbat-name">Golbat</div>
-                <div class="pkmn-name oddish-name">Oddish</div>
-                <div class="pkmn-name gloom-name">Gloom</div>
-                <div class="pkmn-name vileplume-name">Vileplume</div>
-                <div class="pkmn-name paras-name">Paras</div>
-                <div class="pkmn-name parasect-name">Parasect</div>
-                <div class="pkmn-name venonat-name">Venonat</div>
-                <div class="pkmn-name venomoth-name">Venomoth</div>
-                <div class="pkmn-name diglett-name">Diglett</div>
-                <div class="pkmn-name dugtrio-name">Dugtrio</div>
-                <div class="pkmn-name meowth-name">Meowth</div>
-                <div class="pkmn-name persian-name">Persian</div>
-                <div class="pkmn-name psyduck-name">Psyduck</div>
-                <div class="pkmn-name golduck-name">Golduck</div>
-                <div class="pkmn-name mankey-name">Mankey</div>
-                <div class="pkmn-name primeape-name">Primeape</div>
-                <div class="pkmn-name growlithe-name">Growlithe</div>
-                <div class="pkmn-name arcanine-name">Arcanine</div>
-                <div class="pkmn-name poliwag-name">Poliwag</div>
-                <div class="pkmn-name poliwhirl-name">Poliwhirl</div>
-                <div class="pkmn-name poliwrath-name">Poliwrath</div>
-                <div class="pkmn-name abra-name">Abra</div>
-                <div class="pkmn-name kadabra-name">Kadabra</div>
-                <div class="pkmn-name alakazam-name">Alakazam</div>
-                <div class="pkmn-name machop-name">Machop</div>
-                <div class="pkmn-name machoke-name">Machoke</div>
-                <div class="pkmn-name machamp-name">Machamp</div>
-                <div class="pkmn-name bellsprout-name">bellsprout</div>
-                <div class="pkmn-name weepinbell-name">Weepinbell</div>
-                <div class="pkmn-name victreebel-name">Victreebel</div>
-                <div class="pkmn-name tentacool-name">Tentacool</div>
-                <div class="pkmn-name tentacruel-name">Tentacruel</div>
-                <div class="pkmn-name geodude-name">Geodude</div>
-                <div class="pkmn-name graveler-name">Graveler</div>
-                <div class="pkmn-name golem-name">Golem</div>
-                <div class="pkmn-name ponyta-name">Ponyta</div>
-                <div class="pkmn-name rapidash-name">Rapidash</div>
-                <div class="pkmn-name slowpoke-name">Slowpoke</div>
-                <div class="pkmn-name slowbro-name">Slowbro</div>
-                <div class="pkmn-name magnemite-name">Magnemite</div>
-                <div class="pkmn-name magneton-name">Magneton</div>
-                <div class="pkmn-name farfetch-d-name">Farfetch'd</div>
-                <div class="pkmn-name doduo-name">Doduo</div>
-                <div class="pkmn-name dodrio-name">Dodrio</div>
-                <div class="pkmn-name seel-name">Seel</div>
-                <div class="pkmn-name dewgong-name">Dewgong</div>
-                <div class="pkmn-name grimer-name">Grimer</div>
-                <div class="pkmn-name muk-name">Muk</div>
-                <div class="pkmn-name shellder-name">Shellder</div>
-                <div class="pkmn-name cloyster-name">Cloyster</div>
-                <div class="pkmn-name gastly-name">Gastly</div>
-                <div class="pkmn-name haunter-name">Haunter</div>
-                <div class="pkmn-name gengar-name">Gengar</div>
-                <div class="pkmn-name onix-name">Onix</div>
-                <div class="pkmn-name drowzee-name">Drowzee</div>
-                <div class="pkmn-name hypno-name">Hypno</div>
-                <div class="pkmn-name krabby-name">Krabby</div>
-                <div class="pkmn-name kingler-name">Kingler</div>
-                <div class="pkmn-name voltorb-name">Voltorb</div>
-                <div class="pkmn-name electrode-name">Electrode</div>
-                <div class="pkmn-name exeggcute-name">Exeggcute</div>
-                <div class="pkmn-name exeggutor-name">Exeggutor</div>
-                <div class="pkmn-name cubone-name">Cubone</div>
-                <div class="pkmn-name marowak-name">Marowak</div>
-                <div class="pkmn-name hitmonlee-name">Hitmonlee</div>
-                <div class="pkmn-name hitmonchan-name">Hitmonchan</div>
-                <div class="pkmn-name lickitung-name">Lickitung</div>
-                <div class="pkmn-name koffing-name">Koffing</div>
-                <div class="pkmn-name weezing-name">Weezing</div>
-                <div class="pkmn-name rhyhorn-name">Rhyhorn</div>
-                <div class="pkmn-name rhydon-name">Rhydon</div>
-                <div class="pkmn-name chansey-name">Chansey</div>
-                <div class="pkmn-name tangela-name">Tangela</div>
-                <div class="pkmn-name kangaskhan-name">Kanghaskhan</div>
-                <div class="pkmn-name horsea-name">Horsea</div>
-                <div class="pkmn-name seadra-name">Seadra</div>
-                <div class="pkmn-name goldeen-name">Goldeen</div>
-                <div class="pkmn-name seaking-name">Seaking</div>
-                <div class="pkmn-name staryu-name">Staryu</div>
-                <div class="pkmn-name starmie-name">Starmie</div>
-                <div class="pkmn-name mr-mime-name">Mr. Mime</div>
-                <div class="pkmn-name scyther-name">Scyther</div>
-                <div class="pkmn-name jynx-name">Jynx</div>
-                <div class="pkmn-name electabuzz-name">Electabuzz</div>
-                <div class="pkmn-name magmar-name">Magmar</div>
-                <div class="pkmn-name pinsir-name">Pinsir</div>
-                <div class="pkmn-name tauros-name">Tauros</div>
-                <div class="pkmn-name magikarp-name">Margikarp</div>
-                <div class="pkmn-name gyarados-name">Gyarados</div>
-                <div class="pkmn-name lapras-name">Lapras</div>
-                <div class="pkmn-name ditto-name">Ditto</div>
-                <div class="pkmn-name eevee-name">Eevee</div>
-                <div class="pkmn-name vaporeon-name">Vaporeon</div>
-                <div class="pkmn-name jolteon-name">Jolteon</div>
-                <div class="pkmn-name flareon-name">Flareon</div>
-                <div class="pkmn-name porygon-name">Porygon</div>
-                <div class="pkmn-name omanyte-name">Omanyte</div>
-                <div class="pkmn-name omastar-name">Omastar</div>
-                <div class="pkmn-name kabuto-name">Kabuto</div>
-                <div class="pkmn-name kabutops-name">Kabutops</div>
-                <div class="pkmn-name aerodactyl-name">Aerodactyl</div>
-                <div class="pkmn-name snorlax-names">Snorlax</div>
-                <div class="pkmn-name articuno-name">Articuno</div>
-                <div class="pkmn-name zapdos-name">Zapdos</div>
-                <div class="pkmn-name moltres-name">Moltres</div>
-                <div class="pkmn-name dratini-name">Dratini</div>
-                <div class="pkmn-name dragonair-name">Dragonair</div>
-                <div class="pkmn-name dragonite-name">Dragonite</div>
-                <div class="pkmn-name mewtwo-name">Mewtwo</div>
-                <div class="pkmn-name mew-name">Mew</div>
+                <div class="pkmn-name" id="bulbasaur-name">Bulbasaur</div> 
+                <div class="pkmn-name" id="ivysaur-name">Ivysaur</div>
+                <div class="pkmn-name" id="venusaur-name">Venusaur</div>
+                <div class="pkmn-name" id="charmander-name">Charmander</div>
+                <div class="pkmn-name" id="charmeleon-name">Charmeleon</div>
+                <div class="pkmn-name" id="charizard-name">Charizard</div>
+                <div class="pkmn-name" id="squirtle-name">Squirtle</div>
+                <div class="pkmn-name" id="wartortle-name">Wartortle</div>
+                <div class="pkmn-name" id="blastoise-name">Blastoise</div>
+                <div class="pkmn-name" id="caterpie-name">Caterpie</div>
+                <div class="pkmn-name" id="metapod-name">Metapod</div>
+                <div class="pkmn-name" id="butterfree-name">Butterfree</div>
+                <div class="pkmn-name" id="weedle-name">Weedle</div>
+                <div class="pkmn-name" id="kakuna-name">Kakuna</div>
+                <div class="pkmn-name" id="beedrill-name">Beedrill</div>
+                <div class="pkmn-name" id="pidgey-name">Pidgey</div>
+                <div class="pkmn-name" id="pidgeotto-name">Pidgeotto</div>
+                <div class="pkmn-name" id="pidgeot-name">Pidgeot</div>
+                <div class="pkmn-name" id="rattata-name">Rattata</div>
+                <div class="pkmn-name" id="raticate-name">Raticate</div>
+                <div class="pkmn-name" id="spearow-name">Spearow</div>
+                <div class="pkmn-name" id="fearow-name">Fearow</div>
+                <div class="pkmn-name" id="ekans-name">Ekans</div>
+                <div class="pkmn-name" id="arbok-name">Arbok</div>
+                <div class="pkmn-name" id="pikachu-name">Pikachu</div>
+                <div class="pkmn-name" id="raichu-name">Raichu</div>
+                <div class="pkmn-name" id="sandshrew-name">Sandshrew</div>
+                <div class="pkmn-name" id="sandslash-name">Sandslash</div>
+                <div class="pkmn-name" id="nidoran-f-name">Nidoran♀</div>
+                <div class="pkmn-name" id="nidorina-name">Nidorina</div>
+                <div class="pkmn-name" id="nidoqueen-name">Nidoqueen</div>
+                <div class="pkmn-name" id="nidoran-m-name">nidoran♂</div>
+                <div class="pkmn-name" id="nidorino-name">Nidorino</div>
+                <div class="pkmn-name" id="nidoking-name">Nidoking</div>
+                <div class="pkmn-name" id="clefairy-name">Clefairy</div>
+                <div class="pkmn-name" id="clefable-name">Clefable</div>
+                <div class="pkmn-name" id="vulpix-name">Vulpix</div>
+                <div class="pkmn-name" id="ninetales-name">Ninetales</div>
+                <div class="pkmn-name" id="jigglypuff-name">Jigglypuff</div>
+                <div class="pkmn-name" id="wigglytuff-name">Wigglytuff</div>
+                <div class="pkmn-name" id="zubat-name">Zubat</div>
+                <div class="pkmn-name" id="golbat-name">Golbat</div>
+                <div class="pkmn-name" id="oddish-name">Oddish</div>
+                <div class="pkmn-name" id="gloom-name">Gloom</div>
+                <div class="pkmn-name" id="vileplume-name">Vileplume</div>
+                <div class="pkmn-name" id="paras-name">Paras</div>
+                <div class="pkmn-name" id="parasect-name">Parasect</div>
+                <div class="pkmn-name" id="venonat-name">Venonat</div>
+                <div class="pkmn-name" id="venomoth-name">Venomoth</div>
+                <div class="pkmn-name" id="diglett-name">Diglett</div>
+                <div class="pkmn-name" id="dugtrio-name">Dugtrio</div>
+                <div class="pkmn-name" id="meowth-name">Meowth</div>
+                <div class="pkmn-name" id="persian-name">Persian</div>
+                <div class="pkmn-name" id="psyduck-name">Psyduck</div>
+                <div class="pkmn-name" id="golduck-name">Golduck</div>
+                <div class="pkmn-name" id="mankey-name">Mankey</div>
+                <div class="pkmn-name" id="primeape-name">Primeape</div>
+                <div class="pkmn-name" id="growlithe-name">Growlithe</div>
+                <div class="pkmn-name" id="arcanine-name">Arcanine</div>
+                <div class="pkmn-name" id="poliwag-name">Poliwag</div>
+                <div class="pkmn-name" id="poliwhirl-name">Poliwhirl</div>
+                <div class="pkmn-name" id="poliwrath-name">Poliwrath</div>
+                <div class="pkmn-name" id="abra-name">Abra</div>
+                <div class="pkmn-name" id="kadabra-name">Kadabra</div>
+                <div class="pkmn-name" id="alakazam-name">Alakazam</div>
+                <div class="pkmn-name" id="machop-name">Machop</div>
+                <div class="pkmn-name" id="machoke-name">Machoke</div>
+                <div class="pkmn-name" id="machamp-name">Machamp</div>
+                <div class="pkmn-name" id="bellsprout-name">bellsprout</div>
+                <div class="pkmn-name" id="weepinbell-name">Weepinbell</div>
+                <div class="pkmn-name" id="victreebel-name">Victreebel</div>
+                <div class="pkmn-name" id="tentacool-name">Tentacool</div>
+                <div class="pkmn-name" id="tentacruel-name">Tentacruel</div>
+                <div class="pkmn-name" id="geodude-name">Geodude</div>
+                <div class="pkmn-name" id="graveler-name">Graveler</div>
+                <div class="pkmn-name" id="golem-name">Golem</div>
+                <div class="pkmn-name" id="ponyta-name">Ponyta</div>
+                <div class="pkmn-name" id="rapidash-name">Rapidash</div>
+                <div class="pkmn-name" id="slowpoke-name">Slowpoke</div>
+                <div class="pkmn-name" id="slowbro-name">Slowbro</div>
+                <div class="pkmn-name" id="magnemite-name">Magnemite</div>
+                <div class="pkmn-name" id="magneton-name">Magneton</div>
+                <div class="pkmn-name" id="farfetch-d-name">Farfetch'd</div>
+                <div class="pkmn-name" id="doduo-name">Doduo</div>
+                <div class="pkmn-name" id="dodrio-name">Dodrio</div>
+                <div class="pkmn-name" id="seel-name">Seel</div>
+                <div class="pkmn-name" id="dewgong-name">Dewgong</div>
+                <div class="pkmn-name" id="grimer-name">Grimer</div>
+                <div class="pkmn-name" id="muk-name">Muk</div>
+                <div class="pkmn-name" id="shellder-name">Shellder</div>
+                <div class="pkmn-name" id="cloyster-name">Cloyster</div>
+                <div class="pkmn-name" id="gastly-name">Gastly</div>
+                <div class="pkmn-name" id="haunter-name">Haunter</div>
+                <div class="pkmn-name" id="gengar-name">Gengar</div>
+                <div class="pkmn-name" id="onix-name">Onix</div>
+                <div class="pkmn-name" id="drowzee-name">Drowzee</div>
+                <div class="pkmn-name" id="hypno-name">Hypno</div>
+                <div class="pkmn-name" id="krabby-name">Krabby</div>
+                <div class="pkmn-name" id="kingler-name">Kingler</div>
+                <div class="pkmn-name" id="voltorb-name">Voltorb</div>
+                <div class="pkmn-name" id="electrode-name">Electrode</div>
+                <div class="pkmn-name" id="exeggcute-name">Exeggcute</div>
+                <div class="pkmn-name" id="exeggutor-name">Exeggutor</div>
+                <div class="pkmn-name" id="cubone-name">Cubone</div>
+                <div class="pkmn-name" id="marowak-name">Marowak</div>
+                <div class="pkmn-name" id="hitmonlee-name">Hitmonlee</div>
+                <div class="pkmn-name" id="hitmonchan-name">Hitmonchan</div>
+                <div class="pkmn-name" id="lickitung-name">Lickitung</div>
+                <div class="pkmn-name" id="koffing-name">Koffing</div>
+                <div class="pkmn-name" id="weezing-name">Weezing</div>
+                <div class="pkmn-name" id="rhyhorn-name">Rhyhorn</div>
+                <div class="pkmn-name" id="rhydon-name">Rhydon</div>
+                <div class="pkmn-name" id="chansey-name">Chansey</div>
+                <div class="pkmn-name" id="tangela-name">Tangela</div>
+                <div class="pkmn-name" id="kangaskhan-name">Kanghaskhan</div>
+                <div class="pkmn-name" id="horsea-name">Horsea</div>
+                <div class="pkmn-name" id="seadra-name">Seadra</div>
+                <div class="pkmn-name" id="goldeen-name">Goldeen</div>
+                <div class="pkmn-name" id="seaking-name">Seaking</div>
+                <div class="pkmn-name" id="staryu-name">Staryu</div>
+                <div class="pkmn-name" id="starmie-name">Starmie</div>
+                <div class="pkmn-name" id="mr-mime-name">Mr. Mime</div>
+                <div class="pkmn-name" id="scyther-name">Scyther</div>
+                <div class="pkmn-name" id="jynx-name">Jynx</div>
+                <div class="pkmn-name" id="electabuzz-name">Electabuzz</div>
+                <div class="pkmn-name" id="magmar-name">Magmar</div>
+                <div class="pkmn-name" id="pinsir-name">Pinsir</div>
+                <div class="pkmn-name" id="tauros-name">Tauros</div>
+                <div class="pkmn-name" id="magikarp-name">Margikarp</div>
+                <div class="pkmn-name" id="gyarados-name">Gyarados</div>
+                <div class="pkmn-name" id="lapras-name">Lapras</div>
+                <div class="pkmn-name" id="ditto-name">Ditto</div>
+                <div class="pkmn-name" id="eevee-name">Eevee</div>
+                <div class="pkmn-name" id="vaporeon-name">Vaporeon</div>
+                <div class="pkmn-name" id="jolteon-name">Jolteon</div>
+                <div class="pkmn-name" id="flareon-name">Flareon</div>
+                <div class="pkmn-name" id="porygon-name">Porygon</div>
+                <div class="pkmn-name" id="omanyte-name">Omanyte</div>
+                <div class="pkmn-name" id="omastar-name">Omastar</div>
+                <div class="pkmn-name" id="kabuto-name">Kabuto</div>
+                <div class="pkmn-name" id="kabutops-name">Kabutops</div>
+                <div class="pkmn-name" id="aerodactyl-name">Aerodactyl</div>
+                <div class="pkmn-name" id="snorlax-name">Snorlax</div>
+                <div class="pkmn-name" id="articuno-name">Articuno</div>
+                <div class="pkmn-name" id="zapdos-name">Zapdos</div>
+                <div class="pkmn-name" id="moltres-name">Moltres</div>
+                <div class="pkmn-name" id="dratini-name">Dratini</div>
+                <div class="pkmn-name" id="dragonair-name">Dragonair</div>
+                <div class="pkmn-name" id="dragonite-name">Dragonite</div>
+                <div class="pkmn-name" id="mewtwo-name">Mewtwo</div>
+                <div class="pkmn-name" id="mew-name">Mew</div>
               </div>
               <!--pokemon attributes-->
-              <div class="specs hide">
-                <div class="pkmn-specs bulbasaur-specs">
+              <div class="specs">
+                <div class="pkmn-specs" id="bulbasaur-specs">
                   Species: Seed Pokemon<br><br>
                   Height: 2'04<br><br>
                   Weight: 15.2lbs(6.9kg)
                 </div>
-                <div class="pkmn-specs ivysaur-specs">
+                <div class="pkmn-specs" id="ivysaur-specs">
                   Species: Seed Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 28.7lbs(13.0kg)
                 </div>
-                <div class="pkmn-specs venusaur-specs">
+                <div class="pkmn-specs" id="venusaur-specs">
                   Species: Seed Pokemon<br><br>
                   Height: 6'07<br><br>
                   Weight: 220.5lbs(100.0kg)
                 </div>
-                <div class="pkmn-specs charmander-specs">
+                <div class="pkmn-specs" id="charmander-specs">
                   Species: Lizard Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 18.7lbs(8.5kg)
                 </div>
-                <div class="pkmn-specs charmeleon-specs">
+                <div class="pkmn-specs" id="charmeleon-specs">
                   Species: Flame Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 41.9lbs(19.0kg)
                 </div>
-                <div class="pkmn-specs charizard-specs">
+                <div class="pkmn-specs" id="charizard-specs">
                   Species: Flame Pokemon<br><br>
                   Height: 5'07<br><br>
                   Weight: 199.5lbs(90.5kg)
                 </div>
-                <div class="pkmn-specs squirtle-specs">
+                <div class="pkmn-specs" id="squirtle-specs">
                   Species: Tiny Turtle Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 19.8lbs(9.0kg)
                 </div>
-                <div class="pkmn-specs wartortle-specs">
+                <div class="pkmn-specs" id="wartortle-specs">
                   Species: Turtle Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 49.6lbs(22.5kg)
                 </div>
-                <div class="pkmn-specs blastoise-specs">
+                <div class="pkmn-specs" id="blastoise-specs">
                   Species: Shellfish Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 188.5lbs(85.5kg)
                 </div>
-                <div class="pkmn-specs caterpie-specs">
+                <div class="pkmn-specs" id="caterpie-specs">
                   Species: Tiny Turtle Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 6.4lbs(2.9kg)
                 </div>
-                <div class="pkmn-specs metapod-specs">
+                <div class="pkmn-specs" id="metapod-specs">
                   Species: Cocoon Pokemon<br><br>
                   Height: 2'04<br><br>
                   Weight: 21.8lbs(9.9kg)
                 </div>
-                <div class="pkmn-specs butterfree-specs">
+                <div class="pkmn-specs" id="butterfree-specs">
                   Species: Tiny Turtle Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 19.8lbs(9.0kg)
                 </div>
-                <div class="pkmn-specs weedle-specs">
+                <div class="pkmn-specs" id="weedle-specs">
                   Species: Hairy Bug Pokemon<br><br>
                   Height: 1'01<br><br>
                   Weight: 7.1lbs(3.2kg)
                 </div>
-                <div class="pkmn-specs kakuna-specs">
+                <div class="pkmn-specs" id="kakuna-specs">
                   Species: Cocoon Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 22.0lbs(10.0kg)
                 </div>
-                <div class="pkmn-specs beedrill-specs">
+                <div class="pkmn-specs" id="beedrill-specs">
                   Species: Poison Bee Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 65.0lbs(29.5kg)
                 </div>
-                <div class="pkmn-specs pidgey-specs">
+                <div class="pkmn-specs" id="pidgey-specs">
                   Species: Tiny Bird Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 19.8lbs(9.0kg)
                 </div>
-                <div class="pkmn-specs pidgeotto-specs">
+                <div class="pkmn-specs" id="pidgeotto-specs">
                   Species: Bird Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 66.1lbs(30.0kg)
                 </div>
-                <div class="pkmn-specs pidgeot-specs">
+                <div class="pkmn-specs" id="pidgeot-specs">
                   Species: Bird Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 87.1lbs(39.5kg)
                 </div>
-                <div class="pkmn-specs rattata-specs">
+                <div class="pkmn-specs" id="rattata-specs">
                   Species: Mouse Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 7.7lbs(3.5kg)
                 </div>
-                <div class="pkmn-specs raticate-specs">
+                <div class="pkmn-specs" id="raticate-specs">
                   Species: Mouse Pokemon<br><br>
                   Height: 2'04<br><br>
                   Weight: 40.8lbs(18.5kg)
                 </div>
-                <div class="pkmn-specs spearow-specs">
+                <div class="pkmn-specs" id="spearow-specs">
                   Species: Tiny Bird Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 4.4lbs(2.0kg)
                 </div>
-                <div class="pkmn-specs fearow-specs">
+                <div class="pkmn-specs" id="fearow-specs">
                   Species: Beak Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 83.8lbs(38.0kg)
                 </div>
-                <div class="pkmn-specs ekans-specs">
+                <div class="pkmn-specs" id="ekans-specs">
                   Species: Snake Pokemon<br><br>
                   Height: 6'07<br><br>
                   Weight: 15.2lbs(6.2kg)
                 </div>
-                <div class="pkmn-specs arbok-specs">
+                <div class="pkmn-specs" id="arbok-specs">
                   Species: Cobra Pokemon<br><br>
                   Height: 11'06<br><br>
                   Weight: 143.3lbs(65.0kg)
-                </div>
-                <div class="pkmn-specs pikachu-specs">
+                </div>"
+                <div class="pkmn-specs" id="pikachu-specs">
                   Species: Mouse Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 13.2lbs(6.0kg)
                 </div>
-                <div class="pkmn-specs raichu-specs">
+                <div class="pkmn-specs" id="raichu-specs">
                   Species: Mouse Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 66.1lbs(30.0kg)
                 </div>
-                <div class="pkmn-specs sandshrew-specs">
+                <div class="pkmn-specs" id="sandshrew-specs">
                   Species: Mouse Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 26.5lbs(12.0kg)
                 </div>
-                <div class="pkmn-specs sandslash-specs">
+                <div class="pkmn-specs" id="sandslash-specs">
                   Species: Mouse Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 65.0lbs(29.5kg)
                 </div>
-                <div class="pkmn-specs nidoran-f-specs">
+                <div class="pkmn-specs" id="nidoran-f-specs">
                   Species: Poison Pin Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 15.4lbs(7.0kg)
                 </div>
-                <div class="pkmn-specs nidorina-specs">
+                <div class="pkmn-specs" id="nidorina-specs">
                   Species: Poison Pin Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 44.1lbs(20.0kg)
                 </div>
-                <div class="pkmn-specs nidoqueen-specs">
+                <div class="pkmn-specs" id="nidoqueen-specs">
                   Species: Drill Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 132.3lbs(60.0kg)
                 </div>
-                <div class="pkmn-specs nidoran-m-specs">
+                <div class="pkmn-specs" id="nidoran-m-specs">
                   Species: Poison Pin Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 19.8lbs(9.0kg)
                 </div>
-                <div class="pkmn-specs nidorino-specs">
+                <div class="pkmn-specs" id="nidorino-specs">
                   Species: Poison Pin Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 43.0lbs(19.5kg)
                 </div>
-                <div class="pkmn-specs nidoking-specs">
+                <div class="pkmn-specs" id="nidoking-specs">
                   Species: Drill Pokemon<br><br>
                   Height: 4'07<br><br>
                   Weight: 136.7lbs(62.0kg)
                 </div>
-                <div class="pkmn-specs clefairy-specs">
+                <div class="pkmn-specs" id="clefairy-specs">
                   Species: Fairy Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 16.5lbs(7.5kg)
                 </div>
-                <div class="pkmn-specs clefable-specs">
+                <div class="pkmn-specs" id="clefable-specs">
                   Species: Fairy Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 16.5lbs(7.5kg)
-                </div>
-                <div class="pkmn-specs vulpix-specs">
+                </div>"
+                <div class="pkmn-specs" id="vulpix-specs">
                   Species: Fox Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 21.8lbs(9.9kg)
                 </div>
-                <div class="pkmn-specs ninetales-specs">
+                <div class="pkmn-specs" id="ninetales-specs">
                   Species: Fox Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 43.9lbs(19.9kg)
                 </div>
-                <div class="pkmn-specs jigglypuff-specs">
+                <div class="pkmn-specs" id="jigglypuff-specs">
                   Species: Balloon Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 12.1lbs(5.5kg)
                 </div>
-                <div class="pkmn-specs wigglytuff-specs">
+                <div class="pkmn-specs" id="wigglytuff-specs">
                   Species: Balloon Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 26.5lbs(12.5kg)
                 </div>
-                <div class="pkmn-specs zubat-specs">
+                <div class="pkmn-specs" id="zubat-specs">
                   Species: Bat Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 16.5lbs(7.5kg)
                 </div>
-                <div class="pkmn-specs golbat-specs">
+                <div class="pkmn-specs" id="golbat-specs">
                   Species: Bat Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 121.3lbs(55.0kg)
                 </div>
-                <div class="pkmn-specs oddish-specs">
+                <div class="pkmn-specs" id="oddish-specs">
                   Species: Weed Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 11.9lbs(5.4kg)
                 </div>
-                <div class="pkmn-specs gloom-specs">
+                <div class="pkmn-specs" id="gloom-specs">
                   Species: Weed Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 19.0lbs(8.6kg)
                 </div>
-                <div class="pkmn-specs vileplume-specs">
+                <div class="pkmn-specs" id="vileplume-specs">
                   Species: Flower Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 41.0lbs(18.6kg)
                 </div>
-                <div class="pkmn-specs paras-specs">
+                <div class="pkmn-specs" id="paras-specs">
                   Species: Mushroom Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 11.9lbs(5.4kg)
                 </div>
-                <div class="pkmn-specs parasect-specs">
+                <div class="pkmn-specs" id="parasect-specs">
                   Species: Mushroom Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 65.0lbs(29.5kg)
                 </div>
-                <div class="pkmn-specs venonat-specs">
+                <div class="pkmn-specs" id="venonat-specs">
                   Species: Insect Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 66.1lbs(30.0kg)
                 </div>
-                <div class="pkmn-specs venomoth-specs">
+                <div class="pkmn-specs" id="venomoth-specs">
                   Species: Poison Moth Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 27.6lbs(12.5kg)
                 </div>
-                <div class="pkmn-specs diglett-specs">
+                <div class="pkmn-specs" id="diglett-specs">
                   Species: Mole Pokemon<br><br>
                   Height: 0'08<br><br>
                   Weight: 1.8lbs(0.8kg)
                 </div>
-                <div class="pkmn-specs dugtrio-specs">
+                <div class="pkmn-specs" id="dugtrio-specs">
                   Species: Mole Pokemon<br><br>
                   Height: 2'04<br><br>
                   Weight: 73.4lbs(33.3kg)
                 </div>
-                <div class="pkmn-specs meowth-specs">
+                <div class="pkmn-specs" id="meowth-specs">
                   Species: Scratch Cat Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 9.3lbs(4.2kg)
                 </div>
-                <div class="pkmn-specs persian-specs">
+                <div class="pkmn-specs" id="persian-specs">
                   Species: Classy Cat Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 70.5lbs(32.0kg)
                 </div>
-                <div class="pkmn-specs psyduck-specs">
+                <div class="pkmn-specs" id="psyduck-specs">
                   Species: Duck Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 43.2lbs(19.6kg)
                 </div>
-                <div class="pkmn-specs golduck-specs">
+                <div class="pkmn-specs" id="golduck-specs">
                   Species: Duck Pokemon<br><br>
                   Height: 5'07<br><br>
                   Weight: 168.9lbs(76.6kg)
                 </div>
-                <div class="pkmn-specs mankey-specs">
+                <div class="pkmn-specs" id="mankey-specs">
                   Species: Pig Monkey Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 61.7lbs(28.0kg)
                 </div>
-                <div class="pkmn-specs primeape-specs">
+                <div class="pkmn-specs" id="primeape-specs">
                   Species: Pig Monkey Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 70.5lbs(32.0kg)
                 </div>
-                <div class="pkmn-specs growlithe-specs">
+                <div class="pkmn-specs" id="growlithe-specs">
                   Species: Puppy Pokemon<br><br>
                   Height: 2'04<br><br>
                   Weight: 41.9lbs(19.0kg)
                 </div>
-                <div class="pkmn-specs arcanine-specs">  
+                <div class="pkmn-specs" id="arcanine-specs">  
                   Species: Legendary Pokemon<br><br>
                   Height: 6'03<br><br>
                   Weight: 341.7lbs(155.0kg)
                 </div>
-                <div class="pkmn-specs poliwag-specs">
+                <div class="pkmn-specs" id="poliwag-specs">
                   Species: Tadpole Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 27.3lbs(12.4kg)
                 </div>
-                <div class="pkmn-specs poliwhirl-specs">
+                <div class="pkmn-specs" id="poliwhirl-specs">
                   Species: Tadpole Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 44.1lbs(20.0kg)
                 </div>
-                <div class="pkmn-specs poliwrath-specs">
+                <div class="pkmn-specs" id="poliwrath-specs">
                   Species: Tadpole Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 119.0lbs(54.0kg)
                 </div>
-                <div class="pkmn-specs abra-specs">
+                <div class="pkmn-specs" id="abra-specs">
                   Species: Psi Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 43.0lbs(19.5kg)
                 </div>
-                <div class="pkmn-specs kadabra-specs">
+                <div class="pkmn-specs" id="kadabra-specs">
                   Species: Psi Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 124.6lbs(56.5kg)
                 </div>
-                <div class="pkmn-specs alakazam-specs">
+                <div class="pkmn-specs" id="alakazam-specs">
                   Species: Psi Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 105.8lbs(48.0kg)
                 </div>
-                <div class="pkmn-specs machop-specs">
+                <div class="pkmn-specs" id="machop-specs">
                   Species: Superpower Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 43.0lbs(19.5kg)
                 </div>
-                <div class="pkmn-specs machoke-specs">
+                <div class="pkmn-specs" id="machoke-specs">
                   Species: Superpower Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 155.4lbs(70.5kg)
                 </div>
-                <div class="pkmn-specs machamp-specs">
+                <div class="pkmn-specs" id="machamp-specs">
                   Species: Superpower Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 286.6lbs(130.0kg)
                 </div>
-                <div class="pkmn-specs bellsprout-specs">
+                <div class="pkmn-specs" id="bellsprout-specs">
                   Species: Flower Pokemon<br><br>
                   Height: 2'04<br><br>
                   Weight: 8.8lbs(4.0kg)
                 </div>
-                <div class="pkmn-specs weepinbell-specs">
+                <div class="pkmn-specs" id="weepinbell-specs">
                   Species: Flycatcher Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 14.1lbs(6.4kg)
                 </div>
-                <div class="pkmn-specs victreebel-specs">
+                <div class="pkmn-specs" id="victreebel-specs">
                   Species: Flycatcher Pokemon<br><br>
                   Height: 5'07<br><br>
                   Weight: 34.2lbs(15.5kg)
                 </div>
-                <div class="pkmn-specs tentacool-specs">
+                <div class="pkmn-specs" id="tentacool-specs">
                   Species: Jellyfish Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 100.3lbs(45.5kg)
                 </div>
-                <div class="pkmn-specs tentacruel-specs">
+                <div class="pkmn-specs" id="tentacruel-specs">
                   Species: Jellyfish Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 121.3lbs(55.0kg)
                 </div>
-                <div class="pkmn-specs geodude-specs">
+                <div class="pkmn-specs" id="geodude-specs">
                   Species: Rock Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 44.1lbs(20.0kg)
                 </div>
-                <div class="pkmn-specs graveler-specs">
+                <div class="pkmn-specs" id="graveler-specs">
                   Species: Rock Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 231.5lbs(105.0kg)
                 </div>
-                <div class="pkmn-specs golem-specs">
+                <div class="pkmn-specs" id="golem-specs">
                   Species: Megaton Pokemon<br><br>
                   Height: 4'07<br><br>
                   Weight: 661.4lbs(300.0kg)
                 </div>
-                <div class="pkmn-specs ponyta-specs">
+                <div class="pkmn-specs" id="ponyta-specs">
                   Species: Fire Horse Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 100.3lbs(45.5kg)
                 </div>
-                <div class="pkmn-specs rapidash-specs">
+                <div class="pkmn-specs" id="rapidash-specs">
                   Species: Fire Horse Pokemon<br><br>
                   Height: 5'07<br><br>
                   Weight: 209.4lbs(95.0kg)
                 </div>
-                <div class="pkmn-specs slowpoke-specs">
+                <div class="pkmn-specs" id="slowpoke-specs">
                   Species: Dopey Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 79.4lbs(36.0kg)
                 </div>
-                <div class="pkmn-specs slowbro-specs">
+                <div class="pkmn-specs" id="slowbro-specs">
                   Species: Hermitt Crab Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 173.1lbs(78.5kg)
                 </div>
-                <div class="pkmn-specs magnemite-specs">
+                <div class="pkmn-specs" id="magnemite-specs">
                   Species: Magnet Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 13.2lbs(6.0kg)
                 </div>
-                <div class="pkmn-specs magneton-specs">
+                <div class="pkmn-specs" id="magneton-specs">
                   Species: Fire Horse Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 132.3lbs(60.0kg)
                 </div>
-                <div class="pkmn-specs farfetch-d-specs">
+                <div class="pkmn-specs" id="farfetch-d-specs">
                   Species: Wild Duck Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 33.1lbs(15.0kg)
                 </div>
-                <div class="pkmn-specs doduo-specs">
+                <div class="pkmn-specs" id="doduo-specs">
                   Species: Twin Bird Pokemon<br><br>
                   Height: 4'07<br><br>
                   Weight: 86.4lbs(39.2kg)
                 </div>
-                <div class="pkmn-specs dodrio-specs">
+                <div class="pkmn-specs" id="dodrio-specs">
                   Species: Triple Bird Pokemon<br><br>
                   Height: 5'11<br><br>
                   Weight: 187.8lbs(45.5kg)
                 </div>
-                <div class="pkmn-specs seel-specs">
+                <div class="pkmn-specs" id="seel-specs">
                   Species: Sea Lion Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 198.4lbs(90.0kg)
                 </div>
-                <div class="pkmn-specs dewgong-specs">
+                <div class="pkmn-specs" id="dewgong-specs">
                   Species: Sea Lion Pokemon<br><br>
                   Height: 5'07<br><br>
                   Weight: 264.6lbs(120.0kg)
                 </div>
-                <div class="pkmn-specs grimer-specs">
+                <div class="pkmn-specs" id="grimer-specs">
                   Species: Sludge Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 66.1lbs(30.0kg)
                 </div>
-                <div class="pkmn-specs muk-specs">
+                <div class="pkmn-specs"id="muk-specs">
                   Species: Sludge Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 66.1lbs(30.0kg)
                 </div>
-                <div class="pkmn-specs shellder-specs">
+                <div class="pkmn-specs" id="shellder-specs">
                   Species: Bivalve Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 8.8lbs(4.0kg)
                 </div>
-                <div class="pkmn-specs cloyster-specs">
+                <div class="pkmn-specs" id="cloyster-specs">
                   Species: Bivalve Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 292.1lbs(132.5kg)
                 </div>
-                <div class="pkmn-specs gastly-specs">
+                <div class="pkmn-specs" id="gastly-specs">
                   Species: Gas Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 0.2lbs(0.1kg)
                 </div>
-                <div class="pkmn-specs haunter-specs">
+                <div class="pkmn-specs" id="haunter-specs">
                   Species: Gas Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 0.2lbs(0.1kg)
                 </div>
-                <div class="pkmn-specs gengar-specs">
+                <div class="pkmn-specs" id="gengar-specs">
                   Species: Sea Lion Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 89.3lbs(40.5kg)
                 </div>
-                <div class="pkmn-specs onix-specs">
+                <div class="pkmn-specs" id="onix-specs">
                   Species: Rock Snake Pokemon<br><br>
                   Height: 28'10<br><br>
                   Weight: 463.0lbs(210.0kg)
                 </div>
-                <div class="pkmn-specs drowzee-specs">
+                <div class="pkmn-specs" id="drowzee-specs">
                   Species: Hypnosis Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 71.4lbs(32.4kg)
                 </div>
-                <div class="pkmn-specs hypno-specs">
+                <div class="pkmn-specs" id="hypno-specs">
                   Species: Hypnosis Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 166.7lbs(75.6kg)
                 </div>
-                <div class="pkmn-specs krabby-specs">
+                <div class="pkmn-specs" id="krabby-specs">
                   Species: River Crab Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 14.3lbs(6.5kg)
                 </div>
-                <div class="pkmn-specs kingler-specs">
+                <div class="pkmn-specs" id="kingler-specs">
                   Species: Pincer Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 132.3lbs(60.0kg)
                 </div>
-                <div class="pkmn-specs voltorb-specs">
+                <div class="pkmn-specs" id="voltorb-specs">
                   Species: Ball Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 22.9lbs(10.4kg)
                 </div>
-                <div class="pkmn-specs electrode-specs">
+                <div class="pkmn-specs" id="electrode-specs">
                   Species: Ball Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 146.8lbs(66.6kg)
                 </div>
-                <div class="pkmn-specs exeggcute-specs">
+                <div class="pkmn-specs" id="exeggcute-specs">
                   Species: Egg Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 5.5lbs(2.5kg)
                 </div>
-                <div class="pkmn-specs exeggutor-specs">
+                <div class="pkmn-specs" id="exeggutor-specs">
                   Species: Coconut Pokemon<br><br>
                   Height: 6'07<br><br>
                   Weight: 264.6lbs(120.0kg)
                 </div>
-                <div class="pkmn-specs cubone-specs">
+                <div class="pkmn-specs" id="cubone-specs">
                   Species: Lonely Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 14.3lbs(6.5kg)
                 </div>
-                <div class="pkmn-specs marowak-specs">
+                <div class="pkmn-specs" id="marowak-specs">
                   Species: Bone Keeper Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 99.2lbs(45.0kg)
                 </div>
-                <div class="pkmn-specs hitmonlee-specs">
+                <div class="pkmn-specs" id="hitmonlee-specs">
                   Species: Kicking Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 109.8lbs(49.8kg)
                 </div>
-                <div class="pkmn-specs hitmonchan-specs">
+                <div class="pkmn-specs" id="hitmonchan-specs">
                   Species: Punching Pokemon<br><br>
                   Height: 4'07<br><br>
                   Weight: 110.7lbs(50.2kg)
                 </div>
-                <div class="pkmn-specs lickitung-specs">
+                <div class="pkmn-specs" id="lickitung-specs">
                   Species: Licking Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 144.4lbs(65.5kg)
                 </div>
-                <div class="pkmn-specs koffing-specs">
+                <div class="pkmn-specs" id="koffing-specs">
                   Species: Poison Gas Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 2.2lbs(1.0kg)
                 </div>
-                <div class="pkmn-specs weezing-specs">
+                <div class="pkmn-specs" id="weezing-specs">
                   Species: Poison Gas Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 20.9lbs(9.5kg)
                 </div>
-                <div class="pkmn-specs rhyhorn-specs">
+                <div class="pkmn-specs" id="rhyhorn-specs">
                   Species: Spikes Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 253.5lbs(115.0kg)
                 </div>
-                <div class="pkmn-specs rhydon-specs">
+                <div class="pkmn-specs" id="rhydon-specs">
                   Species: Drill Pokemon<br><br>
                   Height: 6'03<br><br>
                   Weight: 264.6lbs(120.0kg)
                 </div>
-                <div class="pkmn-specs chansey-specs">
+                <div class="pkmn-specs" id="chansey-specs">
                   Species: Egg Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 76.3lbs(34.6kg)
                 </div>
-                <div class="pkmn-specs tangela-specs">
+                <div class="pkmn-specs" id="tangela-specs">
                   Species: Vine Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 77.2lbs(35.0kg)
                 </div>
-                <div class="pkmn-specs kangaskhan-specs">
+                <div class="pkmn-specs" id="kangaskhan-specs">
                   Species: Parent Pokemon<br><br>
                   Height: 7'03<br><br>
                   Weight: 176.4lbs(80.0kg)
                 </div>
-                <div class="pkmn-specs horsea-specs">
+                <div class="pkmn-specs" id="horsea-specs">
                   Species: Dragon Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 17.6lbs(8.0kg)
                 </div>
-                <div class="pkmn-specs seadra-specs">
+                <div class="pkmn-specs" id="seadra-specs">
                   Species: Dragon Pokemon<br><br>
                   Height: 3'11<br><br>
                   Weight: 55.1lbs(25.0kg)
                 </div>
-                <div class="pkmn-specs goldeen-specs">
+                <div class="pkmn-specs" id="goldeen-specs">
                   Species: Goldish Pokemon<br><br>
                   Height: 2'00<br><br>
                   Weight: 33.1lbs(15.0kg)
                 </div>
-                <div class="pkmn-specs seaking-specs">
+                <div class="pkmn-specs" id="seaking-specs">
                   Species: Goldfish Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 86.0lbs(39.0kg)
                 </div>
-                <div class="pkmn-specs staryu-specs">
+                <div class="pkmn-specs" id="staryu-specs">
                   Species: Star Shape Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 76.1lbs(34.5kg)
                 </div>
-                <div class="pkmn-specs starmie-specs">
+                <div class="pkmn-specs" id="starmie-specs">
                   Species: Mysterious Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 176.4lbs(80.0kg)
                 </div>
-                <div class="pkmn-specs mr-mime-specs">
+                <div class="pkmn-specs" id="mr-mime-specs">
                   Species: Barrier Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 120.2lbs(54.5kg)
                 </div>
-                <div class="pkmn-specs scyther-specs">
+                <div class="pkmn-specs" id="scyther-specs">
                   Species: Mantis Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 123.5lbs(56.0kg)
                 </div>
-                <div class="pkmn-specs jynx-specs">
+                <div class="pkmn-specs" id="jynx-specs">
                   Species: Sea Lion Pokemon<br><br>
                   Height: 4'07<br><br>
                   Weight: 89.5lbs(40.6kg)
                 </div>
-                <div class="pkmn-specs electabuzz-specs">
+                <div class="pkmn-specs" id="electabuzz-specs">
                   Species: Electric Pokemon<br><br>
                   Height: 3'07<br><br>
                   Weight: 66.1lbs(30.0kg)
                 </div>
-                <div class="pkmn-specs magmar-specs">
+                <div class="pkmn-specs" id="magmar-specs">
                   Species: Spitfire Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 98.1lbs(44.5kg)
                 </div>
-                <div class="pkmn-specs pinsir-specs">
+                <div class="pkmn-specs" id="pinsir-specs">
                   Species: Stag Beetle Pokemon<br><br>
                   Height: 4'11<br><br>
                   Weight: 121.3lbs(55.0kg)
                 </div>
-                <div class="pkmn-specs tauros-specs">
+                <div class="pkmn-specs" id="tauros-specs">
                   Species: Wild Bull Pokemon<br><br>
                   Height: 4'07<br><br>
                   Weight: 194.9lbs(88.4kg)
                 </div>
-                <div class="pkmn-specs magikarp-specs">
+                <div class="pkmn-specs" id="magikarp-specs">
                   Species: Fish Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 22.0lbs(10.0kg)
                 </div>
-                <div class="pkmn-specs gyarados-specs">
+                <div class="pkmn-specs" id="gyarados-specs">
                   Species: Atrocious Pokemon<br><br>
                   Height: 21'04<br><br>
                   Weight: 518.1lbs(235.0kg)
                 </div>
-                <div class="pkmn-specs lapras-specs">
+                <div class="pkmn-specs" id="lapras-specs">
                   Species: Transport Pokemon<br><br>
                   Height: 8'02<br><br>
                   Weight: 485.0lbs(220.0kg)
                 </div>
-                <div class="pkmn-specs ditto-specs">
+                <div class="pkmn-specs" id="ditto-specs">
                   Species: Sea Lion Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 8.8lbs(4.0kg)
                 </div>
-                <div class="pkmn-specs eevee-specs">
+                <div class="pkmn-specs" id="eevee-specs">
                   Species: Evolution Pokemon<br><br>
                   Height: 1'00<br><br>
                   Weight: 14.3lbs(6.5kg)
                 </div>
-                <div class="pkmn-specs vaporeon-specs">
+                <div class="pkmn-specs" id="vaporeon-specs">
                   Species: Bubble Jet Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 63.9lbs(29.0kg)
                 </div>
-                <div class="pkmn-specs jolteon-specs">
+                <div class="pkmn-specs" id="jolteon-specs">
                   Species: Lightning Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 54.0lbs(24.5kg)
                 </div>
-                <div class="pkmn-specs flareon-specs">
+                <div class="pkmn-specs" id="flareon-specs">
                   Species: Flame Pokemon<br><br>
                   Height: 2'11<br><br>
                   Weight: 55.1lbs(25.0kg)
                 </div>
-                <div class="pkmn-specs porygon-specs">
+                <div class="pkmn-specs" id="porygon-specs">
                   Species: Virtual Pokemon<br><br>
                   Height: 2'07<br><br>
                   Weight: 80.5lbs(36.5kg)
                 </div>
-                <div class="pkmn-specs omanyte-specs">
+                <div class="pkmn-specs" id="omanyte-specs">
                   Species: Spiral Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 16.5lbs(7.5kg)
                 </div>
-                <div class="pkmn-specs omastar-specs">
+                <div class="pkmn-specs" id="omastar-specs">
                   Species: Spiral Pokemon<br><br>
                   Height: 3'03<br><br>
                   Weight: 77.2lbs(35.0kg)
                 </div>
-                <div class="pkmn-specs kabuto-specs">
+                <div class="pkmn-specs" id="kabuto-specs">
                   Species: Shellfish Pokemon<br><br>
                   Height: 1'08<br><br>
                   Weight: 25.4lbs(11.5kg)
                 </div>
-                <div class="pkmn-specs kabutops-specs">
+                <div class="pkmn-specs" id="kabutops-specs">
                   Species: Shellfish Pokemon<br><br>
                   Height: 4'03<br><br>
                   Weight: 89.3lbs(40.5kg)
                 </div>
-                <div class="pkmn-specs aerodactyl-specs">
+                <div class="pkmn-specs" id="aerodactyl-specs">
                   Species: Fossil Pokemon<br><br>
                   Height: 5'11<br><br>
                   Weight: 130.1lbs(59.0kg)
                 </div>
-                <div class="pkmn-specs snorlax-specs">
+                <div class="pkmn-specs" id="snorlax-specs">
                   Species: Sleeping Pokemon<br><br>
                   Height: 6'11<br><br>
                   Weight: 1014.1lbs(460.5kg)
                 </div>
-                <div class="pkmn-specs articuno-specs">
+                <div class="pkmn-specs" id="articuno-specs">
                   Species: Freeze Pokemon<br><br>
                   Height: 5'07<br><br>
                   Weight: 121.1lbs(55.4kg)
                 </div>
-                <div class="pkmn-specs zapdos-specs">
+                <div class="pkmn-specs" id="zapdos-specs">
                   Species: Electric Pokemon<br><br>
                   Height: 5'03<br><br>
                   Weight: 116.0lbs(52.6kg)
                 </div>
-                <div class="pkmn-specs moltres-specs">
+                <div class="pkmn-specs" id="moltres-specs">
                   Species: Flame Pokemon<br><br>
                   Height: 6'07<br><br>
                   Weight: 132.3lbs(60.0kg)
                 </div>
-                <div class="pkmn-specs dratini-specs">
+                <div class="pkmn-specs" id="dratini-specs">
                   Species: Dragon Pokemon<br><br>
                   Height: 5'11<br><br>
                   Weight: 7.3lbs(3.3kg)
                 </div>
-                <div class="pkmn-specs dragonair-specs">
+                <div class="pkmn-specs" id="dragonair-specs">
                   Species: Dragon Pokemon<br><br>
                   Height: 13'01<br><br>
                   Weight: 36.4lbs(16.5kg)
                 </div>
-                <div class="pkmn-specs dragonite-specs">
+                <div class="pkmn-specs" id="dragonite-specs">
                   Species: Dragon Pokemon<br><br>
                   Height: 7'03<br><br>
                   Weight: 463.0lbs(210.0kg)
                 </div>
-                <div class="pkmn-specs mewtwo-specs">
+                <div class="pkmn-specs" id="mewtwo-specs">
                   Species: Genetic Pokemon<br><br>
                   Height: 6'07<br><br>
                   Weight: 269.0lbs(122.0kg)
                 </div>
-                <div class="pkmn-specs mew-specs">
+                <div class="pkmn-specs" id="mew-specs">
                   Species: New Species Pokemon<br><br>
                   Height: 1'04<br><br>
                   Weight: 8.8lbs(4.0kg)
                 </div>
               </div>
               <!--pokemon description-->
-              <div class="desc hide">
-                <div class="pkmn-desc bulbasaur-desc">A strange seed was planted on<br><br> its back at birth. The plant<br><br> sprouts
+              <div class="desc">
+                <div class="pkmn-desc" id="bulbasaur-desc">A strange seed was planted on<br><br> its back at birth. The plant<br><br> sprouts
                    and grows with this<br><br> Pokémon.
                 </div>
-                <div class="pkmn-desc ivysaur-desc">When the bulb on its back grows<br><br> large, it appears to lose the<br><br> ability to stand on its hind<br><br> legs.
+                <div class="pkmn-desc" id="ivysaur-desc">When the bulb on its back grows<br><br> large, it appears to lose the<br><br> ability to stand on its hind<br><br> legs.
                 </div>
-                <div class="pkmn-desc venusaur-desc">The plant blooms when it is<br><br> absorbing solar energy. It<br><br> stays on the move to seek<br><br> sunlight.
+                <div class="pkmn-desc" id="venusaur-desc">The plant blooms when it is<br><br> absorbing solar energy. It<br><br> stays on the move to seek<br><br> sunlight.
                 </div>
-                <div class="pkmn-desc charmander-desc">Obviously prefers hot places.<br><br> When it rains, steam is said to<br><br> spout from the tip of its tail.
+                <div class="pkmn-desc" id="charmander-desc">Obviously prefers hot places.<br><br> When it rains, steam is said to<br><br> spout from the tip of its tail.
                 </div>
-                <div class="pkmn-desc charmeleon-desc">When it swings its burning<br><br> tail, it elevates the<br><br> temperature to unbearably<br><br> high levels.
+                <div class="pkmn-desc" id="charmeleon-desc">When it swings its burning<br><br> tail, it elevates the<br><br> temperature to unbearably<br><br> high levels.
                 </div>
-                <div class="pkmn-desc harizard-desc">Spits fire that is hot enough<br><br> to melt boulders. Known to<br><br> cause forest fires<br><br> unintentionally.
+                <div class="pkmn-desc" id="charizard-desc">Spits fire that is hot enough<br><br> to melt boulders. Known to<br><br> cause forest fires<br><br> unintentionally.
                 </div>
-                <div class="pkmn-desc squirtle-desc">After birth, its back swells<br><br> and hardens into a shell.<br><br> Powerfully sprays foam from its<br><br> mouth.
+                <div class="pkmn-desc" id="squirtle-desc">After birth, its back swells<br><br> and hardens into a shell.<br><br> Powerfully sprays foam from its<br><br> mouth.
                 </div>
-                <div class="pkmn-desc wartortle-desc">Often hides in water to stalk<br><br> unwary prey. For swimming fast,<br><br> it moves its ears to maintain<br><br> balance.
+                <div class="pkmn-desc" id="wartortle-desc">Often hides in water to stalk<br><br> unwary prey. For swimming fast,<br><br> it moves its ears to maintain<br><br> balance.
                 </div>
-                <div class="pkmn-desc blastoise-desc">A brutal Pokémon with<br><br> pressurized water jets on its<br><br> shell. They are used for high<br><br> speed tackles.
+                <div class="pkmn-desc" id="blastoise-desc">A brutal Pokémon with<br><br> pressurized water jets on its<br><br> shell. They are used for high<br><br> speed tackles.
                 </div>
-                <div class="pkmn-desc caterpie-desc">Its short feet are tipped with<br><br> suction pads that enable it to<br><br> tirelessly climb slopes and<br><br> walls.
+                <div class="pkmn-desc" id="caterpie-desc">Its short feet are tipped with<br><br> suction pads that enable it to<br><br> tirelessly climb slopes and<br><br> walls.
                 </div>
-                <div class="pkmn-desc metapod-desc">This Pokémon is vulnerable to<br><br> attack while its shell is soft,<br><br> exposing its weak and tender<br><br> body.
+                <div class="pkmn-desc" id="metapod-desc">This Pokémon is vulnerable to<br><br> attack while its shell is soft,<br><br> exposing its weak and tender<br><br> body.
                 </div>
-                <div class="pkmn-desc butterfree-desc">In battle, it flaps its wings<br><br> at high speed to release highly<br><br> toxic dust into the air.
+                <div class="pkmn-desc" id="butterfree-desc">In battle, it flaps its wings<br><br> at high speed to release highly<br><br> toxic dust into the air.
                 </div>
-                <div class="pkmn-desc weedle-desc">Often found in forests, eating<br><br> leaves. It has a sharp venomous<br><br> stinger on its head.
+                <div class="pkmn-desc" id="weedle-desc">Often found in forests, eating<br><br> leaves. It has a sharp venomous<br><br> stinger on its head.
                 </div>
-                <div class="pkmn-desc kakuna-desc">Almost incapable of moving,<br><br> this Pokémon can only harden<br><br> its shell to protect itself<br><br> from predators.
+                <div class="pkmn-desc" id="kakuna-desc">Almost incapable of moving,<br><br> this Pokémon can only harden<br><br> its shell to protect itself<br><br> from predators.
                 </div>
-                <div class="pkmn-desc beedrill-desc">Flies at high speed and attacks<br><br> using its large venomous<br><br> stingers on its forelegs and<br><br> tail.
+                <div class="pkmn-desc" id="beedrill-desc">Flies at high speed and attacks<br><br> using its large venomous<br><br> stingers on its forelegs and<br><br> tail.
                 </div>
-                <div class="pkmn-desc pidgey-desc">A common sight in forests and<br><br> woods. It flaps its wings at<br><br> ground level to kick up<br><br> blinding sand.
+                <div class="pkmn-desc" id="pidgey-desc">A common sight in forests and<br><br> woods. It flaps its wings at<br><br> ground level to kick up<br><br> blinding sand.
                 </div>
-                <div class="pkmn-desc pidgeotto-desc">Very protective of its<br><br> sprawling territorial area,<br><br> this Pokémon will fiercely peck<br><br> at any intruder.
+                <div class="pkmn-desc" id="pidgeotto-desc">Very protective of its<br><br> sprawling territorial area,<br><br> this Pokémon will fiercely peck<br><br> at any intruder.
                 </div>
-                <div class="pkmn-desc pidgeot-desc">When hunting, it skims the<br><br> surface of water at high speed<br><br> to pick off unwary prey such as<br><br> Magikarp.
+                <div class="pkmn-desc" id="pidgeot-desc">When hunting, it skims the<br><br> surface of water at high speed<br><br> to pick off unwary prey such as<br><br> Magikarp.
                 </div>
-                <div class="pkmn-desc rattata-desc">Bites anything when it attacks.<br><br> Small and very quick, it is a<br><br> common sight in many places.
+                <div class="pkmn-desc" id="rattata-desc">Bites anything when it attacks.<br><br> Small and very quick, it is a<br><br> common sight in many places.
                 </div>
-                <div class="pkmn-desc raticate-desc">It uses its whiskers to<br><br> maintain its balance. It<br><br> apparently slows down if they<br><br> are cut off.
+                <div class="pkmn-desc" id="raticate-desc">It uses its whiskers to<br><br> maintain its balance. It<br><br> apparently slows down if they<br><br> are cut off.
                 </div>
-                <div class="pkmn-desc spearow-desc">Eats bugs in grassy areas. It<br><br> has to flap its short wings at<br><br> high speed to stay airborne.
+                <div class="pkmn-desc" id="spearow-desc">Eats bugs in grassy areas. It<br><br> has to flap its short wings at<br><br> high speed to stay airborne.
                 </div>
-                <div class="pkmn-desc fearow-desc">With its huge and magnificent<br><br> wings, it can keep aloft<br><br> without ever having to land for<br><br> rest.
+                <div class="pkmn-desc" id="fearow-desc">With its huge and magnificent<br><br> wings, it can keep aloft<br><br> without ever having to land for<br><br> rest.
                 </div>
-                <div class="pkmn-desc ekans-desc">Moves silently and stealthily.<br><br> Eats the eggs of birds, such as<br><br> Pidgey and Spearow, whole.
+                <div class="pkmn-desc" id="ekans-desc">Moves silently and stealthily.<br><br> Eats the eggs of birds, such as<br><br> Pidgey and Spearow, whole.
                 </div>
-                <div class="pkmn-desc arbok-desc">It is rumored that the<br><br> ferocious warning markings on<br><br> its belly differ from area to<br><br> area.
+                <div class="pkmn-desc" id="arbok-desc">It is rumored that the<br><br> ferocious warning markings on<br><br> its belly differ from area to<br><br> area.
                 </div>
-                <div class="pkmn-desc pikachu-desc">When several of these Pokémon<br><br> gather, their electricity could<br><br> build and cause lightning<br><br> storms.
+                <div class="pkmn-desc" id="pikachu-desc">When several of these Pokémon<br><br> gather, their electricity could<br><br> build and cause lightning<br><br> storms.
                 </div>
-                <div class="pkmn-desc raichu-desc">Its long tail serves as a<br><br> ground to protect itself from<br><br> its own high voltage power.
+                <div class="pkmn-desc" id="raichu-desc">Its long tail serves as a<br><br> ground to protect itself from<br><br> its own high voltage power.
                 </div>
-                <div class="pkmn-desc sandshrew-desc">Burrows deep underground in<br><br> arid locations far from water.<br><br> It only emerges to hunt for<br><br> food.
+                <div class="pkmn-desc" id="sandshrew-desc">Burrows deep underground in<br><br> arid locations far from water.<br><br> It only emerges to hunt for<br><br> food.
                 </div>
-                <div class="pkmn-desc sandslash-desc">	Curls up into a spiny ball when<br><br> threatened. It can roll while<br><br> curled up to attack or escape.
+                <div class="pkmn-desc" id="sandslash-desc">	Curls up into a spiny ball when<br><br> threatened. It can roll while<br><br> curled up to attack or escape.
                 </div>
-                <div class="pkmn-desc nidoran-f-desc">Although small, its venomous<br><br> barbs render this Pokémon<br><br> dangerous. The female has<br><br> smaller horns.
+                <div class="pkmn-desc" id="nidoran-f-desc">Although small, its venomous<br><br> barbs render this Pokémon<br><br> dangerous. The female has<br><br> smaller horns.
                 </div>
-                <div class="pkmn-desc nidorina-desc">The female's horn develops<br><br> slowly. Prefers physical<br><br> attacks such as clawing and<br><br> biting.
+                <div class="pkmn-desc" id="nidorina-desc">The female's horn develops<br><br> slowly. Prefers physical<br><br> attacks such as clawing and<br><br> biting.
                 </div>
-                <div class="pkmn-desc nidoqueen-desc">Its hard scales provide strong<br><br> protection. It uses its hefty<br><br> bulk to execute powerful moves.
+                <div class="pkmn-desc" id="nidoqueen-desc">Its hard scales provide strong<br><br> protection. It uses its hefty<br><br> bulk to execute powerful moves.
                 </div>
-                <div class="pkmn-desc nidoran-m-desc">Stiffens its ears to sense<br><br> danger. The larger its horns,<br><br> the more powerful its secreted<br><br> venom.
+                <div class="pkmn-desc" id="nidoran-m-desc">Stiffens its ears to sense<br><br> danger. The larger its horns,<br><br> the more powerful its secreted<br><br> venom.
                 </div>
-                <div class="pkmn-desc nidorino-desc">An aggressive Pokémon that is<br><br> quick to attack. The horn on<br><br> its head secretes a powerful<br><br> venom.
+                <div class="pkmn-desc" id="nidorino-desc">An aggressive Pokémon that is<br><br> quick to attack. The horn on<br><br> its head secretes a powerful<br><br> venom.
                 </div>
-                <div class="pkmn-desc nidoking-desc">It uses its powerful tail in<br><br> battle to smash, constrict,<br><br> then break the prey's bones.
+                <div class="pkmn-desc" id="nidoking-desc">It uses its powerful tail in<br><br> battle to smash, constrict,<br><br> then break the prey's bones.
                 </div>
-                <div class="pkmn-desc clefairy-desc">Its magical and cute appeal has<br><br> many admirers. It is rare and<br><br> found only in certain areas.
+                <div class="pkmn-desc" id="clefairy-desc">Its magical and cute appeal has<br><br> many admirers. It is rare and<br><br> found only in certain areas.
                 </div>
-                <div class="pkmn-desc clefable-desc">A timid fairy Pokémon that is<br><br> rarely seen. It will run and<br><br> hide the moment it senses<br><br> people.
+                <div class="pkmn-desc" id="clefable-desc">A timid fairy Pokémon that is<br><br> rarely seen. It will run and<br><br> hide the moment it senses<br><br> people.
                 </div>
-                <div class="pkmn-desc vulpix-desc">At the time of birth, it has<br><br> just one tail. The tail splits<br><br> from its tip as it grows older.
+                <div class="pkmn-desc" id="vulpix-desc">At the time of birth, it has<br><br> just one tail. The tail splits<br><br> from its tip as it grows older.
                 </div>
-                <div class="pkmn-desc ninetales-desc">Very smart and very vengeful.<br><br> Grabbing one of its many tails<br><br> could result in a 1000-year<br><br> curse.
+                <div class="pkmn-desc" id="ninetales-desc">Very smart and very vengeful.<br><br> Grabbing one of its many tails<br><br> could result in a 1000-year<br><br> curse.
                 </div>
-                <div class="pkmn-desc jigglypuff-desc">When its huge eyes light up, it<br><br> sings a mysteriously soothing<br><br> melody that lulls its enemies<br><br> to sleep.
+                <div class="pkmn-desc" id="jigglypuff-desc">When its huge eyes light up, it<br><br> sings a mysteriously soothing<br><br> melody that lulls its enemies<br><br> to sleep.
                 </div>
-                <div class="pkmn-desc wigglytuff-desc">The body is soft and rubbery.<br><br> When angered, it will suck in<br><br> air and inflate itself to an<br><br> enormous size.
+                <div class="pkmn-desc" id="wigglytuff-desc">The body is soft and rubbery.<br><br> When angered, it will suck in<br><br> air and inflate itself to an<br><br> enormous size.
                 </div>
-                <div class="pkmn-desc zubat-desc">Forms colonies in perpetually<br><br> dark places. Uses ultrasonic<br><br> waves to identify and approach<br><br> targets.
+                <div class="pkmn-desc" id="zubat-desc">Forms colonies in perpetually<br><br> dark places. Uses ultrasonic<br><br> waves to identify and approach<br><br> targets.
                 </div>
-                <div class="pkmn-desc golbat-desc">Once it strikes, it will not<br><br> stop draining energy from the<br><br> victim even if it gets too<br><br> heavy to fly.
+                <div class="pkmn-desc" id="golbat-desc">Once it strikes, it will not<br><br> stop draining energy from the<br><br> victim even if it gets too<br><br> heavy to fly.
                 </div>
-                <div class="pkmn-desc oddish-desc">During the day, it keeps its<br><br> face buried in the ground. At<br><br> night, it wanders around sowing<br><br> its seeds.
+                <div class="pkmn-desc" id="oddish-desc">During the day, it keeps its<br><br> face buried in the ground. At<br><br> night, it wanders around sowing<br><br> its seeds.
                 </div>
-                <div class="pkmn-desc gloom-desc">The fluid that oozes from its<br><br> mouth isn't drool. It is a<br><br> nectar that is used to attract<br><br> prey.
+                <div class="pkmn-desc" id="gloom-desc">The fluid that oozes from its<br><br> mouth isn't drool. It is a<br><br> nectar that is used to attract<br><br> prey.
                 </div>
-                <div class="pkmn-desc vileplume-desc">	The larger its petals, the more<br><br> toxic pollen it contains. Its<br><br> big head is heavy and hard to<br><br> hold up.
+                <div class="pkmn-desc" id="vileplume-desc">	The larger its petals, the more<br><br> toxic pollen it contains. Its<br><br> big head is heavy and hard to<br><br> hold up.
                 </div>
-                <div class="pkmn-desc paras-desc">Burrows to suck tree roots. The<br><br> mushrooms on its back grow by<br><br> drawing nutrients from the bug<br><br> host.
+                <div class="pkmn-desc" id="paras-desc">Burrows to suck tree roots. The<br><br> mushrooms on its back grow by<br><br> drawing nutrients from the bug<br><br> host.
                 </div>
-                <div class="pkmn-desc parasect-desc">A host-parasite pair in which<br><br> the parasite mushroom has taken<br><br> over the host bug. Prefers damp<br><br> places.
+                <div class="pkmn-desc" id="parasect-desc">A host-parasite pair in which<br><br> the parasite mushroom has taken<br><br> over the host bug. Prefers damp<br><br> places.
                 </div>
-                <div class="pkmn-desc venonat-desc">Lives in the shadows of tall<br><br> trees where it eats insects.<br><br> It is attracted by light at<br><br> night.
+                <div class="pkmn-desc" id="venonat-desc">Lives in the shadows of tall<br><br> trees where it eats insects.<br><br> It is attracted by light at<br><br> night.
                 </div>
-                <div class="pkmn-desc venomoth-desc">The dust-like scales covering<br><br> its wings are color coded to<br><br> indicate the kinds of poison it<br><br> has.
+                <div class="pkmn-desc" id="venomoth-desc">The dust-like scales covering<br><br> its wings are color coded to<br><br> indicate the kinds of poison it<br><br> has.
                 </div>
-                <div class="pkmn-desc diglett-desc">Lives about one yard<br><br> underground where it feeds on<br><br> plant roots. It sometimes<br><br> appears above ground.
+                <div class="pkmn-desc" id="diglett-desc">Lives about one yard<br><br> underground where it feeds on<br><br> plant roots. It sometimes<br><br> appears above ground.
                 </div>
-                <div class="pkmn-desc dugtrio-desc">A team of Diglett triplets. It<br><br> triggers huge earthquakes by<br><br> burrowing 60 miles underground.
+                <div class="pkmn-desc" id="dugtrio-desc">A team of Diglett triplets. It<br><br> triggers huge earthquakes by<br><br> burrowing 60 miles underground.
                 </div>
-                <div class="pkmn-desc meowth-desc">Adores circular objects.<br><br> Wanders the streets on a<br><br> nightly basis to look for<br><br> dropped loose change.
+                <div class="pkmn-desc" id="meowth-desc">Adores circular objects.<br><br> Wanders the streets on a<br><br> nightly basis to look for<br><br> dropped loose change.
                 </div>
-                <div class="pkmn-desc persian-desc">Although its fur has many<br><br> admirers, it is tough to raise<br><br> as a pet because of its fickle<br><br> meanness.
+                <div class="pkmn-desc" id="persian-desc">Although its fur has many<br><br> admirers, it is tough to raise<br><br> as a pet because of its fickle<br><br> meanness.
                 </div>
-                <div class="pkmn-desc psyduck-desc">While lulling its enemies with<br><br> its vacant look, this wily<br><br> Pokémon will use psychokinetic<br><br> powers.
+                <div class="pkmn-desc" id="psyduck-desc">While lulling its enemies with<br><br> its vacant look, this wily<br><br> Pokémon will use psychokinetic<br><br> powers.
                 </div>
-                <div class="pkmn-desc golduck-desc">Often seen swimming elegantly<br><br> by lake shores. It is often<br><br> mistaken for the Japanese<br><br> monster, Kappa.
+                <div class="pkmn-desc" id="golduck-desc">Often seen swimming elegantly<br><br> by lake shores. It is often<br><br> mistaken for the Japanese<br><br> monster, Kappa.
                 </div>
-                <div class="pkmn-desc mankey-desc">Extremely quick to anger. It<br><br> could be docile one moment then<br><br> thrashing away the next instant.
+                <div class="pkmn-desc" id="mankey-desc">Extremely quick to anger. It<br><br> could be docile one moment then<br><br> thrashing away the next instant.
                 </div>
-                <div class="pkmn-desc primeape-desc">Always furious and tenacious to<br><br> boot. It will not abandon<br><br> chasing its quarry until it is<br><br> caught.
+                <div class="pkmn-desc" id="primeape-desc">Always furious and tenacious to<br><br> boot. It will not abandon<br><br> chasing its quarry until it is<br><br> caught.
                 </div>
-                <div class="pkmn-desc growlithe-desc">Very protective of its<br><br> territory. It will bark and<br><br> bite to repel intruders from<br><br> its space.
+                <div class="pkmn-desc" id="growlithe-desc">Very protective of its<br><br> territory. It will bark and<br><br> bite to repel intruders from<br><br> its space.
                 </div>
-                <div class="pkmn-desc arcanine-desc">A Pokémon that has been admired<br><br> since the past for its beauty.<br><br> 
+                <div class="pkmn-desc" id="arcanine-desc">A Pokémon that has been admired<br><br> since the past for its beauty.<br><br> 
                   It runs agilely as if on wings.
                 </div>
-                <div class="pkmn-desc poliwag-desc">Its newly grown legs prevent it<br><br> from running. It appears to<br><br> prefer swimming than trying to<br><br> stand.
+                <div class="pkmn-desc" id="poliwag-desc">Its newly grown legs prevent it<br><br> from running. It appears to<br><br> prefer swimming than trying to<br><br> stand.
                 </div>
-                <div class="pkmn-desc poliwhirl-desc">Capable of living in or out of<br><br> water. When out of water, it<br><br> sweats to keep its body slimy.
+                <div class="pkmn-desc" id="poliwhirl-desc">Capable of living in or out of<br><br> water. When out of water, it<br><br> sweats to keep its body slimy.
+                </div>"
+                <div class="pkmn-desc" id="poliwrath-desc">An adept swimmer at both the<br><br> front crawl and breast stroke.<br><br> Easily overtakes the best human<br><br> swimmers.
                 </div>
-                <div class="pkmn-desc poliwrath-desc">An adept swimmer at both the<br><br> front crawl and breast stroke.<br><br> Easily overtakes the best human<br><br> swimmers.
+                <div class="pkmn-desc" id="abra-desc">Using its ability to read minds,<br><br> it will identify impending<br><br> danger and Teleport to safety.
                 </div>
-                <div class="pkmn-desc abra-desc">Using its ability to read minds,<br><br> it will identify impending<br><br> danger and Teleport to safety.
+                <div class="pkmn-desc" id="kadabra-desc">It emits special alpha waves<br><br> from its body that induce<br><br> headaches just by being close<br><br> by.
                 </div>
-                <div class="pkmn-desc kadabra-desc">It emits special alpha waves<br><br> from its body that induce<br><br> headaches just by being close<br><br> by.
+                <div class="pkmn-desc" id="alakazam-desc">Its brain can outperform a<br><br> super-computer. Its<br><br> intelligence quotient is said<br><br> to be 5,000.
                 </div>
-                <div class="pkmn-desc alakazam-desc">Its brain can outperform a<br><br> super-computer. Its<br><br> intelligence quotient is said<br><br> to be 5,000.
+                <div class="pkmn-desc" id="machop-desc">Loves to build its muscles. It<br><br> trains in all styles of martial<br><br> arts to become even stronger.
                 </div>
-                <div class="pkmn-desc machop-desc">Loves to build its muscles. It<br><br> trains in all styles of martial<br><br> arts to become even stronger.
+                <div class="pkmn-desc" id="machoke-desc">Its muscular body is so<br><br> powerful, it must wear a power<br><br> save belt to be able to<br><br> regulate its motions.
                 </div>
-                <div class="pkmn-desc machoke-desc">Its muscular body is so<br><br> powerful, it must wear a power<br><br> save belt to be able to<br><br> regulate its motions.
+                <div class="pkmn-desc" id="machamp-desc">Using its heavy muscles, it<br><br> throws powerful punches that<br><br> can send the victim clear over<br><br> the horizon.
                 </div>
-                <div class="pkmn-desc machamp-desc">Using its heavy muscles, it<br><br> throws powerful punches that<br><br> can send the victim clear over<br><br> the horizon.
+                <div class="pkmn-desc" id="bellsprout-desc">A carnivorous Pokémon that<br><br> traps and eats bugs. It uses<br><br> its root feet to soak up needed<br><br> moisture.
                 </div>
-                <div class="pkmn-desc bellsprout-desc">A carnivorous Pokémon that<br><br> traps and eats bugs. It uses<br><br> its root feet to soak up needed<br><br> moisture.
+                <div class="pkmn-desc" id="weepinbell-desc">It spits out PoisonPowder to<br><br> immobilize the enemy and then<br><br> finishes it with a spray of<br><br> Acid.
                 </div>
-                <div class="pkmn-desc weepinbell-desc">It spits out PoisonPowder to<br><br> immobilize the enemy and then<br><br> finishes it with a spray of<br><br> Acid.
+                <div class="pkmn-desc" id="victreebel-desc">Said to live in huge colonies<br><br> deep in jungles, although no<br><br> one has ever returned from<br><br> there.
                 </div>
-                <div class="pkmn-desc victreebel-desc">Said to live in huge colonies<br><br> deep in jungles, although no<br><br> one has ever returned from<br><br> there.
+                <div class="pkmn-desc" id="tentacool-desc">Drifts in shallow seas. Anglers<br><br> who hook them by accident are<br><br> often punished by its stinging<br><br> acid.
                 </div>
-                <div class="pkmn-desc tentacool-desc">Drifts in shallow seas. Anglers<br><br> who hook them by accident are<br><br> often punished by its stinging<br><br> acid.
+                <div class="pkmn-desc" id="tentacruel-desc">The tentacles are normally kept<br><br> short. On hunts, they are<br><br> extended to ensnare and<br><br> immobilize prey.
                 </div>
-                <div class="pkmn-desc tentacruel-desc">The tentacles are normally kept<br><br> short. On hunts, they are<br><br> extended to ensnare and<br><br> immobilize prey.
+                <div class="pkmn-desc" id="geodude-desc">Found in fields and mountains.<br><br> Mistaking them for boulders,<br><br> people often step or trip on<br><br> them.
                 </div>
-                <div class="pkmn-desc geodude-desc">Found in fields and mountains.<br><br> Mistaking them for boulders,<br><br> people often step or trip on<br><br> them.
+                <div class="pkmn-desc" id="graveler-desc">Rolls down slopes to move. It<br><br> rolls over any obstacle without<br><br> slowing or changing its<br><br> direction.
                 </div>
-                <div class="pkmn-desc graveler-desc">Rolls down slopes to move. It<br><br> rolls over any obstacle without<br><br> slowing or changing its<br><br> direction.
+                <div class="pkmn-desc" id="golem-desc">Its boulder-like body is<br><br> extremely hard. It can easily<br><br> withstand dynamite blasts<br><br> without damage.
                 </div>
-                <div class="pkmn-desc golem-desc">Its boulder-like body is<br><br> extremely hard. It can easily<br><br> withstand dynamite blasts<br><br> without damage.
+                <div class="pkmn-desc" id="ponyta-desc">Its hooves are 10 times harder<br><br> than diamonds. It can trample<br><br> anything completely flat in<br><br> little time.
                 </div>
-                <div class="pkmn-desc ponyta-desc">Its hooves are 10 times harder<br><br> than diamonds. It can trample<br><br> anything completely flat in<br><br> little time.
+                <div class="pkmn-desc" id="rapidash-desc">Very competitive, this Pokémon<br><br> will chase anything that moves<br><br> fast in the hopes of racing it.
                 </div>
-                <div class="pkmn-desc rapidash-desc">Very competitive, this Pokémon<br><br> will chase anything that moves<br><br> fast in the hopes of racing it.
+                <div class="pkmn-desc" id="slowpoke-desc">Incredibly slow and dopey. It<br><br> takes 5 seconds for it to feel<br><br> pain when under attack.
                 </div>
-                <div class="pkmn-desc slowpoke-desc">Incredibly slow and dopey. It<br><br> takes 5 seconds for it to feel<br><br> pain when under attack.
+                <div class="pkmn-desc" id="slowbro-desc">The Shellder that is latched<br><br> onto Slowpoke's tail is said to<br><br> feed on the host's left over<br><br> scraps.
                 </div>
-                <div class="pkmn-desc slowbro-desc">The Shellder that is latched<br><br> onto Slowpoke's tail is said to<br><br> feed on the host's left over<br><br> scraps.
+                <div class="pkmn-desc" id="magnemite-desc">Uses anti-gravity to stay<br><br> suspended. Appears without<br><br> warning and uses Thunder Wave<br><br> and similar moves.
                 </div>
-                <div class="pkmn-desc magnemite-desc">Uses anti-gravity to stay<br><br> suspended. Appears without<br><br> warning and uses Thunder Wave<br><br> and similar moves.
+                <div class="pkmn-desc" id="magneton-desc">Formed by several Magnemites<br><br> linked together. They<br><br> frequently appear when sunspots<br><br> flare up.
                 </div>
-                <div class="pkmn-desc magneton-desc">Formed by several Magnemites<br><br> linked together. They<br><br> frequently appear when sunspots<br><br> flare up.
+                <div class="pkmn-desc" id="farfetch-d-desc">The sprig of green onions it<br><br> holds is its weapon. It is used<br><br> much like a metal sword.
                 </div>
-                <div class="pkmn-desc farfetch-d-desc">The sprig of green onions it<br><br> holds is its weapon. It is used<br><br> much like a metal sword.
+                <div class="pkmn-desc" id="doduo-desc">A bird that makes up for its<br><br> poor flying with its fast foot<br><br> speed. Leaves giant footprints.
                 </div>
-                <div class="pkmn-desc doduo-desc">A bird that makes up for its<br><br> poor flying with its fast foot<br><br> speed. Leaves giant footprints.
+                <div class="pkmn-desc" id="dodrio-desc">Uses its three brains to<br><br> execute complex plans. While<br><br> two heads sleep, one head stays<br><br> awake.
                 </div>
-                <div class="pkmn-desc dodrio-desc">Uses its three brains to<br><br> execute complex plans. While<br><br> two heads sleep, one head stays<br><br> awake.
+                <div class="pkmn-desc" id="seel-desc">The protruding horn on its head<br><br> is very hard. It is used for<br><br> bashing through thick ice.
                 </div>
-                <div class="pkmn-desc seel-desc">The protruding horn on its head<br><br> is very hard. It is used for<br><br> bashing through thick ice.
+                <div class="pkmn-desc" id="dewgong-desc">Stores thermal energy in its<br><br> body. Swims at a steady 8 knots<br><br> even in intensely cold waters.
                 </div>
-                <div class="pkmn-desc dewgong-desc">Stores thermal energy in its<br><br> body. Swims at a steady 8 knots<br><br> even in intensely cold waters.
+                <div class="pkmn-desc" id="grimer-desc">Appears in filthy areas.<br><br> Thrives by sucking up polluted<br><br> sludge that is pumped out of<br><br> factories.
                 </div>
-                <div class="pkmn-desc grimer-desc">Appears in filthy areas.<br><br> Thrives by sucking up polluted<br><br> sludge that is pumped out of<br><br> factories.
+                <div class="pkmn-desc" id="muk-desc">Thickly covered with a filthy,<br><br> vile sludge. It is so toxic,<br><br> even its footprints contain<br><br> poison.
                 </div>
-                <div class="pkmn-desc muk-desc">Thickly covered with a filthy,<br><br> vile sludge. It is so toxic,<br><br> even its footprints contain<br><br> poison.
+                <div class="pkmn-desc" id="shellder-desc">Its hard shell repels any kind<br><br> of attack. It is vulnerable<br><br> only when its shell is open.
                 </div>
-                <div class="pkmn-desc shellder-desc">Its hard shell repels any kind<br><br> of attack. It is vulnerable<br><br> only when its shell is open.
+                <div class="pkmn-desc" id="cloyster-desc">When attacked, it launches its<br><br> horns in quick volleys. Its<br><br> innards have never been seen.
                 </div>
-                <div class="pkmn-desc cloyster-desc">When attacked, it launches its<br><br> horns in quick volleys. Its<br><br> innards have never been seen.
+                <div class="pkmn-desc" id="gastly-desc">Almost invisible, this gaseous<br><br> Pokémon cloaks the target and<br><br> puts it to sleep without notice.
                 </div>
-                <div class="pkmn-desc gastly-desc">Almost invisible, this gaseous<br><br> Pokémon cloaks the target and<br><br> puts it to sleep without notice.
+                <div class="pkmn-desc" id="haunter-desc">Because of its ability to slip<br><br> through block walls, it is said<br><br> to be from another dimension.
                 </div>
-                <div class="pkmn-desc haunter-desc">Because of its ability to slip<br><br> through block walls, it is said<br><br> to be from another dimension.
+                <div class="pkmn-desc" id="gengar-desc">Under a full moon, this Pokémon<br><br> likes to mimic the shadows of<br><br> people and laugh at their<br><br> fright.
                 </div>
-                <div class="pkmn-desc gengar-desc">Under a full moon, this Pokémon<br><br> likes to mimic the shadows of<br><br> people and laugh at their<br><br> fright.
+                <div class="pkmn-desc" id="onix-desc">As it grows, the stone portions<br><br> of its body harden to become<br><br> similar to a diamond, but<br><br> colored black.
                 </div>
-                <div class="pkmn-desc onix-desc">As it grows, the stone portions<br><br> of its body harden to become<br><br> similar to a diamond, but<br><br> colored black.
+                <div class="pkmn-desc" id="drowzee-desc">Puts enemies to sleep then eats<br><br> their dreams. Occasionally gets<br><br> sick from eating bad dreams.
                 </div>
-                <div class="pkmn-desc drowzee-desc">Puts enemies to sleep then eats<br><br> their dreams. Occasionally gets<br><br> sick from eating bad dreams.
+                <div class="pkmn-desc" id="hypno-desc">When it locks eyes with an<br><br> enemy, it will use a mix of PSI<br><br> moves such as Hypnosis and<br><br> Confusion.
                 </div>
-                <div class="pkmn-desc hypno-desc">When it locks eyes with an<br><br> enemy, it will use a mix of PSI<br><br> moves such as Hypnosis and<br><br> Confusion.
+                <div class="pkmn-desc" id="krabby-desc">Its pincers are not only<br><br> powerful weapons, they are used<br><br> for balance when walking<br><br> sideways.
                 </div>
-                <div class="pkmn-desc krabby-desc">Its pincers are not only<br><br> powerful weapons, they are used<br><br> for balance when walking<br><br> sideways.
+                <div class="pkmn-desc" id="kingler-desc">The large pincer has 10000 hp<br><br> of crushing power. However, its<br><br> huge size makes it unwieldy to<br><br> use.
                 </div>
-                <div class="pkmn-desc kingler-desc">The large pincer has 10000 hp<br><br> of crushing power. However, its<br><br> huge size makes it unwieldy to<br><br> use.
+                <div class="pkmn-desc" id="voltorb-desc">Usually found in power plants.<br><br> Easily mistaken for a Poké Ball,<br><br> they have zapped many people.
                 </div>
-                <div class="pkmn-desc voltorb-desc">Usually found in power plants.<br><br> Easily mistaken for a Poké Ball,<br><br> they have zapped many people.
+                <div class="pkmn-desc" id="electrode-desc">It stores electric energy under<br><br> very high pressure. It often<br><br> explodes with little or no<br><br> provocation.
                 </div>
-                <div class="pkmn-desc electrode-desc">It stores electric energy under<br><br> very high pressure. It often<br><br> explodes with little or no<br><br> provocation.
+                <div class="pkmn-desc" id="exeggcute-desc">Often mistaken for eggs. When<br><br> disturbed, they quickly gather<br><br> and attack in swarms.
                 </div>
-                <div class="pkmn-desc exeggcute-desc">Often mistaken for eggs. When<br><br> disturbed, they quickly gather<br><br> and attack in swarms.
+                <div class="pkmn-desc" id="exeggutor-desc">Legend has it that on rare<br><br> occasions, one of its heads<br><br> will drop off and continue on<br><br> as an Exeggcute.
                 </div>
-                <div class="pkmn-desc exeggutor-desc">Legend has it that on rare<br><br> occasions, one of its heads<br><br> will drop off and continue on<br><br> as an Exeggcute.
+                <div class="pkmn-desc" id="cubone-desc">Because it never removes its<br><br> skull helmet, no one has ever<br><br> seen this Pokémon's real face.
                 </div>
-                <div class="pkmn-desc cubone-desc">Because it never removes its<br><br> skull helmet, no one has ever<br><br> seen this Pokémon's real face.
+                <div class="pkmn-desc" id="marowak-desc">The bone it holds is its key<br><br> weapon. It throws the bone<br><br> skillfully like a boomerang to<br><br> KO targets.
                 </div>
-                <div class="pkmn-desc marowak-desc">The bone it holds is its key<br><br> weapon. It throws the bone<br><br> skillfully like a boomerang to<br><br> KO targets.
+                <div class="pkmn-desc" id="hitmonlee-desc">When in a hurry, its legs<br><br> lengthen progressively. It runs<br><br> smoothly with extra long,<br><br> loping strides.
                 </div>
-                <div class="pkmn-desc hitmonlee-desc">When in a hurry, its legs<br><br> lengthen progressively. It runs<br><br> smoothly with extra long,<br><br> loping strides.
+                <div class="pkmn-desc" id="hitmonchan-desc">	While apparently doing nothing,<br><br> it fires punches in lightning<br><br> fast volleys that are<br><br> impossible to see.
                 </div>
-                <div class="pkmn-desc hitmonchan-desc">	While apparently doing nothing,<br><br> it fires punches in lightning<br><br> fast volleys that are<br><br> impossible to see.
+                <div class="pkmn-desc" id="lickitung-desc">Its tongue can be extended like<br><br> a chameleon's. It leaves a<br><br> tingling sensation when it<br><br> licks enemies.
                 </div>
-                <div class="pkmn-desc lickitung-desc">Its tongue can be extended like<br><br> a chameleon's. It leaves a<br><br> tingling sensation when it<br><br> licks enemies.
+                <div class="pkmn-desc" id="koffing-desc">Because it stores several kinds<br><br> of toxic gases in its body, it<br><br> is prone to exploding without<br><br> warning.
                 </div>
-                <div class="pkmn-desc koffing-desc">Because it stores several kinds<br><br> of toxic gases in its body, it<br><br> is prone to exploding without<br><br> warning.
+                <div class="pkmn-desc" id="weezing-desc">Where two kinds of poison gases<br><br> meet, 2 Koffings can fuse into<br><br> a Weezing over many years.
                 </div>
-                <div class="pkmn-desc weezing-desc">Where two kinds of poison gases<br><br> meet, 2 Koffings can fuse into<br><br> a Weezing over many years.
+                <div class="pkmn-desc" id="rhyhorn-desc">Its massive bones are 1000<br><br> times harder than human bones.<br><br> It can easily knock a trailer<br><br> flying.
                 </div>
-                <div class="pkmn-desc rhyhorn-desc">Its massive bones are 1000<br><br> times harder than human bones.<br><br> It can easily knock a trailer<br><br> flying.
+                <div class="pkmn-desc" id="rhydon-desc">Protected by an armor-like hide,<br><br> it is capable of living in<br><br> molten lava of 3,600 degrees.
                 </div>
-                <div class="pkmn-desc rhydon-desc">Protected by an armor-like hide,<br><br> it is capable of living in<br><br> molten lava of 3,600 degrees.
+                <div class="pkmn-desc" id="chansey-desc">A rare and elusive Pokémon that<br><br> is said to bring happiness to<br><br> those who manage to get it.
                 </div>
-                <div class="pkmn-desc chansey-desc">A rare and elusive Pokémon that<br><br> is said to bring happiness to<br><br> those who manage to get it.
+                <div class="pkmn-desc" id="tangela-desc">The whole body is swathed with<br><br> wide vines that are similar to<br><br> seaweed. Its vines shake as it<br><br> walks.
                 </div>
-                <div class="pkmn-desc tangela-desc">The whole body is swathed with<br><br> wide vines that are similar to<br><br> seaweed. Its vines shake as it<br><br> walks.
+                <div class="pkmn-desc" id="kangaskhan-desc">The infant rarely ventures out<br><br> of its mother's protective<br><br> pouch until it is 3 years old.
                 </div>
-                <div class="pkmn-desc kangaskhan-desc">The infant rarely ventures out<br><br> of its mother's protective<br><br> pouch until it is 3 years old.
+                <div class="pkmn-desc" id="horsea-desc">Known to shoot down flying bugs<br><br> with precision blasts of ink<br><br> from the surface of the water.
                 </div>
-                <div class="pkmn-desc horsea-desc">Known to shoot down flying bugs<br><br> with precision blasts of ink<br><br> from the surface of the water.
+                <div class="pkmn-desc" id="seadra-desc">Capable of swimming backwards<br><br> by rapidly flapping its<br><br> wing-like pectoral fins and<br><br> stout tail.
                 </div>
-                <div class="pkmn-desc seadra-desc">Capable of swimming backwards<br><br> by rapidly flapping its<br><br> wing-like pectoral fins and<br><br> stout tail.
+                <div class="pkmn-desc" id="goldeen-desc">Its tail fin billows like an<br><br> elegant ballroom dress, giving<br><br> it the nickname of the Water<br><br> Queen.
                 </div>
-                <div class="pkmn-desc goldeen-desc">Its tail fin billows like an<br><br> elegant ballroom dress, giving<br><br> it the nickname of the Water<br><br> Queen.
+                <div class="pkmn-desc" id="seaking-desc">	In the autumn spawning season,<br><br> they can be seen swimming<br><br> powerfully up rivers and creeks.
                 </div>
-                <div class="pkmn-desc seaking-desc">	In the autumn spawning season,<br><br> they can be seen swimming<br><br> powerfully up rivers and creeks.
+                <div class="pkmn-desc" id="staryu-desc">An enigmatic Pokémon that can<br><br> effortlessly regenerate any<br><br> appendage it loses in battle.
                 </div>
-                <div class="pkmn-desc staryu-desc">An enigmatic Pokémon that can<br><br> effortlessly regenerate any<br><br> appendage it loses in battle.
+                <div class="pkmn-desc" id="starmie-desc">Its central core glows with the<br><br> seven colors of the rainbow.<br><br> Some people value the core as a<br><br> gem.
                 </div>
-                <div class="pkmn-desc starmie-desc">Its central core glows with the<br><br> seven colors of the rainbow.<br><br> Some people value the core as a<br><br> gem.
+                <div class="pkmn-desc" id="mr-mime-desc">If interrupted while it is<br><br> miming, it will slap around the<br><br> offender with its broad hands.
                 </div>
-                <div class="pkmn-desc mr-mime-desc">If interrupted while it is<br><br> miming, it will slap around the<br><br> offender with its broad hands.
+                <div class="pkmn-desc" id="scyther-desc">With ninja-like agility and<br><br> speed, it can create the<br><br> illusion that there is more<br><br> than one.
                 </div>
-                <div class="pkmn-desc scyther-desc">With ninja-like agility and<br><br> speed, it can create the<br><br> illusion that there is more<br><br> than one.
+                <div class="pkmn-desc" id="jynx-desc">It seductively wiggles its hips<br><br> as it walks. It can cause<br><br> people to dance in unison with<br><br> it.
                 </div>
-                <div class="pkmn-desc jynx-desc">It seductively wiggles its hips<br><br> as it walks. It can cause<br><br> people to dance in unison with<br><br> it.
+                <div class="pkmn-desc" id="electabuzz-desc">Normally found near power<br><br> plants, they can wander away<br><br> and cause major blackouts in<br><br> cities.
                 </div>
-                <div class="pkmn-desc electabuzz-desc">Normally found near power<br><br> plants, they can wander away<br><br> and cause major blackouts in<br><br> cities.
+                <div class="pkmn-desc" id="magmar-desc">Its body always burns with an<br><br> orange glow that enables it to<br><br> hide perfectly among flames.
                 </div>
-                <div class="pkmn-desc magmar-desc">Its body always burns with an<br><br> orange glow that enables it to<br><br> hide perfectly among flames.
+                <div class="pkmn-desc" id="pinsir-desc">If it fails to crush the victim<br><br> in its pincers, it will swing<br><br> it around and toss it hard.
                 </div>
-                <div class="pkmn-desc pinsir-desc">If it fails to crush the victim<br><br> in its pincers, it will swing<br><br> it around and toss it hard.
+                <div class="pkmn-desc" id="tauros-desc">When it targets an enemy, it<br><br> charges furiously while<br><br> whipping its body with its long<br><br> tails.
                 </div>
-                <div class="pkmn-desc tauros-desc">When it targets an enemy, it<br><br> charges furiously while<br><br> whipping its body with its long<br><br> tails.
+                <div class="pkmn-desc" id="magikarp-desc">In the distant past, it was<br><br> somewhat stronger than the<br><br> horribly weak descendants that<br><br> exist today.
                 </div>
-                <div class="pkmn-desc magikarp-desc">In the distant past, it was<br><br> somewhat stronger than the<br><br> horribly weak descendants that<br><br> exist today.
+                <div class="pkmn-desc" id="gyarados-desc">Rarely seen in the wild. Huge<br><br> and vicious, it is capable of<br><br> destroying entire cities in a<br><br> rage.
                 </div>
-                <div class="pkmn-desc gyarados-desc">Rarely seen in the wild. Huge<br><br> and vicious, it is capable of<br><br> destroying entire cities in a<br><br> rage.
+                <div class="pkmn-desc" id="lapras-desc">A Pokémon that has been<br><br> overhunted almost to extinction.<br><br> It can ferry people across the<br><br> water.
                 </div>
-                <div class="pkmn-desc lapras-desc">A Pokémon that has been<br><br> overhunted almost to extinction.<br><br> It can ferry people across the<br><br> water.
+                <div class="pkmn-desc" id="ditto-desc">	Capable of copying an enemy's<br><br> genetic code to instantly<br><br> transform itself into a<br><br> duplicate of the enemy.
                 </div>
-                <div class="pkmn-desc ditto-desc">	Capable of copying an enemy's<br><br> genetic code to instantly<br><br> transform itself into a<br><br> duplicate of the enemy.
+                <div class="pkmn-desc" id="eevee-desc">Its genetic code is irregular.<br><br> It may mutate if it is exposed<br><br> to radiation from Evolution<br><br> stones.
                 </div>
-                <div class="pkmn-desc eevee-desc">Its genetic code is irregular.<br><br> It may mutate if it is exposed<br><br> to radiation from Evolution<br><br> stones.
+                <div class="pkmn-desc" id="vaporeon-desc">Lives close to water. Its long<br><br> tail is ridged with a fin which<br><br> is often mistaken for a<br><br> mermaid's.
                 </div>
-                <div class="pkmn-desc vaporeon-desc">Lives close to water. Its long<br><br> tail is ridged with a fin which<br><br> is often mistaken for a<br><br> mermaid's.
+                <div class="pkmn-desc" id="jolteon-desc">It accumulates negative ions in<br><br> the atmosphere to blast out<br><br> 10000-volt lightning bolts.
                 </div>
-                <div class="pkmn-desc jolteon-desc">It accumulates negative ions in<br><br> the atmosphere to blast out<br><br> 10000-volt lightning bolts.
+                <div class="pkmn-desc" id="flareon-desc">When storing thermal energy in<br><br> its body, its temperature could<br><br> soar to over 1600 degrees.
                 </div>
-                <div class="pkmn-desc flareon-desc">When storing thermal energy in<br><br> its body, its temperature could<br><br> soar to over 1600 degrees.
+                <div class="pkmn-desc" id="porygon-desc">A Pokémon that consists<br><br> entirely of programming code.<br><br> Capable of moving freely in<br><br> cyberspace.
                 </div>
-                <div class="pkmn-desc porygon-desc">A Pokémon that consists<br><br> entirely of programming code.<br><br> Capable of moving freely in<br><br> cyberspace.
+                <div class="pkmn-desc" id="omanyte-desc">Although long extinct, in rare<br><br> cases, it can be genetically<br><br> resurrected from fossils.
                 </div>
-                <div class="pkmn-desc omanyte-desc">Although long extinct, in rare<br><br> cases, it can be genetically<br><br> resurrected from fossils.
+                <div class="pkmn-desc" id="omastar-desc">A prehistoric Pokémon that died<br><br> out when its heavy shell made<br><br> it impossible to catch prey.
                 </div>
-                <div class="pkmn-desc omastar-desc">A prehistoric Pokémon that died<br><br> out when its heavy shell made<br><br> it impossible to catch prey.
+                <div class="pkmn-desc" id="kabuto-desc">A Pokémon that was resurrected<br><br> from a fossil found in what was<br><br> once the ocean floor eons ago.
                 </div>
-                <div class="pkmn-desc kabuto-desc">A Pokémon that was resurrected<br><br> from a fossil found in what was<br><br> once the ocean floor eons ago.
+                <div class="pkmn-desc" id="kabutops-desc">Its sleek shape is perfect for<br><br> swimming. It slashes prey with<br><br> its claws and drains the body<br><br> fluids.
                 </div>
-                <div class="pkmn-desc kabutops-desc">Its sleek shape is perfect for<br><br> swimming. It slashes prey with<br><br> its claws and drains the body<br><br> fluids.
+                <div class="pkmn-desc" id="aerodactyl-desc">A ferocious, prehistoric<br><br> Pokémon that goes for the<br><br> enemy's throat with its<br><br> serrated saw-like fangs.
                 </div>
-                <div class="pkmn-desc aerodactyl-desc">A ferocious, prehistoric<br><br> Pokémon that goes for the<br><br> enemy's throat with its<br><br> serrated saw-like fangs.
+                <div class="pkmn-desc" id="snorlax-desc">Very lazy. Just eats and sleeps.<br><br> As its rotund bulk builds, it<br><br> becomes steadily more slothful.
                 </div>
-                <div class="pkmn-desc snorlax-desc">Very lazy. Just eats and sleeps.<br><br> As its rotund bulk builds, it<br><br> becomes steadily more slothful.
+                <div class="pkmn-desc" id="articuno-desc">A legendary bird Pokémon that<br><br> is said to appear to doomed<br><br> people who are lost in icy<br><br> mountains.
                 </div>
-                <div class="pkmn-desc articuno-desc">A legendary bird Pokémon that<br><br> is said to appear to doomed<br><br> people who are lost in icy<br><br> mountains.
+                <div class="pkmn-desc" id="zapdos-desc">A legendary bird Pokémon that<br><br> is said to appear from clouds<br><br> while dropping enormous<br><br> lightning bolts.
                 </div>
-                <div class="pkmn-desc zapdos-desc">A legendary bird Pokémon that<br><br> is said to appear from clouds<br><br> while dropping enormous<br><br> lightning bolts.
+                <div class="pkmn-desc" id="moltres-desc">Known as the legendary bird of<br><br> fire. Every flap of its wings<br><br> creates a dazzling flash of<br><br> flames.
                 </div>
-                <div class="pkmn-desc moltres-desc">Known as the legendary bird of<br><br> fire. Every flap of its wings<br><br> creates a dazzling flash of<br><br> flames.
+                <div class="pkmn-desc" id="dratini-desc">Long considered a mythical<br><br> Pokémon until recently when a<br><br> small colony was found living<br><br> underwater.
                 </div>
-                <div class="pkmn-desc dratini-desc">Long considered a mythical<br><br> Pokémon until recently when a<br><br> small colony was found living<br><br> underwater.
+                <div class="pkmn-desc" id="dragonair-desc">A mystical Pokémon that exudes<br><br> a gentle aura. Has the ability<br><br> to change climate conditions.
                 </div>
-                <div class="pkmn-desc dragonair-desc">A mystical Pokémon that exudes<br><br> a gentle aura. Has the ability<br><br> to change climate conditions.
+                <div class="pkmn-desc" id="dragonite-desc">An extremely rarely seen marine<br><br> Pokémon. Its intelligence is<br><br> said to match that of humans.
                 </div>
-                <div class="pkmn-desc dragonite-desc">An extremely rarely seen marine<br><br> Pokémon. Its intelligence is<br><br> said to match that of humans.
+                <div class="pkmn-desc" id="mewtwo-desc">It was created by a scientist<br><br> after years of horrific gene<br><br> splicing and DNA engineering<br><br> experiments.
                 </div>
-                <div class="pkmn-desc mewtwo-desc">It was created by a scientist<br><br> after years of horrific gene<br><br> splicing and DNA engineering<br><br> experiments.
-                </div>
-                <div class="pkmn-desc mew-desc">So rare that it is still said<br><br> to be a mirage by many experts.<br><br> Only a few people have seen it<br><br> worldwide.
+                <div class="pkmn-desc" id="mew-desc">So rare that it is still said<br><br> to be a mirage by many experts.<br><br> Only a few people have seen it<br><br> worldwide.
               </div>
             </div>
           </div>
