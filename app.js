@@ -16,7 +16,7 @@ let pokemonImage = document.getElementById('pokemon')
 let pokemonInfo = document.getElementById('dex-info')
 let pokemonTypeOne = document.getElementById('type-one')
 let pokemonTypeTwo = document.getElementById('type-two')
-let dexNo = document.getElementById('dex-number')
+let dexNo = document.getElementById('dex-no')
 
 
 // functions for button elements
@@ -51,6 +51,10 @@ rightButton.addEventListener('click', () => {
 function turnOnPokedex() {
     console.log('turn-on')
     pokemonImage.classList.remove('hide')
+    pokemonInfo.classList.remove('hide')
+    pokemonTypeOne.classList.remove('hide')
+    pokemonTypeTwo.classList.remove('hide')
+    dexNo.classList.remove('hide')
     render()
 }
 
@@ -64,9 +68,12 @@ function nextPokemon(button) {
 function render() {
     const p = pokedex[currentIndex];
 
-    const pkmnArray = JSON.parse(p)
+    const pkmnArray = () => {
+        JSON.parse(p) 
     document.querySelector('.pkmn').innerHTML = document.getElementById(`${p.name}` + pkmnArray[0])
     document.querySelector('.pkmn.no').textContent = p.id.toString().padStart(3, '0')
+    }
+    return pokedex
 }
 
 let currentIndex = 0
